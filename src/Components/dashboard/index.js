@@ -74,7 +74,7 @@ function Dashboard() {
 																			<div class="flex-grow-1">
 
 																				<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																				<div class="h5">32</div>
+																				<div class="h5">1729</div>
 																			</div>
 																		</div>
 																	</div>
@@ -87,7 +87,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																				<div class="h5">12</div>
+																				<div class="h5">533</div>
 																			</div>
 																		</div>
 																	</div>
@@ -100,7 +100,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																				<div class="h5">0</div>
+																				<div class="h5">25</div>
 																			</div>
 																		</div>
 																	</div>
@@ -113,7 +113,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																				<div class="h5">20</div>
+																				<div class="h5">1171</div>
 																			</div>
 																		</div>
 																	</div>
@@ -126,7 +126,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
-																				<div class="h5">12</div>
+																				<div class="h5">42.45</div>
 																			</div>
 																		</div>
 																	</div>
@@ -139,7 +139,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-success mb-1">Median Number of Days for Approval</div>
-																				<div class="h5">6</div>
+																				<div class="h5">30</div>
 																			</div>
 																		</div>
 																	</div>
@@ -165,7 +165,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-success mb-1">Maximum Number of Days for Approval</div>
-																				<div class="h5">65</div>
+																				<div class="h5">209</div>
 
 																			</div>
 
