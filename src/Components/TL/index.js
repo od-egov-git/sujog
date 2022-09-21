@@ -179,11 +179,6 @@ function TL() {
 												<li className="nav-item">
 													<a id="tab-C" href="#pane-C" className="nav-link" data-toggle="tab" role="tab">List of Documents</a>
 												</li>
-
-												{/* <li className="nav-item">
-													<a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab"> Trade License Tariffs </a>
-												</li> */}
-
 												<li className="nav-item">
 													<a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">User Manual</a>
 												</li>
@@ -279,32 +274,20 @@ function TL() {
 															</div>
 														</div>
 
-													</div>
-												</div>
-
-
-												{/* <div id="pane-d" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-d">
-													<div className="card-header" role="tab" id="heading-d">
-														<h5 className="mb-0">
-															<a className="collapsed" data-toggle="collapse" href="#collapse-d" data-parent="#content" aria-expanded="false" aria-controls="collapse-d">
-																Trade License Tariffs
-															</a>
-														</h5>
-													</div>
-													<div id="collapse-d" className="collapse" role="tabpanel" aria-labelledby="heading-d">
 														<div className="flex-grow-1 free-1">
-															<div className="small font-weight-bold text-primary mb-1">Trade License Tariffs
-																<div className="h5 pull-right"><a href="/Deshboard/images/Trade-Tariffs.pdf" className="tooltip" target="_blank">
+															<div className="small font-weight-bold text-primary mb-1">List of Documents required for renewal of trade license
+																<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for renewal of Trade License.pdf" className="tooltip"
+																	target="_blank">
 																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="/Deshboard/images/Trade-Tariffs.pdf" className="tooltip" target="_blank"><span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
+																<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for renewal of Trade License.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
 																</div>
 															</div>
 														</div>
 
 													</div>
-												</div> */}
-
+												</div>
 
 												<div id="pane-e" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-e">
 													<div className="card-header" role="tab" id="heading-e">

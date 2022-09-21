@@ -275,11 +275,12 @@ function MR() {
 
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">Marriage Registration User Manual for Citizen
-
-																<div className="h5 pull-right"><a style={{"pointerEvents": "none", "cursor": "default"}} href="" className="tooltip" target="_blank">
-																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" className="fkdl" /></a>
+																<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_Marriage Registration_Citizen User Manual.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a style={{"pointerEvents": "none", "cursor": "default"}} href="" className="tooltip" target="_blank"><span className="tooltiptext">View</span><img src="/assets/img/view.svg" className="fkdl" /></a>
+
+																<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_Marriage Registration_Citizen User Manual.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
 																</div>
 															</div>
 														</div>

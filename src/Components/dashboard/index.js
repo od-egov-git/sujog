@@ -357,7 +357,17 @@ function Dashboard() {
 
 										<ul id="tabs" class="nav nav-tabs" role="tablist">
 											<li class="nav-item">
-												<a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">OBPAS Training Videos</a>
+												<a id="tab-i" href="#pane-i" class="nav-link active" data-toggle="tab" role="tab">Documents required in OBPAS</a>
+											</li>
+											<li class="nav-item">
+												<a id="tab-j" href="#pane-j" class="nav-link" data-toggle="tab" role="tab">Fee Estimate</a>
+											</li>
+											<li class="nav-item">
+												<a id="tab-k" href="#pane-k" class="nav-link" data-toggle="tab" role="tab">Field Verification checklist</a>
+											</li>
+
+											<li class="nav-item">
+												<a id="tab-A" href="#pane-A" class="nav-link" data-toggle="tab" role="tab">OBPAS Training Videos</a>
 											</li>
 											<li class="nav-item">
 												<a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">Drawing Manual</a>
@@ -390,7 +400,7 @@ function Dashboard() {
 										</ul>
 
 										<div id="content" class="tab-content" role="tablist">
-											<div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+											<div id="pane-A" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-A">
 
 												<div class="card-header" role="tab" id="heading-A">
 													<h5 class="mb-0">
@@ -708,6 +718,97 @@ function Dashboard() {
 												</div>
 											</div>
 											
+											<div id="pane-i" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-i">
+												<div class="card-header" role="tab" id="heading-i">
+													<h5 class="mb-0">
+														<a class="collapsed" data-toggle="collapse" href="#collapse-i" data-parent="#content" aria-expanded="false" aria-controls="collapse-i">
+															Documents required in OBPAS
+														</a>
+													</h5>
+												</div>
+												<div id="collapse-i" class="collapse" role="tabpanel" aria-labelledby="heading-i">
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">doc requirements in OBPAS.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/doc requirements in OBPAS.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/doc requirements in OBPAS.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div id="pane-j" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-j">
+												<div class="card-header" role="tab" id="heading-j">
+													<h5 class="mb-0">
+														<a class="collapsed" data-toggle="collapse" href="#collapse-j" data-parent="#content" aria-expanded="false" aria-controls="collapse-j">
+															Fee Estimate
+														</a>
+													</h5>
+												</div>
+												<div id="collapse-j" class="collapse" role="tabpanel" aria-labelledby="heading-j">
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">BP Fee_New Condstruction_v3 (1).xlsx
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/BP Fee_New Condstruction_v3 (1).xlsx" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/BP Fee_New Condstruction_v3 (1).xlsx" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div id="pane-k" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-k">
+												<div class="card-header" role="tab" id="heading-k">
+													<h5 class="mb-0">
+														<a class="collapsed" data-toggle="collapse" href="#collapse-k" data-parent="#content" aria-expanded="false" aria-controls="collapse-k">
+															Field Verification checklist
+														</a>
+													</h5>
+												</div>
+												<div id="collapse-k" class="collapse" role="tabpanel" aria-labelledby="heading-k">
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Field verification checklist_for building plan applications.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Field verification checklist_for building plan applications.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Field verification checklist_for building plan applications.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Site inspection checklist for Occupancy Applications.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Site inspection checklist for Occupancy Applications.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="public/Deshboard/images/Site inspection checklist for Occupancy Applications.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
 										</div>
 
 									</div>
