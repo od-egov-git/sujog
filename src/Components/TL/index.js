@@ -180,9 +180,9 @@ function TL() {
 													<a id="tab-C" href="#pane-C" className="nav-link" data-toggle="tab" role="tab">List of Documents</a>
 												</li>
 
-												<li className="nav-item">
+												{/* <li className="nav-item">
 													<a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab"> Trade License Tariffs </a>
-												</li>
+												</li> */}
 
 												<li className="nav-item">
 													<a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">User Manual</a>
@@ -283,7 +283,7 @@ function TL() {
 												</div>
 
 
-												<div id="pane-d" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-d">
+												{/* <div id="pane-d" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-d">
 													<div className="card-header" role="tab" id="heading-d">
 														<h5 className="mb-0">
 															<a className="collapsed" data-toggle="collapse" href="#collapse-d" data-parent="#content" aria-expanded="false" aria-controls="collapse-d">
@@ -303,7 +303,7 @@ function TL() {
 														</div>
 
 													</div>
-												</div>
+												</div> */}
 
 
 												<div id="pane-e" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-e">
