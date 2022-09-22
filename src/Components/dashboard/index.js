@@ -758,17 +758,17 @@ function Dashboard() {
 												</div>
 												<div id="collapse-j" class="collapse" role="tabpanel" aria-labelledby="heading-j">
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">BP Fee_New Condstruction_v3 (1).xlsx
+														<div class="small font-weight-bold text-primary mb-1">BP Fee_New Condstruction_v3.xlsx
 															<div class="h5 pull-right">
-																<a href="Deshboard/images/BP Fee_New Condstruction_v3 (1).xlsx" class="tooltip" target="_blank">
+																<a href="Deshboard/images/BP Fee_New Condstruction_v3.xlsx" class="tooltip" target="_blank">
 																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
 																</a>
 															</div>
-															<div class="h5 pull-right">
-																<a href="Deshboard/images/BP Fee_New Condstruction_v3 (1).xlsx" class="tooltip" target="_blank">
+															{/* <div class="h5 pull-right">
+																<a href="Deshboard/images/BP Fee_New Condstruction_v3.xlsx" class="tooltip" target="_blank">
 																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
 																</a>
-															</div>
+															</div> */}
 														</div>
 													</div>
 												</div>
@@ -824,14 +824,14 @@ function Dashboard() {
 												</div>
 												<div id="collapse-l" class="collapse" role="tabpanel" aria-labelledby="heading-l">
 													<div class="flex-grow-1 free-1">
-														<div class="small font-weight-bold text-primary mb-1">4. OTPIT Planning & Building Standard rules, 2021.pdf
+														<div class="small font-weight-bold text-primary mb-1">OTPIT Planning & Building Standard rules, 2021.pdf
 															<div class="h5 pull-right">
-																<a href="Deshboard/images/4. OTPIT Planning & Building Standard rules, 2021.pdf" class="tooltip" target="_blank">
+																<a href="Deshboard/images/OTPIT Planning & Building Standard rules, 2021.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
 																</a>
 															</div>
 															<div class="h5 pull-right">
-																<a href="Deshboard/images/4. OTPIT Planning & Building Standard rules, 2021.pdf" class="tooltip" target="_blank">
+																<a href="Deshboard/images/OTPIT Planning & Building Standard rules, 2021.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
 																</a>
 															</div>

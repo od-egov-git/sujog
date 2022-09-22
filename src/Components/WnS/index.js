@@ -339,11 +339,11 @@ function WnS() {
 														</div>
 
 														<div className="flex-grow-1 free-1">
-															<div className="small font-weight-bold text-primary mb-1">Odisha State Urban Water Supply Policy-2013 (2).pdf
-																<div className="h5 pull-right"><a href="Deshboard/images/Odisha State Urban Water Supply Policy-2013 (2).pdf" className="tooltip" target="_blank">
+															<div className="small font-weight-bold text-primary mb-1">Odisha State Urban Water Supply Policy-2013.pdf
+																<div className="h5 pull-right"><a href="Deshboard/images/Odisha State Urban Water Supply Policy-2013.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="Deshboard/images/Odisha State Urban Water Supply Policy-2013 (2).pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="Deshboard/images/Odisha State Urban Water Supply Policy-2013.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
 																</div>
 															</div>
