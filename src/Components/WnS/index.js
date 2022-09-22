@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 
 function WnS() {
 	return <div class="container">
@@ -27,7 +28,7 @@ function WnS() {
 					<div class="col">
 						<div class="row">
 							<div class="col-xl-6 col-md-6 mb-4 card">
-								<div class="card-header">Public Dashboard <span class="lart1">Last Update: 21.09.2022</span></div>
+								<div class="card-header">Public Dashboard <span class="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
 								<div class="row card-body">
 									<div class="container">
 										<div class="row">
@@ -178,7 +179,9 @@ function WnS() {
 												<li class="nav-item">
 													<a id="tab-C" href="#pane-C" class="nav-link" data-toggle="tab" role="tab">List of Documents</a>
 												</li>
-
+												<li className="nav-item">
+													<a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">Rules and Regulations</a>
+												</li>
 												<li class="nav-item">
 													<a id="tab-d" href="#pane-d" class="nav-link" data-toggle="tab" role="tab"> User Manual </a>
 												</li>
@@ -313,6 +316,42 @@ function WnS() {
 
 													</div>
 												</div>
+
+												<div id="pane-e" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-e">
+													<div className="card-header" role="tab" id="heading-e">
+														<h5 className="mb-0">
+															<a className="collapsed" data-toggle="collapse" href="#collapse-e" data-parent="#content" aria-expanded="false" aria-controls="collapse-e">
+																Rules and Regulations
+															</a>
+														</h5>
+													</div>
+
+													<div id="collapse-e" className="collapse" role="tabpanel" aria-labelledby="heading-e">
+														<div className="flex-grow-1 free-1">
+															<div className="small font-weight-bold text-primary mb-1">1948 H&UD Deptt._Water Rule.pdf
+																<div className="h5 pull-right"><a href="Deshboard/images/1948 H&UD Deptt._Water Rule.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
+																</div>
+																<div className="h5 pull-right"><a href="Deshboard/images/1948 H&UD Deptt._Water Rule.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
+																</div>
+															</div>
+														</div>
+
+														<div className="flex-grow-1 free-1">
+															<div className="small font-weight-bold text-primary mb-1">Odisha State Urban Water Supply Policy-2013 (2).pdf
+																<div className="h5 pull-right"><a href="Deshboard/images/Odisha State Urban Water Supply Policy-2013 (2).pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
+																</div>
+																<div className="h5 pull-right"><a href="Deshboard/images/Odisha State Urban Water Supply Policy-2013 (2).pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+
 
 											</div>
 

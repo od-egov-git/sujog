@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 
 function Dashboard() {
 	return <div id="layoutSidenav_content">
@@ -30,7 +31,7 @@ function Dashboard() {
 						<div class="col-xl-6 col-md-6 mb-4 card">
 
 
-							<div class="card-header">Public Dashboard <span class="lart1">Last Update: 21.09.2022</span></div>
+							<div class="card-header">Public Dashboard <span class="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
 
 							<div class="row card-body">
 
@@ -364,6 +365,9 @@ function Dashboard() {
 											</li>
 											<li class="nav-item">
 												<a id="tab-k" href="#pane-k" class="nav-link" data-toggle="tab" role="tab">Field Verification checklist</a>
+											</li>
+											<li class="nav-item">
+												<a id="tab-l" href="#pane-l" class="nav-link" data-toggle="tab" role="tab">Rules and Regulations</a>
 											</li>
 
 											<li class="nav-item">
@@ -801,7 +805,47 @@ function Dashboard() {
 																</a>
 															</div>
 															<div class="h5 pull-right">
-																<a href="public/Deshboard/images/Site inspection checklist for Occupancy Applications.pdf" class="tooltip" target="_blank">
+																<a href="Deshboard/images/Site inspection checklist for Occupancy Applications.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div id="pane-l" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-l">
+												<div class="card-header" role="tab" id="heading-l">
+													<h5 class="mb-0">
+														<a class="collapsed" data-toggle="collapse" href="#collapse-l" data-parent="#content" aria-expanded="false" aria-controls="collapse-l">
+															Rules and Regulations
+														</a>
+													</h5>
+												</div>
+												<div id="collapse-l" class="collapse" role="tabpanel" aria-labelledby="heading-l">
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">4. OTPIT Planning & Building Standard rules, 2021.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/4. OTPIT Planning & Building Standard rules, 2021.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/4. OTPIT Planning & Building Standard rules, 2021.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">ODA CAF Rules, 2016.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/ODA CAF Rules, 2016.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/ODA CAF Rules, 2016.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
 																</a>
 															</div>

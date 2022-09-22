@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 
 function TL() {
 	return <div className="container">
@@ -28,7 +29,7 @@ function TL() {
 						<div className="row">
 
 							<div class="col-xl-6 col-md-6 mb-4 card">
-								<div class="card-header">Public Dashboard <span class="lart1">Last Update: 21.09.2022</span></div>
+								<div class="card-header">Public Dashboard <span class="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
 								<div class="row card-body">
 									<div class="container">
 										<div class="row">

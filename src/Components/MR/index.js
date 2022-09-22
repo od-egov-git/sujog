@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 
 function MR() {
 	return <div className="container">
@@ -29,7 +30,7 @@ function MR() {
 					<div className="col">
 						<div className="row">
 							<div class="col-xl-6 col-md-6 mb-4 card">
-								<div class="card-header">Public Dashboard <span class="lart1">Last Update: 21.09.2022</span></div>
+								<div class="card-header">Public Dashboard <span class="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
 								<div class="row card-body">
 									<div class="container">
 										<div class="row">
@@ -184,9 +185,6 @@ function MR() {
 												<li className="nav-item">
 													<a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab"> User Manual </a>
 												</li>
-
-
-
 
 											</ul>
 
