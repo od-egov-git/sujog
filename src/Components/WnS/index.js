@@ -27,7 +27,7 @@ function WnS() {
 					<div class="col">
 						<div class="row">
 							<div class="col-xl-6 col-md-6 mb-4 card">
-								<div class="card-header">Public Dashboard <span class="lart1">Last Update: 19.08.2022</span></div>
+								<div class="card-header">Public Dashboard <span class="lart1">Last Update: 21.09.2022</span></div>
 								<div class="row card-body">
 									<div class="container">
 										<div class="row">
@@ -62,7 +62,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																					<div class="h5">87137</div>
+																					<div class="h5">23867</div>
 																				</div>
 																			</div>
 																		</div>
@@ -74,7 +74,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																					<div class="h5">66729</div>
+																					<div class="h5">23096</div>
 																				</div>
 																			</div>
 																		</div>
@@ -86,7 +86,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																					<div class="h5">1214</div>
+																					<div class="h5">130</div>
 																				</div>
 																			</div>
 																		</div>
@@ -98,7 +98,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																					<div class="h5">19194</div>
+																					<div class="h5">641</div>
 																				</div>
 																			</div>
 																		</div>
@@ -110,7 +110,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
-																					<div class="h5">15.7</div>
+																					<div class="h5">16</div>
 																				</div>
 																			</div>
 																		</div>
@@ -146,7 +146,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Maximum Number of Days for Approval</div>
-																					<div class="h5">245</div>
+																					<div class="h5">226</div>
 																				</div>
 																			</div>
 																		</div>

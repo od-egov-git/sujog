@@ -29,7 +29,7 @@ function MR() {
 					<div className="col">
 						<div className="row">
 							<div class="col-xl-6 col-md-6 mb-4 card">
-								<div class="card-header">Public Dashboard <span class="lart1">Last Update: 19.08.2022</span></div>
+								<div class="card-header">Public Dashboard <span class="lart1">Last Update: 21.09.2022</span></div>
 								<div class="row card-body">
 									<div class="container">
 										<div class="row">
@@ -64,7 +64,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																					<div class="h5">2761</div>
+																					<div class="h5">192</div>
 																				</div>
 																			</div>
 																		</div>
@@ -76,7 +76,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																					<div class="h5">2035</div>
+																					<div class="h5">123</div>
 																				</div>
 																			</div>
 																		</div>
@@ -88,7 +88,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																					<div class="h5">52</div>
+																					<div class="h5">9</div>
 																				</div>
 																			</div>
 																		</div>
@@ -100,7 +100,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																					<div class="h5">674</div>
+																					<div class="h5">60</div>
 																				</div>
 																			</div>
 																		</div>
@@ -112,7 +112,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
-																					<div class="h5">9.7</div>
+																					<div class="h5">20</div>
 																				</div>
 																			</div>
 																		</div>
@@ -124,7 +124,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Median Number of Days for Approval</div>
-																					<div class="h5">1</div>
+																					<div class="h5">7</div>
 																				</div>
 																			</div>
 																		</div>
