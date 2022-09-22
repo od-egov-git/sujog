@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 
 function TL() {
 	return <div className="container">
@@ -28,7 +29,7 @@ function TL() {
 						<div className="row">
 
 							<div class="col-xl-6 col-md-6 mb-4 card">
-								<div class="card-header">Public Dashboard <span class="lart1">Last Update: 19.08.2022</span></div>
+								<div class="card-header">Public Dashboard <span class="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
 								<div class="row card-body">
 									<div class="container">
 										<div class="row">
@@ -63,7 +64,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																					<div class="h5">19077</div>
+																					<div class="h5">203</div>
 																				</div>
 																			</div>
 																		</div>
@@ -75,7 +76,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																					<div class="h5">13770</div>
+																					<div class="h5">95</div>
 																				</div>
 																			</div>
 																		</div>
@@ -87,7 +88,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																					<div class="h5">139</div>
+																					<div class="h5">29</div>
 																				</div>
 																			</div>
 																		</div>
@@ -99,7 +100,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																					<div class="h5">5168</div>
+																					<div class="h5">79</div>
 																				</div>
 																			</div>
 																		</div>
@@ -111,7 +112,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
-																					<div class="h5">26.8</div>
+																					<div class="h5">46</div>
 																				</div>
 																			</div>
 																		</div>
@@ -123,7 +124,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Median Number of Days for Approval</div>
-																					<div class="h5">3</div>
+																					<div class="h5">33</div>
 																				</div>
 																			</div>
 																		</div>
@@ -147,7 +148,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Maximum Number of Days for Approval</div>
-																					<div class="h5">324</div>
+																					<div class="h5">194</div>
 																				</div>
 																			</div>
 																		</div>
@@ -179,11 +180,6 @@ function TL() {
 												<li className="nav-item">
 													<a id="tab-C" href="#pane-C" className="nav-link" data-toggle="tab" role="tab">List of Documents</a>
 												</li>
-
-												<li className="nav-item">
-													<a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab"> Trade License Tariffs </a>
-												</li>
-
 												<li className="nav-item">
 													<a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">User Manual</a>
 												</li>
@@ -279,32 +275,20 @@ function TL() {
 															</div>
 														</div>
 
-													</div>
-												</div>
-
-
-												<div id="pane-d" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-d">
-													<div className="card-header" role="tab" id="heading-d">
-														<h5 className="mb-0">
-															<a className="collapsed" data-toggle="collapse" href="#collapse-d" data-parent="#content" aria-expanded="false" aria-controls="collapse-d">
-																Trade License Tariffs
-															</a>
-														</h5>
-													</div>
-													<div id="collapse-d" className="collapse" role="tabpanel" aria-labelledby="heading-d">
 														<div className="flex-grow-1 free-1">
-															<div className="small font-weight-bold text-primary mb-1">Trade License Tariffs
-																<div className="h5 pull-right"><a href="/Deshboard/images/Trade-Tariffs.pdf" className="tooltip" target="_blank">
+															<div className="small font-weight-bold text-primary mb-1">List of Documents required for renewal of trade license
+																<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for renewal of Trade License.pdf" className="tooltip"
+																	target="_blank">
 																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="/Deshboard/images/Trade-Tariffs.pdf" className="tooltip" target="_blank"><span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
+																<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for renewal of Trade License.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
 																</div>
 															</div>
 														</div>
 
 													</div>
 												</div>
-
 
 												<div id="pane-e" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-e">
 													<div className="card-header" role="tab" id="heading-e">

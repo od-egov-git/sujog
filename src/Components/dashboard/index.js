@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 
 function Dashboard() {
 	return <div id="layoutSidenav_content">
@@ -30,7 +31,7 @@ function Dashboard() {
 						<div class="col-xl-6 col-md-6 mb-4 card">
 
 
-							<div class="card-header">Public Dashboard <span class="lart1">Last Update: 19.08.2022</span></div>
+							<div class="card-header">Public Dashboard <span class="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
 
 							<div class="row card-body">
 
@@ -74,7 +75,7 @@ function Dashboard() {
 																			<div class="flex-grow-1">
 
 																				<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																				<div class="h5">1729</div>
+																				<div class="h5">151</div>
 																			</div>
 																		</div>
 																	</div>
@@ -87,7 +88,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																				<div class="h5">533</div>
+																				<div class="h5">71</div>
 																			</div>
 																		</div>
 																	</div>
@@ -100,7 +101,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																				<div class="h5">25</div>
+																				<div class="h5">30</div>
 																			</div>
 																		</div>
 																	</div>
@@ -113,7 +114,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																				<div class="h5">1171</div>
+																				<div class="h5">50</div>
 																			</div>
 																		</div>
 																	</div>
@@ -126,7 +127,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
-																				<div class="h5">42.45</div>
+																				<div class="h5">45</div>
 																			</div>
 																		</div>
 																	</div>
@@ -139,7 +140,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-success mb-1">Median Number of Days for Approval</div>
-																				<div class="h5">30</div>
+																				<div class="h5">28</div>
 																			</div>
 																		</div>
 																	</div>
@@ -357,7 +358,20 @@ function Dashboard() {
 
 										<ul id="tabs" class="nav nav-tabs" role="tablist">
 											<li class="nav-item">
-												<a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">OBPAS Training Videos</a>
+												<a id="tab-i" href="#pane-i" class="nav-link active" data-toggle="tab" role="tab">Documents required in OBPAS</a>
+											</li>
+											<li class="nav-item">
+												<a id="tab-j" href="#pane-j" class="nav-link" data-toggle="tab" role="tab">Fee Estimate</a>
+											</li>
+											<li class="nav-item">
+												<a id="tab-k" href="#pane-k" class="nav-link" data-toggle="tab" role="tab">Field Verification checklist</a>
+											</li>
+											<li class="nav-item">
+												<a id="tab-l" href="#pane-l" class="nav-link" data-toggle="tab" role="tab">Rules and Regulations</a>
+											</li>
+
+											<li class="nav-item">
+												<a id="tab-A" href="#pane-A" class="nav-link" data-toggle="tab" role="tab">OBPAS Training Videos</a>
 											</li>
 											<li class="nav-item">
 												<a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">Drawing Manual</a>
@@ -390,7 +404,7 @@ function Dashboard() {
 										</ul>
 
 										<div id="content" class="tab-content" role="tablist">
-											<div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+											<div id="pane-A" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-A">
 
 												<div class="card-header" role="tab" id="heading-A">
 													<h5 class="mb-0">
@@ -708,6 +722,137 @@ function Dashboard() {
 												</div>
 											</div>
 											
+											<div id="pane-i" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-i">
+												<div class="card-header" role="tab" id="heading-i">
+													<h5 class="mb-0">
+														<a class="collapsed" data-toggle="collapse" href="#collapse-i" data-parent="#content" aria-expanded="false" aria-controls="collapse-i">
+															Documents required in OBPAS
+														</a>
+													</h5>
+												</div>
+												<div id="collapse-i" class="collapse" role="tabpanel" aria-labelledby="heading-i">
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">doc requirements in OBPAS.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/doc requirements in OBPAS.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/doc requirements in OBPAS.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div id="pane-j" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-j">
+												<div class="card-header" role="tab" id="heading-j">
+													<h5 class="mb-0">
+														<a class="collapsed" data-toggle="collapse" href="#collapse-j" data-parent="#content" aria-expanded="false" aria-controls="collapse-j">
+															Fee Estimate
+														</a>
+													</h5>
+												</div>
+												<div id="collapse-j" class="collapse" role="tabpanel" aria-labelledby="heading-j">
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">BP Fee_New Condstruction_v3.xlsx
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/BP Fee_New Condstruction_v3.xlsx" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															{/* <div class="h5 pull-right">
+																<a href="Deshboard/images/BP Fee_New Condstruction_v3.xlsx" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div> */}
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div id="pane-k" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-k">
+												<div class="card-header" role="tab" id="heading-k">
+													<h5 class="mb-0">
+														<a class="collapsed" data-toggle="collapse" href="#collapse-k" data-parent="#content" aria-expanded="false" aria-controls="collapse-k">
+															Field Verification checklist
+														</a>
+													</h5>
+												</div>
+												<div id="collapse-k" class="collapse" role="tabpanel" aria-labelledby="heading-k">
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Field verification checklist_for building plan applications.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Field verification checklist_for building plan applications.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Field verification checklist_for building plan applications.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Site inspection checklist for Occupancy Applications.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Site inspection checklist for Occupancy Applications.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Site inspection checklist for Occupancy Applications.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div id="pane-l" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-l">
+												<div class="card-header" role="tab" id="heading-l">
+													<h5 class="mb-0">
+														<a class="collapsed" data-toggle="collapse" href="#collapse-l" data-parent="#content" aria-expanded="false" aria-controls="collapse-l">
+															Rules and Regulations
+														</a>
+													</h5>
+												</div>
+												<div id="collapse-l" class="collapse" role="tabpanel" aria-labelledby="heading-l">
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">OTPIT Planning & Building Standard rules, 2021.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/OTPIT Planning & Building Standard rules, 2021.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/OTPIT Planning & Building Standard rules, 2021.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">ODA CAF Rules, 2016.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/ODA CAF Rules, 2016.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/ODA CAF Rules, 2016.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
 										</div>
 
 									</div>
