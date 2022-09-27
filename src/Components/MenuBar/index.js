@@ -34,6 +34,12 @@ function Menubar() {
                             <li><a rel="noreferrer" href="http://www.urbanodisha.gov.in/Admin/Upload_Files/Citizen%20Charter/Draft%20Citizen%20Charter_HUD_Final.pdf" target="_blank">Citizen Charter</a></li>
                         </ul>
                     </li>
+                    <li className="drop-down"><Link >ULBs</Link>
+                        <ul>
+                            <li><a rel="noreferrer" href="https://sujogportal.odisha.gov.in/cuttack">Cuttack</a></li>
+                            <li><a rel="noreferrer" href="https://sujogportal.odisha.gov.in/berhampur">Berhampur</a></li>
+                        </ul>
+                    </li>
                     <li><Link to="/contactus">Helpdesk</Link></li>
                     {/* <li className="login"><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">login</a></li> */}
                     <li class="login">
