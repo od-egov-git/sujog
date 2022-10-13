@@ -369,6 +369,9 @@ function Dashboard() {
 											<li class="nav-item">
 												<a id="tab-l" href="#pane-l" class="nav-link" data-toggle="tab" role="tab">Rules and Regulations</a>
 											</li>
+											<li class="nav-item">
+												<a id="tab-m" href="#pane-m" class="nav-link" data-toggle="tab" role="tab">Procedure</a>
+											</li>
 
 											<li class="nav-item">
 												<a id="tab-A" href="#pane-A" class="nav-link" data-toggle="tab" role="tab">OBPAS Training Videos</a>
@@ -846,6 +849,60 @@ function Dashboard() {
 															</div>
 															<div class="h5 pull-right">
 																<a href="Deshboard/images/ODA CAF Rules, 2016.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div id="pane-m" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-m">
+												<div class="card-header" role="tab" id="heading-m">
+													<h5 class="mb-0">
+														<a class="collapsed" data-toggle="collapse" href="#collapse-m" data-parent="#content" aria-expanded="false" aria-controls="collapse-m">
+															Procedure
+														</a>
+													</h5>
+												</div>
+												<div id="collapse-m" class="collapse" role="tabpanel" aria-labelledby="heading-m">
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Building Permit Workflow – Addition & Alteration.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Building Permit Workflow – Addition & Alteration.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Building Permit Workflow – Addition & Alteration.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Building Permit Workflow – New Construction.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Building Permit Workflow – New Construction.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Building Permit Workflow – New Construction.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="flex-grow-1 free-1">
+														<div class="small font-weight-bold text-primary mb-1">Occupancy Certificate Workflow.pdf
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Occupancy Certificate Workflow.pdf" class="tooltip" target="_blank">
+																	<span class="tooltiptext">Download</span><img alt="bpa" src="/Deshboard/images/download.svg" class="fkdl" />
+																</a>
+															</div>
+															<div class="h5 pull-right">
+																<a href="Deshboard/images/Occupancy Certificate Workflow.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
 																</a>
 															</div>

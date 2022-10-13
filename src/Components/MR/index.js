@@ -183,7 +183,11 @@ function MR() {
 												</li>
 
 												<li className="nav-item">
-													<a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab"> User Manual </a>
+													<a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab">User Manual</a>
+												</li>
+
+												<li className="nav-item">
+													<a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">Registration Fees</a>
 												</li>
 
 											</ul>
@@ -297,7 +301,31 @@ function MR() {
 													</div>
 												</div>
 
+												<div id="pane-e" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-e">
 
+													<div className="card-header" role="tab" id="heading-e">
+														<h5 className="mb-0">
+															<a className="collapsed" data-toggle="collapse" href="#collapse-e" data-parent="#content" aria-expanded="false" aria-controls="collapse-e">
+																Marriage Registration Fees
+															</a>
+														</h5>
+													</div>
+
+													<div id="collapse-e" className="collapse" role="tabpanel" aria-labelledby="heading-e">
+
+														<div className="flex-grow-1 free-1">
+															<div className="small font-weight-bold text-primary mb-1">Marriage Registration Fees
+																<div className="h5 pull-right"><a href="/Deshboard/images/Marriage Registration Fees.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
+																</div>
+
+																<div className="h5 pull-right"><a href="/Deshboard/images/Marriage Registration Fees.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
 
 
 											</div>
