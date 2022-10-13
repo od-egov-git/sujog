@@ -306,12 +306,12 @@ function TL() {
 													<div id="collapse-d" className="collapse" role="tabpanel" aria-labelledby="heading-d">
 
 														<div className="flex-grow-1 free-1">
-															<div className="small font-weight-bold text-primary mb-1">Trade Tariff for 113 ULBs.pdf
-																<div className="h5 pull-right"><a href="/Deshboard/images/Trade Tariff for 113 ULBs.pdf" className="tooltip"
+															<div className="small font-weight-bold text-primary mb-1">Trade Tariff.pdf
+																<div className="h5 pull-right"><a href="/Deshboard/images/Trade Tariff.pdf" className="tooltip"
 																	target="_blank">
 																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="/Deshboard/images/Trade Tariff for 113 ULBs.pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="/Deshboard/images/Trade Tariff.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
 																</div>
 															</div>
