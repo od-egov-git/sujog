@@ -359,6 +359,17 @@ function WnS() {
 																</div>
 															</div>
 														</div>
+
+														<div className="flex-grow-1 free-1">
+															<div className="small font-weight-bold text-primary mb-1">Water works rules.pdf
+																<div className="h5 pull-right"><a href="Deshboard/images/Water works rules.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
+																</div>
+																<div className="h5 pull-right"><a href="Deshboard/images/Water works rules.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
+																</div>
+															</div>
+														</div>
 													</div>
 												</div>
 

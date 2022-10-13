@@ -181,6 +181,9 @@ function TL() {
 													<a id="tab-C" href="#pane-C" className="nav-link" data-toggle="tab" role="tab">List of Documents</a>
 												</li>
 												<li className="nav-item">
+													<a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab">Tariff</a>
+												</li>
+												<li className="nav-item">
 													<a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">User Manual</a>
 												</li>
 
@@ -282,6 +285,33 @@ function TL() {
 																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
 																</div>
 																<div className="h5 pull-right"><a href="/Deshboard/images/List of Documents required for renewal of Trade License.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
+																</div>
+															</div>
+														</div>
+
+													</div>
+												</div>
+
+												<div id="pane-d" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-d">
+
+													<div className="card-header" role="tab" id="heading-C">
+														<h5 className="mb-0">
+															<a className="collapsed" data-toggle="collapse" href="#collapse-C" data-parent="#content" aria-expanded="false" aria-controls="collapse-C">
+																List of Documents
+															</a>
+														</h5>
+													</div>
+
+													<div id="collapse-d" className="collapse" role="tabpanel" aria-labelledby="heading-d">
+
+														<div className="flex-grow-1 free-1">
+															<div className="small font-weight-bold text-primary mb-1">Trade Tariff.pdf
+																<div className="h5 pull-right"><a href="/Deshboard/images/Trade Tariff.pdf" className="tooltip"
+																	target="_blank">
+																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
+																</div>
+																<div className="h5 pull-right"><a href="/Deshboard/images/Trade Tariff.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
 																</div>
 															</div>
