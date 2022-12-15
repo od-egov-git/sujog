@@ -75,7 +75,7 @@ function Dashboard() {
 																			<div class="flex-grow-1">
 
 																				<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																				<div class="h5">151</div>
+																				<div class="h5">301</div>
 																			</div>
 																		</div>
 																	</div>
@@ -88,7 +88,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																				<div class="h5">71</div>
+																				<div class="h5">98</div>
 																			</div>
 																		</div>
 																	</div>
@@ -101,7 +101,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																				<div class="h5">30</div>
+																				<div class="h5">32</div>
 																			</div>
 																		</div>
 																	</div>
@@ -114,7 +114,7 @@ function Dashboard() {
 																		<div class="d-flex align-items-center">
 																			<div class="flex-grow-1">
 																				<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																				<div class="h5">50</div>
+																				<div class="h5">171</div>
 																			</div>
 																		</div>
 																	</div>

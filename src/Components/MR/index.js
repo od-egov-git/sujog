@@ -65,7 +65,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																					<div class="h5">192</div>
+																					<div class="h5">1067</div>
 																				</div>
 																			</div>
 																		</div>
@@ -77,7 +77,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																					<div class="h5">123</div>
+																					<div class="h5">961</div>
 																				</div>
 																			</div>
 																		</div>
@@ -89,7 +89,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																					<div class="h5">9</div>
+																					<div class="h5">13</div>
 																				</div>
 																			</div>
 																		</div>
@@ -101,7 +101,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																					<div class="h5">60</div>
+																					<div class="h5">93</div>
 																				</div>
 																			</div>
 																		</div>

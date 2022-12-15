@@ -64,7 +64,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																					<div class="h5">203</div>
+																					<div class="h5">401</div>
 																				</div>
 																			</div>
 																		</div>
@@ -76,7 +76,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																					<div class="h5">95</div>
+																					<div class="h5">139</div>
 																				</div>
 																			</div>
 																		</div>
@@ -100,7 +100,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																					<div class="h5">79</div>
+																					<div class="h5">233</div>
 																				</div>
 																			</div>
 																		</div>
