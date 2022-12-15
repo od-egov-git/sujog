@@ -63,7 +63,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																					<div class="h5">23867</div>
+																					<div class="h5">29241</div>
 																				</div>
 																			</div>
 																		</div>
@@ -75,7 +75,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																					<div class="h5">23096</div>
+																					<div class="h5">28490</div>
 																				</div>
 																			</div>
 																		</div>
@@ -87,7 +87,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																					<div class="h5">130</div>
+																					<div class="h5">146</div>
 																				</div>
 																			</div>
 																		</div>
@@ -99,7 +99,7 @@ function WnS() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																					<div class="h5">641</div>
+																					<div class="h5">605</div>
 																				</div>
 																			</div>
 																		</div>
