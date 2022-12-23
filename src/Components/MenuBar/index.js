@@ -32,6 +32,7 @@ function Menubar() {
                             <li><Link to="rti">RTI</Link></li>
                             <li><Link to="comingsoon">Public Notice</Link></li>
                             <li><a rel="noreferrer" href="http://www.urbanodisha.gov.in/Admin/Upload_Files/Citizen%20Charter/Draft%20Citizen%20Charter_HUD_Final.pdf" target="_blank">Citizen Charter</a></li>
+                            <li><Link to="privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </li>
                     <li className="drop-down"><Link >ULBs</Link>
