@@ -20,6 +20,7 @@ import MR from "./Components/MR";
 import PT from "./Components/PT";
 import WnS from "./Components/WnS";
 import TL from "./Components/TL";
+import PrivacyPolicy from './Components/PrivacyPolicy';
 function App() {
   return (
     <>
@@ -49,6 +50,7 @@ function App() {
         <Route path="/comingsoon" component={ComingSoon} />
         <Route path="/rti" component={Rti} />
         <Route path="/obpas-dashboard" component={Dashboard} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
       </Switch>
       <Footer />
     </>
