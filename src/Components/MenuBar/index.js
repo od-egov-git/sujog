@@ -35,12 +35,13 @@ function Menubar() {
                             <li><Link to="privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </li>
-                    <li className="drop-down"><Link >ULBs</Link>
+                    {/* <li className="drop-down"><Link >ULBs</Link>
                         <ul>
                             <li><a rel="noreferrer" href="https://sujogportal.odisha.gov.in/cuttack">Cuttack</a></li>
                             <li><a rel="noreferrer" href="https://sujogportal.odisha.gov.in/berhampur">Berhampur</a></li>
                         </ul>
-                    </li>
+                    </li> */}
+                    <li><Link to="/ulbs">ULBs</Link></li>
                     <li><Link to="/contactus">Helpdesk</Link></li>
                     {/* <li className="login"><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">login</a></li> */}
                     <li class="login">

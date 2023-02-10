@@ -20723,7 +20723,11 @@ img.fkdl {
 .page-header .page-header-content .page-header-title .page-header-icon .feather{color:#018f44;}
 .card-header{background:none; color:#0579c6; text-transform:capitalize;}
 .panel-primary>.panel-heading{background:#0579c6;}
-.nav>li>a {padding:6px 6px 6px 6px; font-weight: normal !important; text-decoration: none; font-size: 14px;}
+.nav>li>a {    padding: 6px 6px 6px 6px;
+  /* font-weight: normal !important; */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;}
 .flex-grow-1{}
 .footer.footer-light{color:#0579c6;}
 
@@ -20756,11 +20760,79 @@ img.fkdl {
 
 .lart1{float:right;    float: right;  font-size: 12px;  color: gray;}
 
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
 
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
 
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+  padding:0px 20px 9px 143px;
+}
 
+.tabs-left > .nav-tabs > li {
+  float: none;
+}
 
+.tabs-left > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
 
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+          padding: 10px 20px;
+    border-left: 5px solid #ffffff;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+  padding: 10px 20px;
+    border-left: 5px solid #13a962;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  border-right-color: #ffffff;
+  padding: 10px 20px;
+    border-left: 5px solid #13a962;
+}
+
+.tab-contentN {
+  background-color: #0579c6;
+  padding: 10px 20px;
+  color: white;
+}
+
+.district-ul ul{
+  padding:0;
+  margin: 0;
+}
+.district-ul li {
+  padding: 10px 30px 5px 5px;
+    margin: 0;
+    float: left;
+    width: auto;
+    font-size: 16px;
+}
 
 
 
