@@ -21,6 +21,7 @@ import PT from "./Components/PT";
 import WnS from "./Components/WnS";
 import TL from "./Components/TL";
 import PrivacyPolicy from './Components/PrivacyPolicy';
+import ULBSpage from './Components/ULBs-page';
 function App() {
   return (
     <>
@@ -51,6 +52,7 @@ function App() {
         <Route path="/rti" component={Rti} />
         <Route path="/obpas-dashboard" component={Dashboard} />
         <Route path="/privacy-policy" component={PrivacyPolicy} />
+        <Route path="/ulbs" component={ULBSpage} />
       </Switch>
       <Footer />
     </>
