@@ -15,11 +15,11 @@ const ulbDropdownOptions = ALL_TENANTS_FROM_MDMS.map((each) => ({
   });
 
 const serviceOptions = [
-  { value: "PT", label: "Property Tax" },
-  { value: "TL", label: "Trade License" },
   { value: "WS", label: "Water & Sewerage" },
-  { value: "BPA", label: "Building Plan Approval" },
-  { value: "MR", label: "Marriage Registration" },
+  // { value: "PT", label: "Property Tax" },
+  // { value: "TL", label: "Trade License" },
+  // { value: "BPA", label: "Building Plan Approval" },
+  // { value: "MR", label: "Marriage Registration" },
 ];
 
 const CONSUMER_NO_PLACEHOLDER_MAPPER = {
