@@ -55,6 +55,7 @@ function Menubar() {
                                 <a class="dropdown-item d-none d-lg-block" href="https://sujog.odisha.gov.in/citizen/user/register">Citizen</a>
                                 <a class="dropdown-item d-none d-lg-block" href="https://sujog.odisha.gov.in/employee/user/login">Department</a>
                                 <a class="dropdown-item d-none d-lg-block" href="https://sujog.odisha.gov.in/digit-ui/citizen/login">others</a>
+                                <a class="dropdown-item d-none d-lg-block" href="/tpa">TPA</a>
                             </div>
                         </div>
                     </li>
