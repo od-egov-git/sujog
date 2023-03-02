@@ -64,7 +64,7 @@ const TPA = () => {
         consumerNo: formData["consumerNo"],
       };
       const response = await axios.post(
-        "/integration-services/consumer/_verification",
+        "https://sujog.odisha.gov.in/integration-services/consumer/_verification",
         requesrtBody,
         {
           "Content-Type": "application/json",
