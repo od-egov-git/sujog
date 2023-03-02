@@ -49,7 +49,7 @@ const TPA = () => {
     consumerNo: "",
   });
   const [showResult, setShowResult] = useState(false);
-  const [serverError, setServerError] = useState(false)
+  const [serverError, setServerError] = useState(false);
   const handleFormChange = (id, value) => {
     setFormData({
       ...formData,
@@ -65,7 +65,11 @@ const TPA = () => {
       };
       const response = await axios.post(
         "/integration-services/consumer/_verification",
-        requesrtBody
+        requesrtBody,
+        {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        }
       );
       const consumerInfo = response.data.consumerVerificationInfo;
       const resultObj = {
@@ -192,7 +196,10 @@ const TPA = () => {
                 </div>
               )}
             <div className="tpa-form-item">
-              <div className="tpa-server-error">{serverError && "Some error occured at the server end. Kindly try after sometime."}</div>
+              <div className="tpa-server-error">
+                {serverError &&
+                  "Some error occured at the server end. Kindly try after sometime."}
+              </div>
               <button className="tpa-submit-btn" onClick={handleFormSubmit}>
                 Search
               </button>
