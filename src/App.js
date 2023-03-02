@@ -1,15 +1,11 @@
 //import logo from './logo.svg';
 
-import Header from './Components/Header'
-import MenuBar from './Components/MenuBar'
-import HomePage from './Components/HomePage'
-import Footer from './Components/Footer'
+import Header from "./Components/Header";
+import MenuBar from "./Components/MenuBar";
+import HomePage from "./Components/HomePage";
+import Footer from "./Components/Footer";
 
-import {
-  Switch,
-  Route,
-  Redirect
-} from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Aboutus from "./Components/AboutUs";
 import ContactUs from "./Components/ContactUs";
 import ComingSoon from "./Components/ComingSoon";
@@ -20,8 +16,10 @@ import MR from "./Components/MR";
 import PT from "./Components/PT";
 import WnS from "./Components/WnS";
 import TL from "./Components/TL";
-import PrivacyPolicy from './Components/PrivacyPolicy';
-import ULBSpage from './Components/ULBs-page';
+import PrivacyPolicy from "./Components/PrivacyPolicy";
+import ULBSpage from "./Components/ULBs-page";
+import TPA from "./Components/TPA";
+
 function App() {
   return (
     <>
@@ -33,11 +31,7 @@ function App() {
           exact
           path="/"
           render={() => {
-            return (
-
-              <Redirect to="/home" />
-
-            )
+            return <Redirect to="/home" />;
           }}
         />
         <Route exact path="/home" component={HomePage} />
@@ -53,6 +47,7 @@ function App() {
         <Route path="/obpas-dashboard" component={Dashboard} />
         <Route path="/privacy-policy" component={PrivacyPolicy} />
         <Route path="/ulbs" component={ULBSpage} />
+        <Route path="/tpa" component={TPA} />
       </Switch>
       <Footer />
     </>
