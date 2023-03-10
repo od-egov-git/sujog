@@ -298,7 +298,7 @@ class HomePage extends React.Component {
                         through SUJOG.
                       </p>
                       <p>
-                        itizens do not have to physically visit the ULBs to pay
+                        Citizens do not have to physically visit the ULBs to pay
                         their taxes but rather access SUJOG remotely to avail
                         the services.
                       </p>
