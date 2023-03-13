@@ -9,17 +9,17 @@ const ulbDropdownOptions = ALL_TENANTS_FROM_MDMS.map((each) => ({
   value: each.code,
   label: each.name,
 }))
-  .filter((each) => Object.keys(ULB_MICROSITES).includes(each.label))
+  // .filter((each) => Object.keys(ULB_MICROSITES).includes(each.label))
   .sort((a, b) => {
     return a.label > b.label ? 1 : -1;
   });
 
 const serviceOptions = [
   { value: "WS", label: "Water & Sewerage" },
-  // { value: "PT", label: "Property Tax" },
-  // { value: "TL", label: "Trade License" },
-  // { value: "BPA", label: "Building Plan Approval" },
-  // { value: "MR", label: "Marriage Registration" },
+  { value: "PT", label: "Property Tax" },
+  { value: "TL", label: "Trade License" },
+  { value: "BPA", label: "Building Plan Approval" },
+  { value: "MR", label: "Marriage Registration" },
 ];
 
 const CONSUMER_NO_PLACEHOLDER_MAPPER = {
@@ -27,7 +27,7 @@ const CONSUMER_NO_PLACEHOLDER_MAPPER = {
   TL: "Trade License Number",
   WS: "Connection Number",
   MR: "Marriage Registration Number",
-  BPA: "Permit Number",
+  BPA: "Application Number",
 };
 
 const TPA = () => {
@@ -42,6 +42,7 @@ const TPA = () => {
     status: "",
     tenantId: "",
     owner: [],
+    address: ''
   });
   const [errMsg, setErrMsg] = useState({
     tenantId: "",
@@ -78,6 +79,7 @@ const TPA = () => {
         status: consumerInfo["status"],
         tenantId: consumerInfo["tenantId"],
         owner: consumerInfo["owners"] ? [...consumerInfo["owners"]] : [],
+        address: consumerInfo["address"],
       };
       setResult({
         ...resultObj,
@@ -222,6 +224,11 @@ const TPA = () => {
                         <span className="tpa-colon">:</span>
                         <span>{result["status"]}</span>
                       </div>
+                      <div className="tpa-rslt-item">
+                        <label className="tpa-rslt-lbl">Address</label>
+                        <span className="tpa-colon">:</span>
+                        <span>{result["address"]}</span>
+                      </div>
                       <hr />
                       <div className="tpr-ownr-info-hdr">Owner Info</div>
                       {result["owner"] && result["owner"].length > 0
@@ -237,7 +244,7 @@ const TPA = () => {
                               <div className="tpa-rslt-item">
                                 <label className="tpa-rslt-lbl">Address</label>
                                 <span className="tpa-colon">:</span>
-                                <span>{each["address"]}</span>
+                                <span>{each["address"] || 'NA'}</span>
                               </div>
                               {index + 1 !== result["owner"].length && (
                                 <hr className="tpr-divider-owner" />
