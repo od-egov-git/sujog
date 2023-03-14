@@ -64,7 +64,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																					<div class="h5">401</div>
+																					<div class="h5">471</div>
 																				</div>
 																			</div>
 																		</div>
@@ -76,7 +76,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																					<div class="h5">139</div>
+																					<div class="h5">148</div>
 																				</div>
 																			</div>
 																		</div>
@@ -88,7 +88,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																					<div class="h5">29</div>
+																					<div class="h5">34</div>
 																				</div>
 																			</div>
 																		</div>
@@ -100,7 +100,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																					<div class="h5">233</div>
+																					<div class="h5">289</div>
 																				</div>
 																			</div>
 																		</div>
@@ -112,7 +112,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
-																					<div class="h5">46</div>
+																					<div class="h5">38</div>
 																				</div>
 																			</div>
 																		</div>
@@ -124,7 +124,7 @@ function TL() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Median Number of Days for Approval</div>
-																					<div class="h5">33</div>
+																					<div class="h5">29</div>
 																				</div>
 																			</div>
 																		</div>
