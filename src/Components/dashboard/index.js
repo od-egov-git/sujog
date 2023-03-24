@@ -804,10 +804,10 @@ function Dashboard() {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Low & Other Than Low Risk Criterias
+                                Low Risk & Other Than Low Risk Criteria
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Low & Other Than Low Risk Criterias.pdf"
+                                    href="/Deshboard/images/Low Risk & Other Than Low Risk Criteria.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -821,7 +821,7 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Low & Other Than Low Risk Criterias.pdf"
+                                    href="/Deshboard/images/Low Risk & Other Than Low Risk Criteria.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -932,72 +932,6 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Commercial(DWG)
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/OBPS Reference File - Commercial.dwg"
-                                    class="tooltip"
-                                    target="_blank"
-                                  >
-                                    <span class="tooltiptext">Download</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/download.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/OBPS Reference File - Commercial.dwg"
-                                    class="tooltip"
-                                  >
-                                    <span class="tooltiptext">View</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/view.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="flex-grow-1 free-1">
-                              <div class="small font-weight-bold text-primary mb-1">
-                                Commercial(DXF)
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/OBPS Reference File - Commercial.dxf"
-                                    class="tooltip"
-                                    target="_blank"
-                                  >
-                                    <span class="tooltiptext">Download</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/download.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/OBPS Reference File - Commercial.dxf"
-                                    class="tooltip"
-                                  >
-                                    <span class="tooltiptext">View</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/view.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="flex-grow-1 free-1">
-                              <div class="small font-weight-bold text-primary mb-1">
                                 Residential Detached(DWG)
                                 <div class="h5 pull-right">
                                   <a
@@ -1049,6 +983,137 @@ function Dashboard() {
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPS Reference File - Residential Detached.dxf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Typical Floor Plan(DWG)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPS Reference File - Typical Floor Plan.dwg"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPS Reference File - Typical Floor Plan.dwg"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Typical Floor Plan(DXF)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPS Reference File - Typical Floor Plan.dxf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPS Reference File - Typical Floor Plan.dxf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Sample_Addition Alteration_Category C&D(DXF)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dxf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dxf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Sample_Addition Alteration_Category C&D(DXF)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dxf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dxf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
