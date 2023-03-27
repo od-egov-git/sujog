@@ -1064,10 +1064,10 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Sample_Addition Alteration_Category C&D(DXF)
+                                Sample_Addition Alteration_Category C&D(DWG)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dxf"
+                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dwg"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1081,7 +1081,7 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dxf"
+                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dwg"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
