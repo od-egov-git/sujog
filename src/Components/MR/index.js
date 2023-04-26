@@ -65,7 +65,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-																					<div class="h5">499</div>
+																					<div class="h5">541</div>
 																				</div>
 																			</div>
 																		</div>
@@ -77,7 +77,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-																					<div class="h5">347</div>
+																					<div class="h5">380</div>
 																				</div>
 																			</div>
 																		</div>
@@ -89,7 +89,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-																					<div class="h5">37</div>
+																					<div class="h5">48</div>
 																				</div>
 																			</div>
 																		</div>
@@ -101,7 +101,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-																					<div class="h5">115</div>
+																					<div class="h5">113</div>
 																				</div>
 																			</div>
 																		</div>
@@ -113,7 +113,7 @@ function MR() {
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
 																					<div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
-																					<div class="h5">17</div>
+																					<div class="h5">16</div>
 																				</div>
 																			</div>
 																		</div>
