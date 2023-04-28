@@ -148,7 +148,7 @@ function Dashboard() {
                                             Total Number of Applications
                                             Received
                                           </div>
-                                          <div class="h5">427</div>
+                                          <div class="h5">963</div>
                                         </div>
                                       </div>
                                     </div>
@@ -162,7 +162,7 @@ function Dashboard() {
                                           <div class="small font-weight-bold text-success mb-1">
                                             Number of Applications Approved
                                           </div>
-                                          <div class="h5">134</div>
+                                          <div class="h5">670</div>
                                         </div>
                                       </div>
                                     </div>
