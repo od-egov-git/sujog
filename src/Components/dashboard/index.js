@@ -573,6 +573,19 @@ function Dashboard() {
                             NOC list
                           </a>
                         </li>
+
+                        <li class="nav-item">
+                          <a
+                            id="tab-n"
+                            href="#pane-n"
+                            class="nav-link"
+                            data-toggle="tab"
+                            role="tab"
+                          >
+                            List of live OBPAS Services
+                          </a>
+                        </li>
+
                       </ul>
 
                       <div id="content" class="tab-content" role="tablist">
@@ -647,7 +660,7 @@ function Dashboard() {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Drawing Manual_Odisha OBPS
+                                Drawing Manual_Odisha OBPS_v1.3
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.3.pdf"
@@ -665,6 +678,38 @@ function Dashboard() {
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.3.pdf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Drawing Manual_Odisha OBPS_v1.4
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.4.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.4.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -709,10 +754,10 @@ function Dashboard() {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Odisha OBPS Drawing Template(DWG)
+                                Odisha OBPS Drawing Template_v1.4(DWG)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.3.dwg"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.4.dwg"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -726,7 +771,7 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.3.dwg"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.4.dwg"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -742,10 +787,10 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Odisha OBPS Drawing Template(DXF)
+                                Odisha OBPS Drawing Template_v1.4(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.3.dxf"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.4.dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -759,7 +804,7 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.3.dxf"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.4.dxf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -866,10 +911,10 @@ function Dashboard() {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Apartment & Housing Projects(DWG)
+                                OBPAS Reference files - Addition & Alteration , Category C & D(DWG)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS Reference File - Apartment & Housing Projects.dwg"
+                                    href="/Deshboard/images/OBPAS Reference files - Addition & Alteration , Category C & D.dwg"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -883,7 +928,7 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS Reference File - Apartment & Housing Projects.dwg"
+                                    href="/Deshboard/images/OBPAS Reference files - Addition & Alteration , Category C & D.dwg"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -899,10 +944,10 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Apartment & Housing Projects(DXF)
+                                OBPAS Reference files - Addition & Alteration , Category C & D(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS Reference File - Apartment & Housing Projects.dxf"
+                                    href="/Deshboard/images/OBPAS Reference files - Addition & Alteration , Category C & D.dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -916,7 +961,40 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS Reference File - Apartment & Housing Projects.dxf"
+                                    href="/Deshboard/images/OBPAS Reference files - Addition & Alteration , Category C & D.dxf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                OBPAS Reference files - Apartment and Housing Project(DWG)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPAS Reference files - Apartment and Housing Project.dwg"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPAS Reference files - Apartment and Housing Project.dwg"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -932,10 +1010,10 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Residential Detached(DWG)
+                                OBPAS Reference files - Apartment and Housing Project(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS Reference File - Residential Detached.dwg"
+                                    href="/Deshboard/images/OBPAS Reference files - Apartment and Housing Project.dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -949,7 +1027,7 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS Reference File - Residential Detached.dwg"
+                                    href="/Deshboard/images/OBPAS Reference files - Apartment and Housing Project.dxf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -965,10 +1043,10 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Residential Detached(DXF)
+                                OBPAS Reference files - Residential Detached(DWG)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS Reference File - Residential Detached.dxf"
+                                    href="/Deshboard/images/OBPAS Reference files - Residential Detached.dwg"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -982,7 +1060,40 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS Reference File - Residential Detached.dxf"
+                                    href="/Deshboard/images/OBPAS Reference files - Residential Detached.dwg"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                OBPAS Reference files - Residential Detached(DXF)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPAS Reference files - Residential Detached.dxf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPAS Reference files - Residential Detached.dxf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -998,7 +1109,7 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Typical Floor Plan(DWG)
+                                OBPS Reference File - Typical Floor Plan(DWG)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPS Reference File - Typical Floor Plan.dwg"
@@ -1028,10 +1139,10 @@ function Dashboard() {
                                 </div>
                               </div>
                             </div>
-
+                            
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Typical Floor Plan(DXF)
+                                OBPS Reference File - Typical Floor Plan(DXF)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPS Reference File - Typical Floor Plan.dxf"
@@ -1062,70 +1173,6 @@ function Dashboard() {
                               </div>
                             </div>
 
-                            <div class="flex-grow-1 free-1">
-                              <div class="small font-weight-bold text-primary mb-1">
-                                Sample_Addition Alteration_Category C&D(DWG)
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dwg"
-                                    class="tooltip"
-                                    target="_blank"
-                                  >
-                                    <span class="tooltiptext">Download</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/download.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dwg"
-                                    class="tooltip"
-                                  >
-                                    <span class="tooltiptext">View</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/view.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="flex-grow-1 free-1">
-                              <div class="small font-weight-bold text-primary mb-1">
-                                Sample_Addition Alteration_Category C&D(DXF)
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dxf"
-                                    class="tooltip"
-                                    target="_blank"
-                                  >
-                                    <span class="tooltiptext">Download</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/download.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/Sample_Addition Alteration_Category C&D.dxf"
-                                    class="tooltip"
-                                  >
-                                    <span class="tooltiptext">View</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/view.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
                           </div>
                         </div>
 
@@ -1503,6 +1550,26 @@ function Dashboard() {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
+                                BP Fee_New Condstruction.xlsx
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/BP Fee_New Condstruction.xlsx"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
                                 BP Fee_New Condstruction_v3.xlsx
                                 <div class="h5 pull-right">
                                   <a
@@ -1518,11 +1585,6 @@ function Dashboard() {
                                     />
                                   </a>
                                 </div>
-                                {/* <div class="h5 pull-right">
-																<a href="Deshboard/images/BP Fee_New Condstruction_v3.xlsx" class="tooltip" target="_blank">
-																	<span class="tooltiptext">View</span><img alt="bpa" src="/Deshboard/images/view.svg" class="fkdl" />
-																</a>
-															</div> */}
                               </div>
                             </div>
                           </div>
@@ -1849,6 +1911,70 @@ function Dashboard() {
                             </div>
                           </div>
                         </div>
+
+                        <div
+                          id="pane-n"
+                          class="card tab-pane fade"
+                          role="tabpanel"
+                          aria-labelledby="tab-n"
+                        >
+                          <div class="card-header" role="tab" id="heading-n">
+                            <h5 class="mb-0">
+                              <a
+                                class="collapsed"
+                                data-toggle="collapse"
+                                href="#collapse-n"
+                                data-parent="#content"
+                                aria-expanded="false"
+                                aria-controls="collapse-n"
+                              >
+                                List of live OBPAS Services
+                              </a>
+                            </h5>
+                          </div>
+                          <div
+                            id="collapse-n"
+                            class="collapse"
+                            role="tabpanel"
+                            aria-labelledby="heading-n"
+                          >
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                List of services and Functionalities available in OBPAS
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/List of services and Functionalities available in OBPAS.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/List of services and Functionalities available in OBPAS.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+
                       </div>
                     </div>
                   </div>
