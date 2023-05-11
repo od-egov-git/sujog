@@ -660,38 +660,6 @@ function Dashboard() {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Drawing Manual_Odisha OBPS_v1.3
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.3.pdf"
-                                    class="tooltip"
-                                    target="_blank"
-                                  >
-                                    <span class="tooltiptext">Download</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/download.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.3.pdf"
-                                    class="tooltip"
-                                  >
-                                    <span class="tooltiptext">View</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/view.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="flex-grow-1 free-1">
-                              <div class="small font-weight-bold text-primary mb-1">
                                 Drawing Manual_Odisha OBPS_v1.4
                                 <div class="h5 pull-right">
                                   <a
@@ -1554,26 +1522,6 @@ function Dashboard() {
                                 <div class="h5 pull-right">
                                   <a
                                     href="Deshboard/images/BP Fee_New Condstruction.xlsx"
-                                    class="tooltip"
-                                    target="_blank"
-                                  >
-                                    <span class="tooltiptext">Download</span>
-                                    <img
-                                      alt="bpa"
-                                      src="/Deshboard/images/download.svg"
-                                      class="fkdl"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="flex-grow-1 free-1">
-                              <div class="small font-weight-bold text-primary mb-1">
-                                BP Fee_New Condstruction_v3.xlsx
-                                <div class="h5 pull-right">
-                                  <a
-                                    href="Deshboard/images/BP Fee_New Condstruction_v3.xlsx"
                                     class="tooltip"
                                     target="_blank"
                                   >
