@@ -8,11 +8,11 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/angul",
   },
   Aska: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/aska",
   },
   Athagarh: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/athagarh",
   },
   Athmallik: {
@@ -40,11 +40,11 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/balliguda",
   },
   Balugaon: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/balugaon",
   },
   Banki: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/banki",
   },
   Banpur: {
@@ -60,7 +60,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/bargarh",
   },
   Baripada: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/baripada",
   },
   Barpali: {
@@ -72,7 +72,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/basudevpur",
   },
   Bellaguntha: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/bellaguntha",
   },
   Belpahar: {
@@ -88,7 +88,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/bhadrak",
   },
   Bhanjanagar: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/bhanjanagar",
   },
   Bhawanipatna: {
@@ -112,7 +112,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/birmitrapur",
   },
   Boudhgarh: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/boudhgarh",
   },
   Brajrajnagar: {
@@ -128,7 +128,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/champua",
   },
   Chandbali: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/chandbali",
   },
   Chatrapur: {
@@ -136,11 +136,11 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/chatrapur",
   },
   Chikiti: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/chikiti",
   },
   Choudwar: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/choudwar",
   },
   Cuttack: {
@@ -152,11 +152,11 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/daspalla",
   },
   Deogarh: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/deogarh",
   },
   Dhamnagar: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/dhamnagar",
   },
   Dharamgarh: {
@@ -200,7 +200,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/hinjilicut",
   },
   Jagatsinghpur: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/jagatsinghpur",
   },
   Jajpur: {
@@ -212,11 +212,11 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/jaleswar",
   },
   Jatni: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/jatni",
   },
   Jeypore: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/jeypore",
   },
   Jharsuguda: {
@@ -232,7 +232,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/junagarh",
   },
   Kabisuryanagar: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/kabisuryanagar",
   },
   Kamakhyanagar: {
@@ -336,7 +336,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/padampur",
   },
   Paradeep: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/paradeep",
   },
   Paralakhemundi: {
@@ -368,7 +368,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/puri",
   },
   Purushottampur: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/purushottampur",
   },
   Rairangpur: {
@@ -384,7 +384,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/rambha",
   },
   Ranpur: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/ranpur",
   },
   Rayagada: {
@@ -420,7 +420,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/sundargarh",
   },
   Surada: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/surada",
   },
   Talcher: {
@@ -440,7 +440,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/tusura",
   },
   Udala: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/udala",
   },
   Umerkote: {

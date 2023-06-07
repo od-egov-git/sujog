@@ -52,7 +52,7 @@ function ContactUs() {
             </div>
           </div>
 
-          <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          {/* <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-lg-6 form-group">
@@ -79,7 +79,7 @@ function ContactUs() {
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-          </div>
+          </div> */}
 
         </div>
 
