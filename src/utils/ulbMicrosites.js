@@ -452,12 +452,3 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/vyasanagar",
   },
 };
-
-
-// SUJOG_Marriage Registration_Citizen User Manual .pdf
-
-// SUJOG_PropertyTax_Citizen User Manual.pdf
-
-// SUJOG_TL_Citizen User Manual.pdf
-
-// SUJOG_WS_Citizen User Manual.pdf
