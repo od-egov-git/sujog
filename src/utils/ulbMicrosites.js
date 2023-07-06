@@ -20,11 +20,11 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/athmallik",
   },
   Attabira: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/attabira",
   },
   Balangir: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/balangir",
   },
   Balasore: {
@@ -56,7 +56,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/barbil",
   },
   Bargarh: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/bargarh",
   },
   Baripada: {
@@ -64,7 +64,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/baripada",
   },
   Barpali: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/barpali",
   },
   Basudevpur: {
@@ -100,11 +100,11 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/bhuban",
   },
   Bijepur: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/bijepur",
   },
   Binka: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/binka",
   },
   Birmitrapur: {
@@ -168,7 +168,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/dhenkanal",
   },
   Digapahandi: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/digapahandi",
   },
   Ganjam: {
@@ -244,7 +244,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/kantabanji",
   },
   Karanjia: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/karanjia",
   },
   Kashinagar: {
@@ -284,7 +284,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/khordha",
   },
   Kodala: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/kodala",
   },
   Konark: {
@@ -328,7 +328,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/nuapada",
   },
   Odagaon: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/odagaon",
   },
   Padampur: {
@@ -372,7 +372,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/purushottampur",
   },
   Rairangpur: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/rairangpur",
   },
   Rajgangpur: {
@@ -404,7 +404,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/sambalpur/",
   },
   Sonepur: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/sonepur",
   },
   Soro: {
@@ -428,11 +428,11 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/talcher",
   },
   Tarbha: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/tarbha",
   },
   Titilagarh: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/titilagarh",
   },
   Tusura: {
@@ -452,3 +452,12 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/vyasanagar",
   },
 };
+
+
+// SUJOG_Marriage Registration_Citizen User Manual .pdf
+
+// SUJOG_PropertyTax_Citizen User Manual.pdf
+
+// SUJOG_TL_Citizen User Manual.pdf
+
+// SUJOG_WS_Citizen User Manual.pdf
