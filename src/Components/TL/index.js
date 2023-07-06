@@ -331,10 +331,10 @@ function TL() {
 													<div id="collapse-e" className="collapse" role="tabpanel" aria-labelledby="heading-e">
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">Trade License User Manual for Citizen
-																<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_Trade License_Citizen User Manual.pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_TL_Citizen User Manual.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_Trade License_Citizen User Manual.pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="/Deshboard/images/SUJOG_TL_Citizen User Manual.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
 																</div>
 															</div>
