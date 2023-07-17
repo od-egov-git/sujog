@@ -312,7 +312,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/nabarangpur",
   },
   Nayagarh: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/nayagarh",
   },
   Nilgiri: {
@@ -352,7 +352,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/pattamundai",
   },
   Phulbani: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/phulbani",
   },
   Pipli: {
