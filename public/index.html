@@ -9,6 +9,8 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <meta http-equiv="X-Frame-Options" content="DENY" >
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -51,7 +53,11 @@
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.27.0/feather.min.js" crossorigin="anonymous"></script>
 <!-- Dashboard Page Scrip Ends Here -->
-
+    <script>
+      if(top !== self) {
+        top.location.replace(self.location.href)
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

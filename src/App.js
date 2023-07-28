@@ -21,36 +21,52 @@ import ULBSpage from "./Components/ULBs-page";
 import TPA from "./Components/TPA";
 
 function App() {
+  const isTopWindow = window === window.top;
+
   return (
-    <>
-      <Header />
-      <MenuBar />
-      {/* { <HomePage /> } */}
-      <Switch>
-        <Route
-          exact
-          path="/"
-          render={() => {
-            return <Redirect to="/home" />;
+    <section>
+      {isTopWindow ? (
+        <>
+          <Header />
+          <MenuBar />
+          {/* { <HomePage /> } */}
+          <Switch>
+            <Route
+              exact
+              path="/"
+              render={() => {
+                return <Redirect to="/home" />;
+              }}
+            />
+            <Route exact path="/home" component={HomePage} />
+            <Route path="/aboutus" component={Aboutus} />
+            <Route path="/contactus" component={ContactUs} />
+            <Route path="/pgr" component={Pgr} />
+            <Route path="/mr" component={MR} />
+            <Route path="/pt" component={PT} />
+            <Route path="/wns" component={WnS} />
+            <Route path="/tl" component={TL} />
+            <Route path="/comingsoon" component={ComingSoon} />
+            <Route path="/rti" component={Rti} />
+            <Route path="/obpas-dashboard" component={Dashboard} />
+            <Route path="/privacy-policy" component={PrivacyPolicy} />
+            <Route path="/ulbs" component={ULBSpage} />
+            <Route path="/tpa" component={TPA} />
+          </Switch>
+          <Footer />
+        </>
+      ) : (
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
           }}
-        />
-        <Route exact path="/home" component={HomePage} />
-        <Route path="/aboutus" component={Aboutus} />
-        <Route path="/contactus" component={ContactUs} />
-        <Route path="/pgr" component={Pgr} />
-        <Route path="/mr" component={MR} />
-        <Route path="/pt" component={PT} />
-        <Route path="/wns" component={WnS} />
-        <Route path="/tl" component={TL} />
-        <Route path="/comingsoon" component={ComingSoon} />
-        <Route path="/rti" component={Rti} />
-        <Route path="/obpas-dashboard" component={Dashboard} />
-        <Route path="/privacy-policy" component={PrivacyPolicy} />
-        <Route path="/ulbs" component={ULBSpage} />
-        <Route path="/tpa" component={TPA} />
-      </Switch>
-      <Footer />
-    </>
+        >
+          Access is restricted.
+        </div>
+      )}
+    </section>
   );
 }
 
