@@ -26,10 +26,6 @@ function Footer() {
               <div class="col-lg-4 col-md-6 footer-links">
                 <h4>Quick link</h4>
                 <ul>
-                  {/* <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <Link to="comingsoon">Site map</Link>
-                  </li> */}
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
                     <Link to="contactus">contact</Link>
