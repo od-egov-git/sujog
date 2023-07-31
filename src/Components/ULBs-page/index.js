@@ -46,7 +46,7 @@ const ULBSpage = () => {
             <h2>ULBs</h2>
             <ol>
               <li>
-                <a href="index.html">Home</a>
+                <a href="/home">Home</a>
               </li>
               <li>ULBs</li>
             </ol>
