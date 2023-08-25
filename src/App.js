@@ -52,6 +52,7 @@ function App() {
             <Route path="/privacy-policy" component={PrivacyPolicy} />
             <Route path="/ulbs" component={ULBSpage} />
             <Route path="/tpa" component={TPA} />
+            <Route render={() => <Redirect to="/home" />} />
           </Switch>
           <Footer />
         </>
