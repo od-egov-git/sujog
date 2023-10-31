@@ -1,0 +1,65 @@
+.custom-modal {
+    background: none;
+}
+
+.custom-modal .modal-content {
+    background: none;
+    border: none;
+}
+
+/* CustomModal.css */
+.custom-modal-size .modal-dialog {
+    max-width: 90%; /* Adjust the width as per your requirement */
+  }
+  
+  .custom-modal-size .modal-content {
+    width: 100%;
+    max-height: 90vh; /* Adjust the height as per your requirement */
+  }
+  
+  .custom-modal-size .modal-body {
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+  }
+  
+  .custom-modal-size .modal-header,
+  .custom-modal-size .modal-footer {
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.custom-button {
+  font-size: 12px; /* Adjust the font size as needed */
+  margin: 1rem 0;
+}
+
+/* Media query to target mobile devices */
+@media (max-width: 767px) {
+  .custom-button {
+    font-size: 10px; /* Adjust the font size for mobile devices */
+    margin: 0.5rem 0;
+    width: 150px;
+  }
+}
+
+.btn-clr {
+  background-color: #FB7200;
+}
+.custom-icon {
+  border:1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  background: black;
+  color: white;
+}
+.custom-icon:active {
+  border:none
+}
+.close-btn:focus {
+  outline: none;
+}
