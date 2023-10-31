@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import PreApprovedInfoPopUp from "../PreApprovedInfoPopUp";
 //import $ from "jquery";
 class HomePage extends React.Component {
   constructor() {
@@ -76,6 +77,7 @@ class HomePage extends React.Component {
             </div>
           </section>
         </div>
+
         <main id="main">
           <div id="about" class="about about-pading">
             <div class="container">
@@ -592,7 +594,11 @@ class HomePage extends React.Component {
               </div>
             </div>
           </section>
+
         </main>
+
+        <PreApprovedInfoPopUp />
+
       </>
     );
   }

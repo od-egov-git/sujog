@@ -19,7 +19,6 @@ import TL from "./Components/TL";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import ULBSpage from "./Components/ULBs-page";
 import TPA from "./Components/TPA";
-
 function App() {
   return (
     <>
