@@ -2,10 +2,18 @@
     background: none;
 }
 
+
+
 .custom-modal .modal-content {
     background: none;
     border: none;
 }
+
+.custom-modal-size{
+  max-width: none !important;
+}
+
+
 
 /* CustomModal.css */
 .custom-modal-size .modal-dialog {
@@ -15,6 +23,8 @@
   .custom-modal-size .modal-content {
     width: 100%;
     max-height: 90vh; /* Adjust the height as per your requirement */
+    max-width: none!important;
+
   }
   
   .custom-modal-size .modal-body {
@@ -34,7 +44,7 @@
 }
 
 .custom-button {
-  font-size: 12px; /* Adjust the font size as needed */
+  font-size: 18px; /* Adjust the font size as needed */
   margin: 1rem 0;
 }
 
