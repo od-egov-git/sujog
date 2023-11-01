@@ -98,7 +98,7 @@ const PreApprovedInfoPopUp = () => {
             >
                 <Modal.Body>
                     <div>
-                        <h2>Select a Video</h2>
+                        <h2>Watch Pre Approved Plan Tutorial in English or Odia language.</h2>
                         <Button variant="success" onClick={handleEnglishVideo} className="custom-button btn-clr mt-3">
                             English Video
                         </Button>
