@@ -13,7 +13,7 @@ const PreApprovedInfoPopUp = () => {
         // Set a timeout to close the popup after 60 seconds
         const timeout = setTimeout(() => {
             closeModal();
-        }, 60000);
+        }, 30000);
         setTimeoutId(timeout);
         return () => {
             clearTimeout(timeout);
@@ -33,15 +33,22 @@ const PreApprovedInfoPopUp = () => {
     };
 
     const handleEnglishVideo = () => {
-        window.location.href = 'https://youtu.be/2V1ssVuTsKM?si=2dFR6DgVL-0PFVjj'; // Replace with the English YouTube URL
+        let url = 'https://youtu.be/2V1ssVuTsKM?si=2dFR6DgVL-0PFVjj'; // Replace with the English YouTube URL
+        window.open(url,"_blank")
     };
 
     const handleOdiaVideo = () => {
-        window.location.href = 'https://youtu.be/kIcorQHwHQA?si=OFjrfG6kgjA9DMg8'; // Replace with the Odia YouTube URL
+        let url = 'https://youtu.be/kIcorQHwHQA?si=OFjrfG6kgjA9DMg8'; // Replace with the Odia YouTube URL
+        window.open(url,"_blank")
     };
 
     const handleDownloadManual = () => {
-        window.location.href = '/Deshboard/images/SUJOG Pre Approved Plans User Manual.pdf';
+        let url = '/Deshboard/images/SUJOG Pre Approved Plans User Manual.pdf';
+        window.open(url,"_blank")
+    };
+    const handleDownloadQuickGuide = () => {
+        let url = '/Deshboard/images/Quick Guide Pre Approved Plan.pdf';
+        window.open(url,"_blank")
     };
 
     return (
@@ -55,6 +62,7 @@ const PreApprovedInfoPopUp = () => {
                 className="custom-modal-size"
                 centered
             >
+                
                 <Modal.Body>
                     <div style={{ position: 'relative' }}>
                         <button
@@ -72,13 +80,16 @@ const PreApprovedInfoPopUp = () => {
                             <FontAwesomeIcon icon={faTimes} className="custom-icon" />
                         </button>
                         <img
-                            src="assets/img/banner_v1.jpg"
+                            src="assets/img/Pre approved plan popup 9.jpg"
                             alt="Image"
                             style={{ width: '100%', height: 'auto' }}
                         />
                         <div style={{ position: 'absolute', top: '45%', left: '75%', transform: 'translate(-50%, -50%)', display: 'flex', flexDirection: 'column' }}>
                             <Button variant="primary" onClick={openOptions} className="custom-button btn-clr">
-                                Watch Training Video
+                                Watch Pre-Approved plans Video
+                            </Button>
+                            <Button variant="secondary" onClick={handleDownloadQuickGuide} className="custom-button btn-clr">
+                                <span class="tooltiptext">Download Quick Guide</span>
                             </Button>
                             <Button variant="secondary" onClick={handleDownloadManual} className="custom-button btn-clr">
                                 <span class="tooltiptext">Download User Manual</span>
@@ -87,7 +98,7 @@ const PreApprovedInfoPopUp = () => {
                     </div>
                 </Modal.Body>
             </Modal>
-            
+
             {/* Options Modal */}
             <Modal
                 size="lg"
