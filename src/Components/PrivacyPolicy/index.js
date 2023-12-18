@@ -10,27 +10,21 @@ const PrivacyPolicy = () => {
             Privacy Policy
           </h1>
           <p style={{ textAlign: "justify" }}>
-            &emsp; The system (System) operationalized under the SUJOG (SUJOG)
-            initiative of the Housing & Urban Development Department (H&UDD),
-            Government of Odisha, comprises of a web-based Portal (Portal) and a
-            Mobile App (Mobile App) for Authorized Officials of the
-            Municipalities, State including their associated agencies and
-            Citizens of Odisha. The System aims to provide enhanced quality of
-            urban services (Services) to citizens through online / single window
-            service delivery channel and ensure accessible, convenient,
-            transparent and timely delivery of services. When you use the SUJOG
-            System (either through the Portal or the Mobile App), some personal
-            information is collected from and about you. We are committed to
-            protecting the security of this information and safeguarding your
-            privacy. This privacy policy sets out the details of the personal
-            information collected, the manner in which it collected, by whom as
-            well as the purposes for which it is used. At registration you
-            accepted the terms of this Privacy Policy and your use of the
-            System, Portal or Mobile App signifies your continued acceptance
-            thereof. This Privacy Policy may be revised from time to time and
-            you will be notified of all such changes. In order to use the
-            System, Portal or Mobile App, you will be required to consent to the
-            terms of the Privacy Policy as revised from time to time.
+            &emsp; The system (System) operationalized under the SUJOG (SUJOG) initiative of the Housing & Urban Development Department (H&UDD),
+            Government of Odisha, comprises of a web-based Portal (Portal), SUJOG Mobile App (Mobile App) and Urban Service Monitoring System (USMS)
+            Mobile App for Authorized Officials of the Municipalities, State including their associated agencies and Citizens of Odisha.
+            SUJOG portal/ app is having citizen interface for various modules like Building Permission Approval, Property Tax, Water & Sewerage,
+            Trade License, Marriage Registration, Public Grievance Redressal, Faecal Sludge Management (FSM) and Urban Service Monitoring System.
+            The System aims to provide enhanced quality of urban services (Services) to citizens through online / single window service delivery
+            channel and ensure accessible, convenient, transparent and timely delivery of services. When you use the SUJOG System
+            (either through the Portal or the Mobile App), some personal information is collected from and about you. We are committed to
+            protecting the security of this information and safeguarding your privacy. This privacy policy sets out the details of the personal
+            information collected, the manner in which it collected, by whom as well as the purposes for which it is used. At registration you
+            accepted the terms of this Privacy Policy and your use of the System, Portal or Mobile App signifies your continued acceptance thereof.
+            This Privacy Policy may be revised from time to time and you will be notified of all such changes. In order to use the System, Portal or
+            Mobile App, you will be required to consent to the terms of the Privacy Policy as revised from time to time. 
+
+
           </p>
           <h2>1. INFORMATION COLLECTED AND MANNER OF COLLECTION</h2>
           <p style={{ textAlign: "justify" }}>
