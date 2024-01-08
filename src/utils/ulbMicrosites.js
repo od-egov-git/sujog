@@ -16,7 +16,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/athagarh",
   },
   Athmallik: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/athmallik",
   },
   Attabira: {
@@ -36,7 +36,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/balimela",
   },
   Balliguda: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/balliguda",
   },
   Balugaon: {
@@ -184,7 +184,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/gudari",
   },
   "G. Udayagiri": {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/gudayagiri",
   },
   Gunupur: {
@@ -248,7 +248,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/karanjia",
   },
   Kashinagar: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/kashinagar",
   },
   Kendrapara: {
@@ -300,7 +300,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/kotpad",
   },
   Kuchinda: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/kuchinda",
   },
   Malkangiri: {
@@ -312,7 +312,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/nabarangpur",
   },
   Nayagarh: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/nayagarh",
   },
   Nilgiri: {
@@ -332,7 +332,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/odagaon",
   },
   Padampur: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/padampur",
   },
   Paradeep: {
@@ -340,11 +340,11 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/paradeep",
   },
   Paralakhemundi: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/paralakhemundi",
   },
   Patnagarh: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/patnagarh",
   },
   Pattamundai: {
@@ -352,7 +352,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/pattamundai",
   },
   Phulbani: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/phulbani",
   },
   Pipli: {
@@ -424,7 +424,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/surada",
   },
   Talcher: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/talcher",
   },
   Tarbha: {
@@ -436,7 +436,7 @@ export const ULB_MICROSITES = {
     link: "https://sujogportal.odisha.gov.in/titilagarh",
   },
   Tusura: {
-    isActive: false,
+    isActive: true,
     link: "https://sujogportal.odisha.gov.in/tusura",
   },
   Udala: {

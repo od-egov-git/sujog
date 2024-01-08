@@ -11,7 +11,7 @@ function RTI() {
         <div className="d-flex justify-content-between align-items-center">
           <h2>RTI</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/home">Home</a></li>
             <li>RTI</li>
           </ol>
         </div>

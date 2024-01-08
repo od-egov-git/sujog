@@ -180,9 +180,9 @@ function TL() {
 												<li className="nav-item">
 													<a id="tab-C" href="#pane-C" className="nav-link" data-toggle="tab" role="tab">List of Documents</a>
 												</li>
-												<li className="nav-item">
+												{/* <li className="nav-item">
 													<a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab">Tariff</a>
-												</li>
+												</li> */}
 												<li className="nav-item">
 													<a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">User Manual</a>
 												</li>

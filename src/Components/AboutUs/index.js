@@ -11,7 +11,7 @@ function Aboutus() {
         <div class="d-flex justify-content-between align-items-center">
           <h2>About us</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="home">Home</a></li>
             <li>About us</li>
           </ol>
         </div>

@@ -142,7 +142,7 @@ const TPA = () => {
             <h2>Third Party Verification</h2>
             <ol>
               <li>
-                <a href="index.html">Home</a>
+                <a href="/home">Home</a>
               </li>
               <li>Third Party Verification</li>
             </ol>
