@@ -6,7 +6,7 @@ function Menubar() {
         <div className="container">
 
             <div className="logo float-left">
-            <Link to="/home"><img src="assets/img/Sujog.jpg" alt="" className="img-fluid" /></Link>
+                <Link to="/home"><img src="assets/img/Sujog.jpg" alt="" className="img-fluid" /></Link>
             </div>
 
             <nav className="nav-menu float-right d-none d-lg-block">
@@ -31,7 +31,7 @@ function Menubar() {
                         <ul>
                             <li><Link to="rti">RTI</Link></li>
                             <li><Link to="comingsoon">Public Notice</Link></li>
-                            <li><a rel="noreferrer" href="http://www.urbanodisha.gov.in/Admin/Upload_Files/Citizen%20Charter/Draft%20Citizen%20Charter_HUD_Final.pdf" target="_blank">Citizen Charter</a></li>
+                            <li><a rel="noreferrer" href="/Deshboard/images/Citizen Charter_HUD_Final.pdf" target="_blank">Citizen Charter</a></li>
                             <li><Link to="privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </li>
@@ -49,7 +49,7 @@ function Menubar() {
                             <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
                                 Log In
-			  </a>
+                            </a>
 
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item d-none d-lg-block" href="https://sujog.odisha.gov.in/citizen/user/register">Citizen</a>
