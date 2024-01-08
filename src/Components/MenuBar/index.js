@@ -6,16 +6,13 @@ function Menubar() {
         <div className="container">
 
             <div className="logo float-left">
-            <Link to="/home"><img src="assets/img/Sujog.jpg" alt="" className="img-fluid" /></Link>
+                <Link to="/home"><img src="assets/img/Sujog.jpg" alt="" className="img-fluid" /></Link>
             </div>
-
             <nav className="nav-menu float-right d-none d-lg-block">
-
-
                 <ul>
                     <li className="active"><Link to="/home">Home</Link></li>
                     {/* <li><Link to="/aboutus" >About Us</Link></li> */}
-                    <li className="drop-down"><Link to="">Services</Link>
+                    <li className="drop-down"><Link to="/home">Services</Link>
                         <ul>
                             {/* <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">OBPAS</a></li> */}
                             {/* <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">Building Permission Approval</a></li> */}
@@ -27,12 +24,11 @@ function Menubar() {
                             <li><Link to="/mr">Marriage Registration</Link></li>
                         </ul>
                     </li>
-                    <li className="drop-down"><Link to="">Information</Link>
+                    <li className="drop-down"><Link to="/home">Information</Link>
                         <ul>
                             <li><Link to="rti">RTI</Link></li>
-                            {/* <li><Link to="comingsoon">Public Notice</Link></li> */}
-                            <li><Link to="">Public Notice</Link></li>
-                            <li><a rel="noreferrer" href="http://www.urbanodisha.gov.in/Admin/Upload_Files/Citizen%20Charter/Draft%20Citizen%20Charter_HUD_Final.pdf" target="_blank">Citizen Charter</a></li>
+                            <li><Link to="/home">Public Notice</Link></li>
+                            <li><a rel="noreferrer" href="/Deshboard/images/Citizen Charter_HUD_Final.pdf" target="_blank">Citizen Charter</a></li>
                             <li><Link to="privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </li>
@@ -50,13 +46,13 @@ function Menubar() {
                             <div class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
                                 Log In
-                        </div>
+                            </div>
 
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item d-lg-block" style={{color: "#000"}} href="https://sujog.odisha.gov.in/citizen/user/register">Citizen</a>
-                                <a class="dropdown-item d-lg-block" style={{color: "#000"}} href="https://sujog.odisha.gov.in/employee/user/login">Department</a>
-                                <a class="dropdown-item d-lg-block" style={{color: "#000"}} href="https://sujog.odisha.gov.in/digit-ui/citizen/login">others</a>
-                                <a class="dropdown-item d-lg-block" style={{color: "#000"}} href="/tpa">TPA</a>
+                                <a class="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/citizen/user/register">Citizen</a>
+                                <a class="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/employee/user/login">Department</a>
+                                <a class="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/digit-ui/citizen/login">others</a>
+                                <a class="dropdown-item d-lg-block" style={{ color: "#000" }} href="/tpa">TPA</a>
                             </div>
                         </div>
                     </li>
