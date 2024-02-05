@@ -39,7 +39,7 @@ function Footer() {
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
                     <a
-                      href="assets/img/SUJOG Privacy Policy.pdf"
+                      href="assets/img/SUJOG Privacy Policy_2024.pdf"
                       target="_blank"
                     >
                       Privacy policy
