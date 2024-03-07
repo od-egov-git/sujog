@@ -1,0 +1,15 @@
+.notification-bar {
+  background-color: #ff6b6b; /* Red color */
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Optional: Adjust spacing as needed */
+}
+
+.notification-text {
+  margin: 0;
+  text-align: center;
+}

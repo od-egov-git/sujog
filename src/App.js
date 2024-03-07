@@ -19,6 +19,7 @@ import TL from "./Components/TL";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import ULBSpage from "./Components/ULBs-page";
 import TPA from "./Components/TPA";
+import Notification from "./Components/Notification";
 function App() {
   const isTopWindow = window === window.top;
 
@@ -26,6 +27,7 @@ function App() {
     <section>
       {isTopWindow ? (
         <>
+          <Notification />
           <Header />
           <MenuBar />
           {/* { <HomePage /> } */}
