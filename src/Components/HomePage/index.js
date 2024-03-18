@@ -37,7 +37,7 @@ class HomePage extends React.Component {
             <title>SUJOG</title>
           </Helmet>
           <div className="chif" data-aos="fade-up" data-aos-delay="100">
-            <img alt="homepage" src="assets/img/Chif-minister-2.png" />
+            <img alt="homepage" src="assets/img/Chif-minister-2.png" style={{display: 'none'}}/>
           </div>
           <section id="hero">
             <div className="hero-container">
@@ -373,6 +373,7 @@ class HomePage extends React.Component {
                           <ul
                             className="list-aggregate"
                             id="marquee-vertical-2"
+                            style={{display: 'none'}}
                           >
                             <li>
                               <div className="policy-img2">
