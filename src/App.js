@@ -27,7 +27,7 @@ function App() {
     <section>
       {isTopWindow ? (
         <>
-          <Notification />
+          {/* <Notification /> */}
           <Header />
           <MenuBar />
           {/* { <HomePage /> } */}
