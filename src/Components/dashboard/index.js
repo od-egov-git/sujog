@@ -690,6 +690,38 @@ function Dashboard() {
                                 </div>
                               </div>
                             </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                              Layout Approval Drawing Manual v1
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Layout Approval Drawing Manual v1.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Layout Approval Drawing Manual v1.pdf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
 
@@ -740,6 +772,38 @@ function Dashboard() {
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Odisha OBPS Drawing Template_v1.6.dwg"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                              Layout Approval Drawing Template v1(DXF)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Layout Approval Drawing Template v1.dxf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Layout Approval Drawing Template v1.dxf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -877,6 +941,38 @@ function Dashboard() {
                             role="tabpanel"
                             aria-labelledby="heading-e"
                           >
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                              Layout Approval Reference File v1(DXF)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Layout Approval Reference File v1.dxf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Layout Approval Reference File v1.dxf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
                                 OBPAS Reference files - Addition & Alteration , Category C & D(DWG)
