@@ -121,19 +121,14 @@ function Dashboard() {
                             <div class="card-body">
                               <div class="row card-body">
                                 <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
+                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <h6>Service Delivery Time</h6>
-                                          <div class="small font-weight-bold text-primary mb-1">
-                                            Low Risk Approval
+                                          <div class="small font-weight-bold text-secondary mb-1">
+                                            Time Limit prescribed as per the Public Service Guarantee Act
                                           </div>
-                                          <div class="h5">7 Days</div>
-                                          <div class="small font-weight-bold text-primary mb-1">
-                                            Other than Low Risk Approval{" "}
-                                          </div>
-                                          <div class="h5">60 Days</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -145,10 +140,10 @@ function Dashboard() {
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
                                           <div class="small font-weight-bold text-secondary mb-1">
-                                            Total Number of Applications
-                                            Received
+                                            Total Number of applications
+                                            received
                                           </div>
-                                          <div class="h5">963</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -160,9 +155,9 @@ function Dashboard() {
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
                                           <div class="small font-weight-bold text-success mb-1">
-                                            Number of Applications Approved
+                                            Total Number of applications approved
                                           </div>
-                                          <div class="h5">670</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -174,9 +169,9 @@ function Dashboard() {
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
                                           <div class="small font-weight-bold text-info mb-1">
-                                            Number of Applications Rejected
+                                            Average time taken to obtain registration/renewal
                                           </div>
-                                          <div class="h5">55</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -188,9 +183,9 @@ function Dashboard() {
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
                                           <div class="small font-weight-bold text-primary mb-1">
-                                            Total Number of Applications Pending
+                                            Median time taken to obtain registration/renewal
                                           </div>
-                                          <div class="h5">238</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -202,10 +197,9 @@ function Dashboard() {
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
                                           <div class="small font-weight-bold text-secondary mb-1">
-                                            Mean/Average Number of Days for
-                                            Approval
+                                            Minimum time taken to obtain registration/renewal
                                           </div>
-                                          <div class="h5">73</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -217,9 +211,9 @@ function Dashboard() {
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
                                           <div class="small font-weight-bold text-success mb-1">
-                                            Median Number of Days for Approval
+                                            Maximum time taken to obtain registration/renewal
                                           </div>
-                                          <div class="h5">51</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -231,23 +225,9 @@ function Dashboard() {
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
                                           <div class="small font-weight-bold text-info mb-1">
-                                            Minimum Number of Days for Approval
+                                            "Average fee" taken by the Department for completion of entire process of obtaining approval/certificate
                                           </div>
-                                          <div class="h5">1</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">
-                                            Maximum Number of Days for Approval
-                                          </div>
-                                          <div class="h5">311</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -286,9 +266,9 @@ function Dashboard() {
                                     <div class="d-flex align-items-center">
                                       <div class="flex-grow-1">
                                         <div class="small font-weight-bold text-primary mb-1">
-                                          Occupancy Application
+                                          Time Limit prescribed as per the Public Service Guarantee Act
                                         </div>
-                                        <div class="h5">30 Days</div>
+                                        <div class="h5">0</div>
                                       </div>
                                     </div>
                                   </div>
@@ -300,7 +280,7 @@ function Dashboard() {
                                     <div class="d-flex align-items-center">
                                       <div class="flex-grow-1">
                                         <div class="small font-weight-bold text-secondary mb-1">
-                                          Total Number of Applications Received
+                                          Total Number of applications received
                                         </div>
                                         <div class="h5">0</div>
                                       </div>
@@ -314,7 +294,7 @@ function Dashboard() {
                                     <div class="d-flex align-items-center">
                                       <div class="flex-grow-1">
                                         <div class="small font-weight-bold text-success mb-1">
-                                          Number of Applications Approved
+                                          Total Number of applications approved
                                         </div>
                                         <div class="h5">0</div>
                                       </div>
@@ -328,7 +308,7 @@ function Dashboard() {
                                     <div class="d-flex align-items-center">
                                       <div class="flex-grow-1">
                                         <div class="small font-weight-bold text-info mb-1">
-                                          Number of Applications Rejected
+                                          Average time taken to obtain registration/renewal
                                         </div>
                                         <div class="h5">0</div>
                                       </div>
@@ -342,7 +322,7 @@ function Dashboard() {
                                     <div class="d-flex align-items-center">
                                       <div class="flex-grow-1">
                                         <div class="small font-weight-bold text-primary mb-1">
-                                          Total Number of Applications Pending
+                                          Median time taken to obtain registration/renewal
                                         </div>
                                         <div class="h5">0</div>
                                       </div>
@@ -356,8 +336,7 @@ function Dashboard() {
                                     <div class="d-flex align-items-center">
                                       <div class="flex-grow-1">
                                         <div class="small font-weight-bold text-secondary mb-1">
-                                          Mean/Average Number of Days for
-                                          Approval
+                                          Minimum time taken to obtain registration/renewal
                                         </div>
                                         <div class="h5">0</div>
                                       </div>
@@ -371,7 +350,7 @@ function Dashboard() {
                                     <div class="d-flex align-items-center">
                                       <div class="flex-grow-1">
                                         <div class="small font-weight-bold text-success mb-1">
-                                          Median Number of Days for Approval
+                                          Maximum time taken to obtain registration/renewal
                                         </div>
                                         <div class="h5">0</div>
                                       </div>
@@ -385,9 +364,64 @@ function Dashboard() {
                                     <div class="d-flex align-items-center">
                                       <div class="flex-grow-1">
                                         <div class="small font-weight-bold text-info mb-1">
-                                          Minimum Number of Days for Approval
+                                          "Average fee" taken by the Department for completion of entire process of obtaining approval/certificate
                                         </div>
-                                        <div class="h5">1</div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Plinth Approval */}
+                        <div class="card">
+                          <div class="card-header">
+                            <a
+                              class="collapsed card-link text-dark"
+                              data-toggle="collapse"
+                              href="#collapseFour"
+                            >
+                              <span class="float-right">
+                                <i class="fa fa-arrow-down"></i>
+                              </span>
+                              <h6>Plinth Approval</h6>
+                              <span class="float-right">
+                                <i class="ti-plus"></i>
+                              </span>
+                            </a>
+                          </div>
+                          <div
+                            id="collapseFour"
+                            class="collapse"
+                            data-parent="#accordion"
+                          >
+                            <div class="row card-body">
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-primary mb-1">
+                                          Time Limit prescribed as per the Public Service Guarantee Act
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-secondary mb-1">
+                                          Total Number of applications received
+                                        </div>
+                                        <div class="h5">0</div>
                                       </div>
                                     </div>
                                   </div>
@@ -399,7 +433,216 @@ function Dashboard() {
                                     <div class="d-flex align-items-center">
                                       <div class="flex-grow-1">
                                         <div class="small font-weight-bold text-success mb-1">
-                                          Maximum Number of Days for Approval
+                                          Total Number of applications approved
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-info mb-1">
+                                          Average time taken to obtain registration/renewal
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-primary mb-1">
+                                          Median time taken to obtain registration/renewal
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-secondary mb-1">
+                                          Minimum time taken to obtain registration/renewal
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-success mb-1">
+                                          Maximum time taken to obtain registration/renewal
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-info mb-1">
+                                          "Average fee" taken by the Department for completion of entire process of obtaining approval/certificate
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Alteration and Addition/Revision/Revalidation of Building Plan */}
+                        <div class="card">
+                          <div class="card-header">
+                            <a
+                              class="collapsed card-link text-dark"
+                              data-toggle="collapse"
+                              href="#collapseFive"
+                            >
+                              <span class="float-right">
+                                <i class="fa fa-arrow-down"></i>
+                              </span>
+                              <h6>Alteration and Addition/Revision/Revalidation of Building Plan</h6>
+                              <span class="float-right">
+                                <i class="ti-plus"></i>
+                              </span>
+                            </a>
+                          </div>
+                          <div
+                            id="collapseFive"
+                            class="collapse"
+                            data-parent="#accordion"
+                          >
+                            <div class="row card-body">
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-primary mb-1">
+                                          Time Limit prescribed as per the Public Service Guarantee Act
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-secondary mb-1">
+                                          Total Number of applications received
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-success mb-1">
+                                          Total Number of applications approved
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-info mb-1">
+                                          Average time taken to obtain registration/renewal
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-primary mb-1">
+                                          Median time taken to obtain registration/renewal
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-secondary mb-1">
+                                          Minimum time taken to obtain registration/renewal
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-success mb-1">
+                                          Maximum time taken to obtain registration/renewal
+                                        </div>
+                                        <div class="h5">0</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
+                                  <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                      <div class="flex-grow-1">
+                                        <div class="small font-weight-bold text-info mb-1">
+                                          "Average fee" taken by the Department for completion of entire process of obtaining approval/certificate
                                         </div>
                                         <div class="h5">0</div>
                                       </div>
@@ -692,7 +935,7 @@ function Dashboard() {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Layout Approval Drawing Manual v1
+                                Layout Approval Drawing Manual v1
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Layout Approval Drawing Manual v1.pdf"
@@ -786,7 +1029,7 @@ function Dashboard() {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Layout Approval Drawing Template v1(DXF)
+                                Layout Approval Drawing Template v1(DXF)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Layout Approval Drawing Template v1.dxf"
@@ -943,7 +1186,7 @@ function Dashboard() {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Layout Approval Reference File v1(DXF)
+                                Layout Approval Reference File v1(DXF)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Layout Approval Reference File v1.dxf"

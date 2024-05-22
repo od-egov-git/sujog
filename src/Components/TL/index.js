@@ -43,16 +43,13 @@ function TL() {
                           <div id="collapseOne" class="collapse show" data-parent="#accordion">
                             <div class="card-body">
                               <div class="row card-body">
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
+                              <div class="col-xl-4 col-md-6 mb-4">
+                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <h6>Service Delivery Time</h6>
-                                          {/* <div class="small font-weight-bold text-primary mb-1">Low Risk Approval</div>
-																					<div class="h5">7 Days</div>
-																					<div class="small font-weight-bold text-primary mb-1">Other than Low Risk Approval </div>
-																					<div class="h5">60 Days</div> */}
+                                          <div class="small font-weight-bold text-secondary mb-1">Time Limit prescribed as per the Public Service Guarantee Act</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -63,8 +60,8 @@ function TL() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
-                                          <div class="h5">520</div>
+                                          <div class="small font-weight-bold text-secondary mb-1">Total Number of applications received</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -75,8 +72,8 @@ function TL() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
-                                          <div class="h5">185</div>
+                                          <div class="small font-weight-bold text-success mb-1">Total Number of applications approved</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -87,8 +84,8 @@ function TL() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
-                                          <div class="h5">40</div>
+                                          <div class="small font-weight-bold text-info mb-1">Average time taken to obtain registration/renewal</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -99,8 +96,8 @@ function TL() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
-                                          <div class="h5">295</div>
+                                          <div class="small font-weight-bold text-primary mb-1">Median time taken to obtain registration/renewal</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -111,8 +108,8 @@ function TL() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
-                                          <div class="h5">32</div>
+                                          <div class="small font-weight-bold text-secondary mb-1">Minimum time taken to obtain registration/renewal</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -123,8 +120,8 @@ function TL() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">Median Number of Days for Approval</div>
-                                          <div class="h5">31</div>
+                                          <div class="small font-weight-bold text-success mb-1">Maximum time taken to obtain registration/renewal</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
@@ -135,20 +132,8 @@ function TL() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-info mb-1">Minimum Number of Days for Approval</div>
-                                          <div class="h5">1</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">Maximum Number of Days for Approval</div>
-                                          <div class="h5">194</div>
+                                          <div class="small font-weight-bold text-info mb-1">"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</div>
+                                          <div class="h5">0</div>
                                         </div>
                                       </div>
                                     </div>
