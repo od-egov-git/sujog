@@ -37,7 +37,7 @@ class HomePage extends React.Component {
             <title>SUJOG</title>
           </Helmet>
           <div className="chif" data-aos="fade-up" data-aos-delay="100">
-            <img alt="homepage" src="assets/img/Chif-minister-2.png" style={{display: 'none'}}/>
+            <img alt="homepage" src="assets/img/New CM Photo.jpg"/>
           </div>
           <section id="hero">
             <div className="hero-container">
