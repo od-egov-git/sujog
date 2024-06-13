@@ -345,7 +345,7 @@ body {
  }
 
  .chif{float:right; width:17%; background:#0579c6; height:448px; }
- .chif img{width:100%; margin-top:50%;}
+ .chif img{width:100%; margin-top:40%;}
  .chif p{font-size:13px; padding:5px 10px; color:#fff;}
  .chif p strong{font-style:italic;}
  .login .dropdown .btn{border-radius:19px; background: #0579c6; padding: 5px 33px !important;
