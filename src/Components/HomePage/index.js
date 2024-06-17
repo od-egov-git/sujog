@@ -36,8 +36,8 @@ class HomePage extends React.Component {
           <Helmet>
             <title>SUJOG</title>
           </Helmet>
-          <div className="chif" data-aos="fade-up" data-aos-delay="100">
-            <img alt="homepage" src="assets/img/New CM Photo.jpg"/>
+          <div className="chif aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <img alt="homepage" src="assets/img/NewCM.jpg" style={{ width: "100%", height: "auto" }} />
           </div>
           <section id="hero">
             <div className="hero-container">
