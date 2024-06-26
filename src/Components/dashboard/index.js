@@ -1672,10 +1672,10 @@ function Dashboard() {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                OBPS User Manual_Architect & Technical Person
+                                OBPAS User Manual_Architect & Technical Person
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS User Manual_Architect & Technical Person_v1.7.pdf"
+                                    href="/Deshboard/images/OBPAS User Manual_Architect & Technical Person_1.8.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1689,7 +1689,7 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS User Manual_Architect & Technical Person_v1.7.pdf"
+                                    href="/Deshboard/images/OBPAS User Manual_Architect & Technical Person_1.8.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -1705,10 +1705,10 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                OBPS User Manual_Citizen
+                                Land Regularization User Manual_Citizen
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS User Manual_Citizen_v1.7.pdf"
+                                    href="/Deshboard/images/Land Regularization User Manual_Citizen.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1722,7 +1722,73 @@ function Dashboard() {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPS User Manual_Citizen_v1.7.pdf"
+                                    href="/Deshboard/images/Land Regularization User Manual_Citizen.pdf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Layout Approval User Manual_Architect and Town Planner
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Layout Approval User Manual_Architect and Town Planner.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Layout Approval User Manual_Architect and Town Planner.pdf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Building Regularization_User Manual_Architect & Technical Person
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Building Regularization_User Manual_Architect & Technical Person.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Building Regularization_User Manual_Architect & Technical Person.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
