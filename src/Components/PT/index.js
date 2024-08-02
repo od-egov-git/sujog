@@ -318,7 +318,7 @@ function PT() {
                                   Property Tax User Manual for Citizen
                                   <div className="h5 pull-right">
                                     <a
-                                      href="/Deshboard/images/SUJOG_PropertyTax_Citizen User Manual.pdf"
+                                      href="/Deshboard/images/SUJOG_Property Tax_Citizen User Manual_July 2024.pdf"
                                       className="tooltip"
                                       target="_blank"
                                     >
@@ -334,7 +334,7 @@ function PT() {
                                   </div>
                                   <div className="h5 pull-right">
                                     <a
-                                      href="/Deshboard/images/SUJOG_PropertyTax_Citizen User Manual.pdf"
+                                      href="/Deshboard/images/SUJOG_Property Tax_Citizen User Manual_July 2024.pdf"
                                       className="tooltip"
                                       target="_blank"
                                     >

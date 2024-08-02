@@ -294,10 +294,10 @@ function WnS() {
 														<div class="flex-grow-1 free-1">
 															<div class="small font-weight-bold text-primary mb-1">Water & Sewerage User Manual for Citizen
 
-																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_WS_Citizen User Manual.pdf" class="tooltip" target="_blank">
+																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_WS_Citizen User Manual_July 2024.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">Download</span><img alt="Water & Sewerage" src="/assets/img/download.svg" class="fkdl" /></a>
 																</div>
-																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_WS_Citizen User Manual.pdf" class="tooltip" target="_blank">
+																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_WS_Citizen User Manual_July 2024.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">View</span><img alt="Water & Sewerage" src="/assets/img/view.svg" class="fkdl" /></a>
 																</div>
 															</div>
@@ -350,11 +350,11 @@ function WnS() {
 														</div>
 
 														<div className="flex-grow-1 free-1">
-															<div className="small font-weight-bold text-primary mb-1">Water_Tariff_2022-23.pdf
-																<div className="h5 pull-right"><a href="Deshboard/images/Water_Tariff_2022-23.pdf" className="tooltip" target="_blank">
+															<div className="small font-weight-bold text-primary mb-1">Water_Tariff_2024-25.pdf
+																<div className="h5 pull-right"><a href="Deshboard/images/water tariff_2024-25.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
 																</div>
-																<div className="h5 pull-right"><a href="Deshboard/images/Water_Tariff_2022-23.pdf" className="tooltip" target="_blank">
+																<div className="h5 pull-right"><a href="Deshboard/images/water tariff_2024-25.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
 																</div>
 															</div>
