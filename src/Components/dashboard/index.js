@@ -4,6 +4,14 @@ import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 import "./index.css";
 
 function Dashboard() {
+  const downloadExcel = (fileName) => {
+    const link = document.createElement('a');
+    link.href = fileName;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   return (
     <div id="layoutSidenav_content">
       <Helmet>
@@ -119,121 +127,48 @@ function Dashboard() {
                             data-parent="#accordion"
                           >
                             <div class="card-body">
-                              <div class="row card-body">
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">
-                                            Time Limit prescribed as per the Public Service Guarantee Act
-                                          </div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">
-                                            Total Number of applications
-                                            received
-                                          </div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">
-                                            Total Number of applications approved
-                                          </div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-info mb-1">
-                                            Average time taken to obtain registration/renewal
-                                          </div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-primary mb-1">
-                                            Median time taken to obtain registration/renewal
-                                          </div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">
-                                            Minimum time taken to obtain registration/renewal
-                                          </div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">
-                                            Maximum time taken to obtain registration/renewal
-                                          </div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-info mb-1">
-                                            "Average fee" taken by the Department for completion of entire process of obtaining approval/certificate
-                                          </div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                              <table className="table table-bordered table-striped">
+                                <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
+                                  <tr>
+                                    <th scope="col">Particulars</th>
+                                    <th scope="col">Details</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications received</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications approved</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
+                                    <td>0</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
                           </div>
                         </div>
@@ -260,118 +195,48 @@ function Dashboard() {
                             data-parent="#accordion"
                           >
                             <div class="row card-body">
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-primary mb-1">
-                                          Time Limit prescribed as per the Public Service Guarantee Act
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-secondary mb-1">
-                                          Total Number of applications received
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-success mb-1">
-                                          Total Number of applications approved
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-info mb-1">
-                                          Average time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-primary mb-1">
-                                          Median time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-secondary mb-1">
-                                          Minimum time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-success mb-1">
-                                          Maximum time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-info mb-1">
-                                          "Average fee" taken by the Department for completion of entire process of obtaining approval/certificate
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                              <table className="table table-bordered table-striped">
+                                <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
+                                  <tr>
+                                    <th scope="col">Particulars</th>
+                                    <th scope="col">Details</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications received</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications approved</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
+                                    <td>0</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
                           </div>
                         </div>
@@ -399,118 +264,48 @@ function Dashboard() {
                             data-parent="#accordion"
                           >
                             <div class="row card-body">
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-primary mb-1">
-                                          Time Limit prescribed as per the Public Service Guarantee Act
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-secondary mb-1">
-                                          Total Number of applications received
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-success mb-1">
-                                          Total Number of applications approved
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-info mb-1">
-                                          Average time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-primary mb-1">
-                                          Median time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-secondary mb-1">
-                                          Minimum time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-success mb-1">
-                                          Maximum time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-info mb-1">
-                                          "Average fee" taken by the Department for completion of entire process of obtaining approval/certificate
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                              <table className="table table-bordered table-striped">
+                                <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
+                                  <tr>
+                                    <th scope="col">Particulars</th>
+                                    <th scope="col">Details</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications received</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications approved</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
+                                    <td>0</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
                           </div>
                         </div>
@@ -538,118 +333,48 @@ function Dashboard() {
                             data-parent="#accordion"
                           >
                             <div class="row card-body">
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-primary mb-1">
-                                          Time Limit prescribed as per the Public Service Guarantee Act
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-secondary mb-1">
-                                          Total Number of applications received
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-success mb-1">
-                                          Total Number of applications approved
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-info mb-1">
-                                          Average time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-primary mb-1">
-                                          Median time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-secondary mb-1">
-                                          Minimum time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-success mb-1">
-                                          Maximum time taken to obtain registration/renewal
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                  <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                      <div class="flex-grow-1">
-                                        <div class="small font-weight-bold text-info mb-1">
-                                          "Average fee" taken by the Department for completion of entire process of obtaining approval/certificate
-                                        </div>
-                                        <div class="h5">0</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                              <table className="table table-bordered table-striped">
+                                <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
+                                  <tr>
+                                    <th scope="col">Particulars</th>
+                                    <th scope="col">Details</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr style={{ backgroundColor: '#f8f9fa' }}>
+                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications received</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr style={{ backgroundColor: '#f8f9fa' }}>
+                                    <td>Total Number of applications approved</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr style={{ backgroundColor: '#f8f9fa' }}>
+                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr style={{ backgroundColor: '#f8f9fa' }}>
+                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
+                                    <td>0</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
                           </div>
                         </div>
