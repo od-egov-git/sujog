@@ -3,6 +3,14 @@ import { Helmet } from "react-helmet";
 import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 
 function TL() {
+  const downloadExcel = (fileName) => {
+    const link = document.createElement('a');
+    link.href = fileName;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   return <div className="container">
     <div id="layoutSidenav_content">
       <Helmet><title>Trade License</title></Helmet>
@@ -28,118 +36,67 @@ function TL() {
           <div className="col">
             <div className="row">
 
-              <div class="col-xl-6 col-md-6 mb-4 card">
-                <div class="card-header">Public Dashboard <span class="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
-                <div class="row card-body">
-                  <div class="container">
-                    <div class="row">
-                      <div id="accordion" class="width2">
-                        <div class="card">
-                          <div class="card-header">
-                            <a class="card-link text-dark" data-toggle="collapse" href="#collapseOne"><span class="float-right"><i class="fa fa-arrow-down"></i></span>
+              <div className="col-xl-6 col-md-6 mb-4 card">
+                <div className="card-header">Public Dashboard <span className="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
+                <div className="row card-body">
+                  <div className="container">
+                    <div className="row">
+                      <div id="accordion" className="width2">
+                        <div className="card">
+                          <div className="card-header">
+                            <a className="card-link text-dark" data-toggle="collapse" href="#collapseOne"><span className="float-right"><i className="fa fa-arrow-down"></i></span>
                               <h6>Trade License</h6>
                             </a>
                           </div>
-                          <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                            <div class="card-body">
-                              <div class="row card-body">
-                              <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">Time Limit prescribed as per the Public Service Guarantee Act</div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">Total Number of applications received</div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">Total Number of applications approved</div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-info mb-1">Average time taken to obtain registration/renewal</div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-primary mb-1">Median time taken to obtain registration/renewal</div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">Minimum time taken to obtain registration/renewal</div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">Maximum time taken to obtain registration/renewal</div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 mb-4">
-                                  <div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-                                    <div class="card-body">
-                                      <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-info mb-1">"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</div>
-                                          <div class="h5">0</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                          <div id="collapseOne" className="collapse show" data-parent="#accordion">
+                            <div className="card-body">
+                              <table className="table table-bordered table-striped">
+                                <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
+                                  <tr>
+                                    <th scope="col">Particulars</th>
+                                    <th scope="col">Details</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications received</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications approved</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td colSpan="2" style={{ backgroundColor: '#f1f1f1',fontWeight:'Bold', textAlign: 'center', fontStyle: 'italic', color:"rgb(0, 97, 242)" }}>
+                                      **Certificate is issued instantly right after the payment of the application fee
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
                           </div>
                         </div>
@@ -166,8 +123,8 @@ function TL() {
                           <a id="tab-C" href="#pane-C" className="nav-link" data-toggle="tab" role="tab">List of Documents</a>
                         </li>
                         <li className="nav-item">
-													<a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab">Tariff</a>
-												</li>
+                          <a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab">Tariff</a>
+                        </li>
                         <li className="nav-item">
                           <a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">User Manual</a>
                         </li>
