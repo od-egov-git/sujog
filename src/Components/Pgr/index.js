@@ -246,11 +246,11 @@ function Pgr() {
 
 														<div class="flex-grow-1 free-1">
 															<div class="small font-weight-bold text-primary mb-1">SUJOG_Public Grievance Redressal_Citizen User Manual
-																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_Public Grievance Redressal_Citizen User Manual.pdf" class="tooltip"
+																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_PGR_Citizen User Manual_July 2024.pdf" class="tooltip"
 																	target="_blank">
 																	<span class="tooltiptext">Download</span><img alt ="" src="/assets/img/download.svg" class="fkdl" /></a>
 																</div>
-																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_Public Grievance Redressal_Citizen User Manual.pdf" class="tooltip" target="_blank">
+																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_PGR_Citizen User Manual_July 2024.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" class="fkdl" /></a>
 																</div>
 															</div>
