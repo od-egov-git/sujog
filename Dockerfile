@@ -10,7 +10,7 @@ RUN chmod 777 /app
 RUN touch /app/.eslintcache
 RUN chmod 777 /app/.eslintcache
 
-RUN npm run build
+RUN npm run build -- --no-cache
 #CMD ['npm start']
 # start app
 CMD ["npm", "start"]

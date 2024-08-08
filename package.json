@@ -46,5 +46,13 @@
   },
   "devServer": {
     "disableHostCheck": true
+  },
+  "resolutions": {
+    "@babel/core": "^7.25.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7"
   }
 }
