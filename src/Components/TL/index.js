@@ -335,11 +335,11 @@ function TL() {
                           </div>
                           <div id="collapse-e" className="collapse" role="tabpanel" aria-labelledby="heading-e">
                             <div className="flex-grow-1 free-1">
-                              <div className="small font-weight-bold text-primary mb-1">Odisha Municipal Act_ Trade License Amendment 2020 1
-                                <div className="h5 pull-right"><a href="/Deshboard/images/Odisha Municipal Act_ Trade License Amendment 2020 1.pdf" className="tooltip" target="_blank">
+                              <div className="small font-weight-bold text-primary mb-1">Odisha Municipal Act_ Trade License Amendment 2020
+                                <div className="h5 pull-right"><a href="/Deshboard/images/Odisha Municipal Act_ Trade License Amendment 2020.pdf" className="tooltip" target="_blank">
                                   <span className="tooltiptext">Download</span><img alt="Trade License" src="/assets/img/download.svg" className="fkdl" /></a>
                                 </div>
-                                <div className="h5 pull-right"><a href="/Deshboard/images/Odisha Municipal Act_ Trade License Amendment 2020 1.pdf" className="tooltip" target="_blank">
+                                <div className="h5 pull-right"><a href="/Deshboard/images/Odisha Municipal Act_ Trade License Amendment 2020.pdf" className="tooltip" target="_blank">
                                   <span className="tooltiptext">View</span><img alt="Trade License" src="/assets/img/view.svg" className="fkdl" /></a>
                                 </div>
                               </div>
