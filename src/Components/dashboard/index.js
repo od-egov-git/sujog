@@ -1795,6 +1795,39 @@ function Dashboard() {
                                 </div>
                               </div>
                             </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Field verification checklist_for Addition and Alteration, Regularization.pdf
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/FieldVerificationChecklist.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/FieldVerificationChecklist.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
 
