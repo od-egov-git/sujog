@@ -60,35 +60,35 @@ function TL() {
                                 <tbody>
                                   <tr>
                                     <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
-                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>1 Day</a></td>
                                   </tr>
                                   <tr>
                                     <td>Total Number of applications received</td>
-                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_July 2024.pdf')}>3035</a></td>
                                   </tr>
                                   <tr>
                                     <td>Total Number of applications approved</td>
-                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_July 2024.pdf')}>3035</a></td>
                                   </tr>
                                   <tr>
                                     <td>Average time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>1 Day</td>
                                   </tr>
                                   <tr>
                                     <td>Median time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>1 Day</td>
                                   </tr>
                                   <tr>
                                     <td>Minimum time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>1 Day</td>
                                   </tr>
                                   <tr>
                                     <td>Maximum time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>1 Day</td>
                                   </tr>
                                   <tr>
                                     <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
-                                    <td>0</td>
+                                    <td><a href="#" style={{whiteSpace:'nowrap'}} onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_July 2024.pdf')}>₹ 3851</a></td>
                                   </tr>
                                   <tr>
                                     <td colSpan="2" style={{ backgroundColor: '#f1f1f1',fontWeight:'Bold', textAlign: 'center', fontStyle: 'italic', color:"rgb(0, 97, 242)" }}>

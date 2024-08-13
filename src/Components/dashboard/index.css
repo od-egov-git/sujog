@@ -23,3 +23,7 @@
     overflow-y: auto;
     max-height: 150px;
 }
+
+a{
+    white-space: nowrap;
+}

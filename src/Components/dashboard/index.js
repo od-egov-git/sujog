@@ -137,35 +137,35 @@ function Dashboard() {
                                 <tbody>
                                   <tr>
                                     <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
-                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>15 Days</a></td>
                                   </tr>
                                   <tr>
                                     <td>Total Number of applications received</td>
-                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
                                   </tr>
                                   <tr>
                                     <td>Total Number of applications approved</td>
-                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
                                   </tr>
                                   <tr>
                                     <td>Average time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>15 Days</td>
                                   </tr>
                                   <tr>
                                     <td>Median time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>15 Days</td>
                                   </tr>
                                   <tr>
                                     <td>Minimum time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>15 Days</td>
                                   </tr>
                                   <tr>
                                     <td>Maximum time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>15 Days</td>
                                   </tr>
                                   <tr>
                                     <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
-                                    <td>0</td>
+                                    <td><a href="#" style={{whiteSpace:'nowrap'}} onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>₹ 134,981</a></td>
                                   </tr>
                                 </tbody>
                               </table>
@@ -205,7 +205,7 @@ function Dashboard() {
                                 <tbody>
                                   <tr>
                                     <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
-                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>30 Days</a></td>
                                   </tr>
                                   <tr>
                                     <td>Total Number of applications received</td>
@@ -274,7 +274,7 @@ function Dashboard() {
                                 <tbody>
                                   <tr>
                                     <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
-                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>30 Days</a></td>
                                   </tr>
                                   <tr>
                                     <td>Total Number of applications received</td>
@@ -343,35 +343,35 @@ function Dashboard() {
                                 <tbody>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
                                     <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
-                                    <td><a href="#" onClick={() => downloadExcel('time_limit.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>15 Days</a></td>
                                   </tr>
                                   <tr>
                                     <td>Total Number of applications received</td>
-                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>249</a></td>
                                   </tr>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
                                     <td>Total Number of applications approved</td>
-                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>249</a></td>
                                   </tr>
                                   <tr>
                                     <td>Average time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>15 Days</td>
                                   </tr>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
                                     <td>Median time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>15 Days</td>
                                   </tr>
                                   <tr>
                                     <td>Minimum time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>15 Days</td>
                                   </tr>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
                                     <td>Maximum time taken to obtain registration/renewal</td>
-                                    <td>0</td>
+                                    <td>15 Days</td>
                                   </tr>
                                   <tr>
                                     <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
-                                    <td>0</td>
+                                    <td><a href="#" style={{whiteSpace:'nowrap'}} onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>₹ 42,744</a></td>
                                   </tr>
                                 </tbody>
                               </table>
