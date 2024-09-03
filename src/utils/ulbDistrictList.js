@@ -1,454 +1,458 @@
 export const ULB_DISTRICT_LIST = [
     {
-     "district": "Angul",
-     "ulbName": "Angul"
+        "district": "Angul",
+        "ulbName": "Angul"
     },
     {
-     "district": "Angul",
-     "ulbName": "Athmallik"
+        "district": "Angul",
+        "ulbName": "Athmallik"
     },
     {
-     "district": "Angul",
-     "ulbName": "Talcher"
+        "district": "Angul",
+        "ulbName": "Talcher"
     },
     {
-     "district": "Balangir",
-     "ulbName": "Balangir"
+        "district": "Balangir",
+        "ulbName": "Balangir"
     },
     {
-     "district": "Balangir",
-     "ulbName": "Kantabanji"
+        "district": "Balangir",
+        "ulbName": "Kantabanji"
     },
     {
-     "district": "Balangir",
-     "ulbName": "Patnagarh"
+        "district": "Balangir",
+        "ulbName": "Patnagarh"
     },
     {
-     "district": "Balangir",
-     "ulbName": "Titilagarh"
+        "district": "Balangir",
+        "ulbName": "Titilagarh"
     },
     {
-     "district": "Balangir",
-     "ulbName": "Tusura"
+        "district": "Balangir",
+        "ulbName": "Tusura"
     },
     {
-     "district": "Balasore",
-     "ulbName": "Balasore"
+        "district": "Balasore",
+        "ulbName": "Balasore"
     },
     {
-     "district": "Balasore",
-     "ulbName": "Jaleswar"
+        "district": "Balasore",
+        "ulbName": "Jaleswar"
     },
     {
-     "district": "Balasore",
-     "ulbName": "Nilgiri"
+        "district": "Balasore",
+        "ulbName": "Nilgiri"
     },
     {
-     "district": "Balasore",
-     "ulbName": "Soro"
+        "district": "Balasore",
+        "ulbName": "Remuna"
     },
     {
-     "district": "Bargarh",
-     "ulbName": "Attabira"
+        "district": "Balasore",
+        "ulbName": "Soro"
     },
     {
-     "district": "Bargarh",
-     "ulbName": "Bargarh"
+        "district": "Bargarh",
+        "ulbName": "Attabira"
     },
     {
-     "district": "Bargarh",
-     "ulbName": "Barpali"
+        "district": "Bargarh",
+        "ulbName": "Bargarh"
     },
     {
-     "district": "Bargarh",
-     "ulbName": "Bijepur"
+        "district": "Bargarh",
+        "ulbName": "Barpali"
     },
     {
-     "district": "Bargarh",
-     "ulbName": "Padampur"
+        "district": "Bargarh",
+        "ulbName": "Bijepur"
     },
     {
-     "district": "Bhadrak",
-     "ulbName": "Basudevpur"
+        "district": "Bargarh",
+        "ulbName": "Padampur"
     },
     {
-     "district": "Bhadrak",
-     "ulbName": "Bhadrak"
+        "district": "Bhadrak",
+        "ulbName": "Basudevpur"
     },
     {
-     "district": "Bhadrak",
-     "ulbName": "Chandbali"
+        "district": "Bhadrak",
+        "ulbName": "Bhadrak"
     },
     {
-     "district": "Bhadrak",
-     "ulbName": "Dhamnagar"
+        "district": "Bhadrak",
+        "ulbName": "Chandbali"
     },
     {
-     "district": "Boudhgarh",
-     "ulbName": "Boudhgarh"
+        "district": "Bhadrak",
+        "ulbName": "Dhamnagar"
     },
     {
-     "district": "Cuttack",
-     "ulbName": "Athagarh"
+        "district": "Boudhgarh",
+        "ulbName": "Boudhgarh"
     },
     {
-     "district": "Cuttack",
-     "ulbName": "Banki"
+        "district": "Cuttack",
+        "ulbName": "Athagarh"
     },
     {
-     "district": "Cuttack",
-     "ulbName": "Choudwar"
+        "district": "Cuttack",
+        "ulbName": "Banki"
     },
     {
-     "district": "Cuttack",
-     "ulbName": "Cuttack"
+        "district": "Cuttack",
+        "ulbName": "Choudwar"
     },
     {
-     "district": "Deogarh",
-     "ulbName": "Deogarh"
+        "district": "Cuttack",
+        "ulbName": "Cuttack"
     },
     {
-     "district": "Dhenkanal",
-     "ulbName": "Bhuban"
+        "district": "Deogarh",
+        "ulbName": "Deogarh"
     },
     {
-     "district": "Dhenkanal",
-     "ulbName": "Dhenkanal"
+        "district": "Dhenkanal",
+        "ulbName": "Bhuban"
     },
     {
-     "district": "Dhenkanal",
-     "ulbName": "Hindol"
+        "district": "Dhenkanal",
+        "ulbName": "Dhenkanal"
     },
     {
-     "district": "Dhenkanal",
-     "ulbName": "Kamakhyanagar"
+        "district": "Dhenkanal",
+        "ulbName": "Hindol"
     },
     {
-     "district": "Gajapati",
-     "ulbName": "Kashinagar"
+        "district": "Dhenkanal",
+        "ulbName": "Kamakhyanagar"
     },
     {
-     "district": "Gajapati",
-     "ulbName": "Paralakhemundi"
+        "district": "Gajapati",
+        "ulbName": "Kashinagar"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Aska"
+        "district": "Gajapati",
+        "ulbName": "Paralakhemundi"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Bellaguntha"
+        "district": "Ganjam",
+        "ulbName": "Aska"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Berhampur"
+        "district": "Ganjam",
+        "ulbName": "Bellaguntha"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Bhanjanagar"
+        "district": "Ganjam",
+        "ulbName": "Berhampur"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Buguda"
+        "district": "Ganjam",
+        "ulbName": "Bhanjanagar"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Chatrapur"
+        "district": "Ganjam",
+        "ulbName": "Buguda"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Chikiti"
+        "district": "Ganjam",
+        "ulbName": "Chatrapur"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Digapahandi"
+        "district": "Ganjam",
+        "ulbName": "Chikiti"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Ganjam"
+        "district": "Ganjam",
+        "ulbName": "Digapahandi"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Gopalpur"
+        "district": "Ganjam",
+        "ulbName": "Ganjam"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Hinjilicut"
+        "district": "Ganjam",
+        "ulbName": "Gopalpur"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Kabisuryanagar"
+        "district": "Ganjam",
+        "ulbName": "Hinjilicut"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Khallikote"
+        "district": "Ganjam",
+        "ulbName": "Kabisuryanagar"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Kodala"
+        "district": "Ganjam",
+        "ulbName": "Khallikote"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Polasara"
+        "district": "Ganjam",
+        "ulbName": "Kodala"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Purushottampur"
+        "district": "Ganjam",
+        "ulbName": "Polasara"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Rambha"
+        "district": "Ganjam",
+        "ulbName": "Purushottampur"
     },
     {
-     "district": "Ganjam",
-     "ulbName": "Surada"
+        "district": "Ganjam",
+        "ulbName": "Rambha"
     },
     {
-     "district": "Jagatsinghpur",
-     "ulbName": "Jagatsinghpur"
+        "district": "Ganjam",
+        "ulbName": "Surada"
     },
     {
-     "district": "Jagatsinghpur",
-     "ulbName": "Paradeep"
+        "district": "Jagatsinghpur",
+        "ulbName": "Jagatsinghpur"
     },
     {
-     "district": "Jajpur",
-     "ulbName": "Jajpur"
+        "district": "Jagatsinghpur",
+        "ulbName": "Paradeep"
     },
     {
-     "district": "Jajpur",
-     "ulbName": "Vyasanagar"
+        "district": "Jajpur",
+        "ulbName": "Jajpur"
     },
     {
-     "district": "Jharsuguda",
-     "ulbName": "Belpahar"
+        "district": "Jajpur",
+        "ulbName": "Vyasanagar"
     },
     {
-     "district": "Jharsuguda",
-     "ulbName": "Brajrajnagar"
+        "district": "Jharsuguda",
+        "ulbName": "Belpahar"
     },
     {
-     "district": "Jharsuguda",
-     "ulbName": "Jharsuguda"
+        "district": "Jharsuguda",
+        "ulbName": "Brajrajnagar"
     },
     {
-     "district": "Kalahandi",
-     "ulbName": "Bhawanipatna"
+        "district": "Jharsuguda",
+        "ulbName": "Jharsuguda"
     },
     {
-     "district": "Kalahandi",
-     "ulbName": "Dharamgarh"
+        "district": "Kalahandi",
+        "ulbName": "Bhawanipatna"
     },
     {
-     "district": "Kalahandi",
-     "ulbName": "Junagarh"
+        "district": "Kalahandi",
+        "ulbName": "Dharamgarh"
     },
     {
-     "district": "Kalahandi",
-     "ulbName": "Kesinga"
+        "district": "Kalahandi",
+        "ulbName": "Junagarh"
     },
     {
-     "district": "Kandhamal",
-     "ulbName": "Balliguda"
+        "district": "Kalahandi",
+        "ulbName": "Kesinga"
     },
     {
-     "district": "Kandhamal",
-     "ulbName": "G. Udayagiri"
+        "district": "Kandhamal",
+        "ulbName": "Balliguda"
     },
     {
-     "district": "Kandhamal",
-     "ulbName": "Phulbani"
+        "district": "Kandhamal",
+        "ulbName": "G. Udayagiri"
     },
     {
-     "district": "Kendrapara",
-     "ulbName": "Kendrapara"
+        "district": "Kandhamal",
+        "ulbName": "Phulbani"
     },
     {
-     "district": "Kendrapara",
-     "ulbName": "Pattamundai"
+        "district": "Kendrapara",
+        "ulbName": "Kendrapara"
     },
     {
-     "district": "Keonjhar",
-     "ulbName": "Anandapur"
+        "district": "Kendrapara",
+        "ulbName": "Pattamundai"
     },
     {
-     "district": "Keonjhar",
-     "ulbName": "Barbil"
+        "district": "Keonjhar",
+        "ulbName": "Anandapur"
     },
     {
-     "district": "Keonjhar",
-     "ulbName": "Champua"
+        "district": "Keonjhar",
+        "ulbName": "Barbil"
     },
     {
-     "district": "Keonjhar",
-     "ulbName": "Joda"
+        "district": "Keonjhar",
+        "ulbName": "Champua"
     },
     {
-     "district": "Keonjhar",
-     "ulbName": "Keonjhargarh"
+        "district": "Keonjhar",
+        "ulbName": "Joda"
     },
     {
-     "district": "Khordha",
-     "ulbName": "Balugaon"
+        "district": "Keonjhar",
+        "ulbName": "Keonjhargarh"
     },
     {
-     "district": "Khordha",
-     "ulbName": "Banpur"
+        "district": "Khordha",
+        "ulbName": "Balugaon"
     },
     {
-     "district": "Khordha",
-     "ulbName": "Jatni"
+        "district": "Khordha",
+        "ulbName": "Banpur"
     },
     {
-     "district": "Khordha",
-     "ulbName": "Khordha"
+        "district": "Khordha",
+        "ulbName": "Jatni"
     },
     {
-     "district": "Koraput",
-     "ulbName": "Jeypore"
+        "district": "Khordha",
+        "ulbName": "Khordha"
     },
     {
-     "district": "Koraput",
-     "ulbName": "Koraput"
+        "district": "Koraput",
+        "ulbName": "Jeypore"
     },
     {
-     "district": "Koraput",
-     "ulbName": "Kotpad"
+        "district": "Koraput",
+        "ulbName": "Koraput"
     },
     {
-     "district": "Koraput",
-     "ulbName": "Sunabeda"
+        "district": "Koraput",
+        "ulbName": "Kotpad"
     },
     {
-     "district": "Malkangiri",
-     "ulbName": "Balimela"
+        "district": "Koraput",
+        "ulbName": "Sunabeda"
     },
     {
-     "district": "Malkangiri",
-     "ulbName": "Malkangiri"
+        "district": "Malkangiri",
+        "ulbName": "Balimela"
     },
     {
-     "district": "Mayurbhanj",
-     "ulbName": "Baripada"
+        "district": "Malkangiri",
+        "ulbName": "Malkangiri"
     },
     {
-     "district": "Mayurbhanj",
-     "ulbName": "Karanjia"
+        "district": "Mayurbhanj",
+        "ulbName": "Baripada"
     },
     {
-     "district": "Mayurbhanj",
-     "ulbName": "Rairangpur"
+        "district": "Mayurbhanj",
+        "ulbName": "Karanjia"
     },
     {
-     "district": "Mayurbhanj",
-     "ulbName": "Udala"
+        "district": "Mayurbhanj",
+        "ulbName": "Rairangpur"
     },
     {
-     "district": "Nabarangpur",
-     "ulbName": "Nabarangpur"
+        "district": "Mayurbhanj",
+        "ulbName": "Udala"
     },
     {
-     "district": "Nabarangpur",
-     "ulbName": "Umerkote"
+        "district": "Nabarangpur",
+        "ulbName": "Nabarangpur"
     },
     {
-     "district": "Nayagarh",
-     "ulbName": "Daspalla"
+        "district": "Nabarangpur",
+        "ulbName": "Umerkote"
     },
     {
-     "district": "Nayagarh",
-     "ulbName": "Khandapada"
+        "district": "Nayagarh",
+        "ulbName": "Daspalla"
     },
     {
-     "district": "Nayagarh",
-     "ulbName": "Nayagarh"
+        "district": "Nayagarh",
+        "ulbName": "Khandapada"
     },
     {
-     "district": "Nayagarh",
-     "ulbName": "Odagaon"
+        "district": "Nayagarh",
+        "ulbName": "Nayagarh"
     },
     {
-     "district": "Nayagarh",
-     "ulbName": "Ranpur"
+        "district": "Nayagarh",
+        "ulbName": "Odagaon"
     },
     {
-     "district": "Nuapada",
-     "ulbName": "Khariar"
+        "district": "Nayagarh",
+        "ulbName": "Ranpur"
     },
     {
-     "district": "Nuapada",
-     "ulbName": "Khariar Road"
+        "district": "Nuapada",
+        "ulbName": "Khariar"
     },
     {
-     "district": "Nuapada",
-     "ulbName": "Nuapada"
+        "district": "Nuapada",
+        "ulbName": "Khariar Road"
     },
     {
-     "district": "Puri",
-     "ulbName": "Konark"
+        "district": "Nuapada",
+        "ulbName": "Nuapada"
     },
     {
-     "district": "Puri",
-     "ulbName": "Nimapara"
+        "district": "Puri",
+        "ulbName": "Konark"
     },
     {
-     "district": "Puri",
-     "ulbName": "Pipli"
+        "district": "Puri",
+        "ulbName": "Nimapara"
     },
     {
-     "district": "Puri",
-     "ulbName": "Puri"
+        "district": "Puri",
+        "ulbName": "Pipli"
     },
     {
-     "district": "Rayagada",
-     "ulbName": "Gudari"
+        "district": "Puri",
+        "ulbName": "Puri"
     },
     {
-     "district": "Rayagada",
-     "ulbName": "Gunupur"
+        "district": "Rayagada",
+        "ulbName": "Gudari"
     },
     {
-     "district": "Rayagada",
-     "ulbName": "Rayagada"
+        "district": "Rayagada",
+        "ulbName": "Gunupur"
     },
     {
-     "district": "Sambalpur",
-     "ulbName": "Kuchinda"
+        "district": "Rayagada",
+        "ulbName": "Rayagada"
     },
     {
-     "district": "Sambalpur",
-     "ulbName": "Redhakhol"
+        "district": "Sambalpur",
+        "ulbName": "Kuchinda"
     },
     {
-     "district": "Sambalpur",
-     "ulbName": "Sambalpur"
+        "district": "Sambalpur",
+        "ulbName": "Redhakhol"
     },
     {
-     "district": "Subarnapur",
-     "ulbName": "Binka"
+        "district": "Sambalpur",
+        "ulbName": "Sambalpur"
     },
     {
-     "district": "Subarnapur",
-     "ulbName": "Sonepur"
+        "district": "Subarnapur",
+        "ulbName": "Binka"
     },
     {
-     "district": "Subarnapur",
-     "ulbName": "Tarbha"
+        "district": "Subarnapur",
+        "ulbName": "Sonepur"
     },
     {
-     "district": "Sundargarh",
-     "ulbName": "Birmitrapur"
+        "district": "Subarnapur",
+        "ulbName": "Tarbha"
     },
     {
-     "district": "Sundargarh",
-     "ulbName": "Rajgangpur"
+        "district": "Sundargarh",
+        "ulbName": "Birmitrapur"
     },
     {
-     "district": "Sundargarh",
-     "ulbName": "Rourkela"
+        "district": "Sundargarh",
+        "ulbName": "Rajgangpur"
     },
     {
-     "district": "Sundargarh",
-     "ulbName": "Sundargarh"
+        "district": "Sundargarh",
+        "ulbName": "Rourkela"
+    },
+    {
+        "district": "Sundargarh",
+        "ulbName": "Sundargarh"
     }
-   ]
+]

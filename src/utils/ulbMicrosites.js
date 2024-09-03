@@ -411,6 +411,10 @@ export const ULB_MICROSITES = {
     isActive: true,
     link: "https://sujogportal.odisha.gov.in/soro",
   },
+  Remuna: {
+    isActive: true,
+    link: "https://sujogportal.odisha.gov.in/remuna",
+  },
   Sunabeda: {
     isActive: true,
     link: "https://sujogportal.odisha.gov.in/sunabeda",
