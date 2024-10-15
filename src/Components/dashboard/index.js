@@ -378,6 +378,75 @@ function Dashboard() {
                             </div>
                           </div>
                         </div>
+
+                        {/* Demolition Construction of Building */}
+                        <div class="card">
+                          <div class="card-header">
+                            <a
+                              class="collapsed card-link text-dark"
+                              data-toggle="collapse"
+                              href="#collapseSix"
+                            >
+                              <span class="float-right">
+                                <i class="fa fa-arrow-down"></i>
+                              </span>
+                              <h6>Demolition and Reconstruction of Building</h6>
+                              <span class="float-right">
+                                <i class="ti-plus"></i>
+                              </span>
+                            </a>
+                          </div>
+                          <div
+                            id="collapseSix"
+                            class="collapse"
+                            data-parent="#accordion"
+                          >
+                            <div class="row card-body">
+                              <table className="table table-bordered table-striped">
+                                <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
+                                  <tr>
+                                    <th scope="col">Particulars</th>
+                                    <th scope="col">Details</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>30 Days</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications received</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Number of applications approved</td>
+                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
+                                    <td>0</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1763,6 +1832,39 @@ function Dashboard() {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
+                              SITE INSPECTION CHECKLIST DEMOLITION OF BUILDING.pdf
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/SITE INSPECTION CHECKLIST DEMOLITION OF BUILDING.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/SITE INSPECTION CHECKLIST DEMOLITION OF BUILDING.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
                                 Site inspection checklist for Occupancy
                                 Applications.pdf
                                 <div class="h5 pull-right">
@@ -1924,6 +2026,39 @@ function Dashboard() {
                                 </div>
                               </div>
                             </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                              ODA Rules 2020.pdf
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/ODA Rules 2020.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/ODA Rules 2020.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
 
@@ -2040,6 +2175,39 @@ function Dashboard() {
                                 <div class="h5 pull-right">
                                   <a
                                     href="Deshboard/images/Occupancy Certificate Workflow.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                              Sujog OBPAS_Demolition Workflow.pdf
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/Sujog OBPAS_Demolition Workflow.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="Deshboard/images/Sujog OBPAS_Demolition Workflow.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
