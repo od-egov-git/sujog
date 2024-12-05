@@ -1,12 +1,16 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-
+import { useSelector } from 'react-redux';
+import usePageLocalization from "../../utils/usePageLocalization";
 function PT() {
+  const language = useSelector((state) => state.localization.language);
+  const t = usePageLocalization(language, 'pt');
+  const ct = usePageLocalization(language, 'common');
   return (
     <div className="container">
       <div id="layoutSidenav_content">
         <Helmet>
-          <title>Property Tax</title>
+          <title>{t.helmetTitle}</title>
         </Helmet>
         <main>
           <header className="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
@@ -18,7 +22,7 @@ function PT() {
                       <div className="page-header-icon">
                         <i data-feather="activity"></i>
                       </div>
-                      Services / Property Tax
+                      {t.title}
                     </h1>
                   </div>
                 </div>
@@ -30,7 +34,7 @@ function PT() {
             <div className="col">
               <div className="row">
                 <div className="col-xl-12 col-md-6 mb-4 card card2">
-                  <div className="card-header">Property Tax</div>
+                  <div className="card-header">{t.helmetTitle}</div>
                   <div className="row card-body">
                     <div className="col-md-12">
                       <div className="d-flex">
@@ -43,7 +47,7 @@ function PT() {
                               data-toggle="tab"
                               role="tab"
                             >
-                              About
+                              {ct.about}
                             </a>
                           </li>
                           <li className="nav-item">
@@ -54,7 +58,7 @@ function PT() {
                               data-toggle="tab"
                               role="tab"
                             >
-                              Facilities
+                              {ct.facilities}
                             </a>
                           </li>
                           <li className="nav-item">
@@ -65,7 +69,7 @@ function PT() {
                               data-toggle="tab"
                               role="tab"
                             >
-                              List of Documents
+                              {ct.listOfDocuments}
                             </a>
                           </li>
 
@@ -78,7 +82,7 @@ function PT() {
                               role="tab"
                             >
                               {" "}
-                              User Manual{" "}
+                              {ct.userManual}{" "}
                             </a>
                           </li>
                         </ul>
@@ -107,7 +111,7 @@ function PT() {
                                   aria-expanded="true"
                                   aria-controls="collapse-A"
                                 >
-                                  About
+                                  {ct.about}
                                 </a>
                               </h5>
                             </div>
@@ -120,17 +124,10 @@ function PT() {
                             >
                               <div className="flex-grow-1 free-1">
                                 <p>
-                                  SUJOG's Property Tax service facilitates
-                                  citizens to pay their necessary Property Tax
-                                  to their respective urban Local bodies.
-                                  Citizens can now apply for reassessment of
-                                  property, transfer of ownership of their
-                                  properties through SUJOG.
+                                  {t.about1}
                                 </p>
                                 <p>
-                                  Citizens do not have to physically visit the
-                                  ULBs to pay their taxes but rather access
-                                  SUJOG remotely to avail the services.
+                                  {t.about2}
                                 </p>
                               </div>
                             </div>
@@ -156,7 +153,7 @@ function PT() {
                                   aria-expanded="false"
                                   aria-controls="collapse-B"
                                 >
-                                  Facilities
+                                  {ct.facilities}
                                 </a>
                               </h5>
                             </div>
@@ -168,12 +165,12 @@ function PT() {
                             >
                               <div className="flex-grow-1 free-1">
                                 <p>
-                                  1. Register New Property <br></br>
-                                  2. Edit Existing Property <br></br>
-                                  3. Transfer Property <br></br>
-                                  4. Initiate Re-assessment <br></br>
-                                  5. Pay your Property Demand On-line <br></br>
-                                  6. Track your application Status
+                                  1. {t.registerNewProperty} <br></br>
+                                  2. {t.editExistingProperty} <br></br>
+                                  3. {t.transferProperty} <br></br>
+                                  4. {t.initiateReassessment} <br></br>
+                                  5. {t.payPropertyDemandOnline} <br></br>
+                                  6. {t.trackApplicationStatus}
                                 </p>
                               </div>
                             </div>
@@ -199,7 +196,7 @@ function PT() {
                                   aria-expanded="false"
                                   aria-controls="collapse-C"
                                 >
-                                  List of Documents
+                                  {ct.listOfDocuments}
                                 </a>
                               </h5>
                             </div>
@@ -302,7 +299,7 @@ function PT() {
                                   aria-expanded="false"
                                   aria-controls="collapse-d"
                                 >
-                                  User Manual
+                                  {ct.userManual}
                                 </a>
                               </h5>
                             </div>

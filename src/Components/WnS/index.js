@@ -1,11 +1,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
+import { connect, useSelector } from "react-redux";
+import usePageLocalization from "../../utils/usePageLocalization";
 
-function WnS() {
+function WnS({language}) {
+	const translations = usePageLocalization(language, 'wns');
+	const ct = usePageLocalization(language, 'common');
 	return <div class="container">
 		<div id="layoutSidenav_content">
-			<Helmet><title>Water & Sewerage</title> </Helmet>
+			<Helmet><title>{translations.helmetTitle}</title> </Helmet>
 			<main>
 				<header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
 					<div class="container-fluid">
@@ -14,7 +18,7 @@ function WnS() {
 								<div class="col-auto">
 									<h1 class="page-header-title">
 										<div class="page-header-icon"><i data-feather="activity"></i></div>
-										Services / Water & Sewerage
+										{translations.headerContent}
 									</h1>
 
 								</div>
@@ -28,7 +32,7 @@ function WnS() {
 					<div class="col">
 						<div class="row">
 							<div class="col-xl-6 col-md-6 mb-4 card">
-								<div class="card-header">Public Dashboard <span class="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
+								<div class="card-header">{translations.publicDashboard} <span class="lart1">{translations.lastUpdate}: {showFormattedCurrentDate()}</span></div>
 								<div class="row card-body">
 									<div class="container">
 										<div class="row">
@@ -36,7 +40,7 @@ function WnS() {
 												<div class="card">
 													<div class="card-header">
 														<a class="card-link text-dark" data-toggle="collapse" href="#collapseOne"><span class="float-right"><i class="fa fa-arrow-down"></i></span>
-															<h6>Water & Sewerage</h6>
+															<h6>{translations.helmetTitle}</h6>
 														</a>
 													</div>
 													<div id="collapseOne" class="collapse show" data-parent="#accordion">
@@ -47,7 +51,7 @@ function WnS() {
 																		<div class="card-body">
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
-																					<h6>Service Delivery Time</h6>
+																					<h6>{translations.serviceDeliveryTime}</h6>
 																					{/* <div class="small font-weight-bold text-primary mb-1">Low Risk Approval</div>
 																					<div class="h5">7 Days</div>
 																					<div class="small font-weight-bold text-primary mb-1">Other than Low Risk Approval </div>
@@ -62,7 +66,7 @@ function WnS() {
 																		<div class="card-body">
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
+																					<div class="small font-weight-bold text-secondary mb-1">{translations.totalNumberofApplicationsReceived}</div>
 																					<div class="h5">8765</div>
 																				</div>
 																			</div>
@@ -74,7 +78,7 @@ function WnS() {
 																		<div class="card-body">
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
+																					<div class="small font-weight-bold text-success mb-1">{translations.numberofApplicationsApproved}</div>
 																					<div class="h5">7848</div>
 																				</div>
 																			</div>
@@ -86,7 +90,7 @@ function WnS() {
 																		<div class="card-body">
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
+																					<div class="small font-weight-bold text-info mb-1">{translations.numberofApplicationsRejected}</div>
 																					<div class="h5">196</div>
 																				</div>
 																			</div>
@@ -98,7 +102,7 @@ function WnS() {
 																		<div class="card-body">
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
+																					<div class="small font-weight-bold text-primary mb-1">{translations.totalNumberofApplicationsPending}</div>
 																					<div class="h5">721</div>
 																				</div>
 																			</div>
@@ -110,7 +114,7 @@ function WnS() {
 																		<div class="card-body">
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
+																					<div class="small font-weight-bold text-secondary mb-1">{translations.avgNumberofDaysforApproval}</div>
 																					<div class="h5">14</div>
 																				</div>
 																			</div>
@@ -122,7 +126,7 @@ function WnS() {
 																		<div class="card-body">
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-success mb-1">Median Number of Days for Approval</div>
+																					<div class="small font-weight-bold text-success mb-1">{translations.medianNumberofDaysforApproval}</div>
 																					<div class="h5">3</div>
 																				</div>
 																			</div>
@@ -134,7 +138,7 @@ function WnS() {
 																		<div class="card-body">
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-info mb-1">Minimum Number of Days for Approval</div>
+																					<div class="small font-weight-bold text-info mb-1">{translations.minimumNumberofDaysforApproval}</div>
 																					<div class="h5">1</div>
 																				</div>
 																			</div>
@@ -146,7 +150,7 @@ function WnS() {
 																		<div class="card-body">
 																			<div class="d-flex align-items-center">
 																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-success mb-1">Maximum Number of Days for Approval</div>
+																					<div class="small font-weight-bold text-success mb-1">{translations.maximumNumberofDaysforApproval}</div>
 																					<div class="h5">226</div>
 																				</div>
 																			</div>
@@ -164,26 +168,26 @@ function WnS() {
 							</div>
 
 							<div class="col-xl-6 col-md-6 mb-4 card card2">
-								<div class="card-header">Information related to Water & Sewerage</div>
+								<div class="card-header">{translations.infoWns}</div>
 								<div class="row card-body">
 									<div class="col-md-12">
 										<div class="d-flex">
 
 											<ul id="tabs" class="nav nav-tabs" role="tablist">
 												<li class="nav-item">
-													<a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">About</a>
+													<a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">{ct.about}</a>
 												</li>
 												<li class="nav-item">
-													<a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">Facilities</a>
+													<a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">{ct.facilities}</a>
 												</li>
 												<li class="nav-item">
-													<a id="tab-C" href="#pane-C" class="nav-link" data-toggle="tab" role="tab">List of Documents</a>
+													<a id="tab-C" href="#pane-C" class="nav-link" data-toggle="tab" role="tab">{ct.listOfDocuments}</a>
 												</li>
 												<li className="nav-item">
-													<a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">Rules and Regulations</a>
+													<a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">{ct.rulesAndRegulations}</a>
 												</li>
 												<li class="nav-item">
-													<a id="tab-d" href="#pane-d" class="nav-link" data-toggle="tab" role="tab"> User Manual </a>
+													<a id="tab-d" href="#pane-d" class="nav-link" data-toggle="tab" role="tab">{ct.userManual}</a>
 												</li>
 
 
@@ -197,7 +201,7 @@ function WnS() {
 													<div class="card-header" role="tab" id="heading-A">
 														<h5 class="mb-0">
 															<a data-toggle="collapse" href="#collapse-A" data-parent="#content" aria-expanded="true" aria-controls="collapse-A">
-																About
+																{ct.about}
 															</a>
 														</h5>
 													</div>
@@ -205,9 +209,7 @@ function WnS() {
 													<div id="collapse-A" class="collapse show" role="tabpanel" aria-labelledby="heading-A">
 
 														<div class="flex-grow-1 free-1">
-															<p>The Water and Sewerage (W&S) system provides a digital interface to apply for water and sewerage connections,
-																pay the water and sewerage charges for connection(s). It can be used by the citizens, Urban Local Body (ULB)
-																counter employees and field employees, and ULB Administrators, PHEO and WATCO to accomplish their specific tasks.</p>
+															<p>{translations.waterAndSewerageSystemDescription}</p>
 														</div>
 													</div>
 												</div>
@@ -217,18 +219,18 @@ function WnS() {
 													<div class="card-header" role="tab" id="heading-B">
 														<h5 class="mb-0">
 															<a class="collapsed" data-toggle="collapse" href="#collapse-B" data-parent="#content" aria-expanded="false" aria-controls="collapse-B">
-																Facilities
+																{ct.facilities}
 															</a>
 														</h5>
 													</div>
 													<div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
 														<div class="flex-grow-1 free-1">
 															<p>
-																1. No waiting period to receive Water bills. Realtime bill generation facility as per meter reading.<br></br>
-																2. Apply for new Water or Sewerage Connecti on <br></br>
-																3. Apply for Disconnection or reconnection <br></br>
-																4. Transfer of connection <br></br>
-																5. Make Online payments <br></br>
+																1. {translations.facility1}<br></br>
+																2.  {translations.facility2}<br></br>
+																3. {translations.facility3} <br></br>
+																4.  {translations.facility4}<br></br>
+																5.  {translations.facility5}<br></br>
 															</p>
 														</div>
 													</div>
@@ -242,7 +244,7 @@ function WnS() {
 													<div class="card-header" role="tab" id="heading-C">
 														<h5 class="mb-0">
 															<a class="collapsed" data-toggle="collapse" href="#collapse-C" data-parent="#content" aria-expanded="false" aria-controls="collapse-C">
-																List of Documents
+																{ct.listOfDocuments}
 															</a>
 														</h5>
 													</div>
@@ -284,7 +286,7 @@ function WnS() {
 													<div class="card-header" role="tab" id="heading-d">
 														<h5 class="mb-0">
 															<a class="collapsed" data-toggle="collapse" href="#collapse-d" data-parent="#content" aria-expanded="false" aria-controls="collapse-d">
-																User Manual
+																{ct.userManual}
 															</a>
 														</h5>
 													</div>
@@ -321,7 +323,7 @@ function WnS() {
 													<div className="card-header" role="tab" id="heading-e">
 														<h5 className="mb-0">
 															<a className="collapsed" data-toggle="collapse" href="#collapse-e" data-parent="#content" aria-expanded="false" aria-controls="collapse-e">
-																Rules and Regulations
+																{ct.rulesAndRegulations}
 															</a>
 														</h5>
 													</div>
@@ -390,4 +392,8 @@ function WnS() {
 		</div>
 	</div>
 };
-export default WnS;
+const mapStateToProps = (state) => ({
+	language: state.localization.language,
+});
+
+export default connect(mapStateToProps)(WnS);

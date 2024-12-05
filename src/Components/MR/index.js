@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Helmet } from "react-helmet";
 import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
-
+import usePageLocalization from "../../utils/usePageLocalization";
+import { useSelector } from 'react-redux';
 function MR() {
+  const language = useSelector((state) => state.localization.language);
+  const translations = usePageLocalization(language, 'mr');
+  const ct = usePageLocalization(language, 'common');
+  console.log('MR', translations)
   return <div className="container">
     <div id="layoutSidenav_content">
       <Helmet>
-        <title>Marriage Registration</title>
+        <title>{translations.application}</title>
       </Helmet>
       <main>
         <header className="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
@@ -16,7 +21,7 @@ function MR() {
                 <div className="col-auto">
                   <h1 className="page-header-title">
                     <div className="page-header-icon"><i data-feather="activity"></i></div>
-                    Services / Marriage Registration
+                    {translations.title}
                   </h1>
 
                 </div>
@@ -30,7 +35,7 @@ function MR() {
           <div className="col">
             <div className="row">
               <div class="col-xl-6 col-md-6 mb-4 card">
-                <div class="card-header">Public Dashboard <span class="lart1">Last Update: {showFormattedCurrentDate()}</span></div>
+                <div class="card-header">{translations.publicDashboard} <span class="lart1">{translations.lastUpdate}: {showFormattedCurrentDate()}</span></div>
                 <div class="row card-body">
                   <div class="container">
                     <div class="row">
@@ -38,7 +43,7 @@ function MR() {
                         <div class="card">
                           <div class="card-header">
                             <a class="card-link text-dark" data-toggle="collapse" href="#collapseOne"><span class="float-right"><i class="fa fa-arrow-down"></i></span>
-                              <h6>Marriage Registration</h6>
+                              <h6>{translations.helmetTitle}</h6>
                             </a>
                           </div>
                           <div id="collapseOne" class="collapse show" data-parent="#accordion">
@@ -49,7 +54,7 @@ function MR() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <h6>Service Delivery Time</h6>
+                                          <h6>{translations.serviceDeliveryTime}</h6>
                                           {/* <div class="small font-weight-bold text-primary mb-1">Low Risk Approval</div>
 																					<div class="h5">7 Days</div>
 																					<div class="small font-weight-bold text-primary mb-1">Other than Low Risk Approval </div>
@@ -64,7 +69,7 @@ function MR() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">Total Number of Applications Received</div>
+                                          <div class="small font-weight-bold text-secondary mb-1">{translations.totalNumberofApplicationsReceived}</div>
                                           <div class="h5">541</div>
                                         </div>
                                       </div>
@@ -76,7 +81,7 @@ function MR() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">Number of Applications Approved</div>
+                                          <div class="small font-weight-bold text-success mb-1">{translations.numberofApplicationsApproved}</div>
                                           <div class="h5">380</div>
                                         </div>
                                       </div>
@@ -88,7 +93,7 @@ function MR() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-info mb-1">Number of Applications Rejected</div>
+                                          <div class="small font-weight-bold text-info mb-1">{translations.numberofApplicationsRejected}</div>
                                           <div class="h5">48</div>
                                         </div>
                                       </div>
@@ -100,7 +105,7 @@ function MR() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-primary mb-1">Total Number of Applications Pending</div>
+                                          <div class="small font-weight-bold text-primary mb-1">{translations.totalNumberofApplicationsPending}</div>
                                           <div class="h5">113</div>
                                         </div>
                                       </div>
@@ -112,7 +117,7 @@ function MR() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-secondary mb-1">Mean/Average Number of Days for Approval</div>
+                                          <div class="small font-weight-bold text-secondary mb-1">{translations.avgNumberofDaysforApproval}</div>
                                           <div class="h5">16</div>
                                         </div>
                                       </div>
@@ -124,7 +129,7 @@ function MR() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">Median Number of Days for Approval</div>
+                                          <div class="small font-weight-bold text-success mb-1">{translations.medianNumberofDaysforApproval}</div>
                                           <div class="h5">6</div>
                                         </div>
                                       </div>
@@ -136,7 +141,7 @@ function MR() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-info mb-1">Minimum Number of Days for Approval</div>
+                                          <div class="small font-weight-bold text-info mb-1">{translations.minimumNumberofDaysforApproval}</div>
                                           <div class="h5">1</div>
                                         </div>
                                       </div>
@@ -148,7 +153,7 @@ function MR() {
                                     <div class="card-body">
                                       <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                          <div class="small font-weight-bold text-success mb-1">Maximum Number of Days for Approval</div>
+                                          <div class="small font-weight-bold text-success mb-1">{translations.maximumNumberofDaysforApproval}</div>
                                           <div class="h5">181</div>
                                         </div>
                                       </div>
@@ -166,31 +171,31 @@ function MR() {
               </div>
 
               <div className="col-xl-6 col-md-6 mb-4 card card2">
-                <div className="card-header">Information related to Marriage Registration</div>
+                <div className="card-header">{translations.mrInfo}</div>
                 <div className="row card-body">
                   <div className="col-md-12">
                     <div className="d-flex">
 
                       <ul id="tabs" className="nav nav-tabs" role="tablist">
                         <li className="nav-item">
-                          <a id="tab-A" href="#pane-A" className="nav-link active" data-toggle="tab" role="tab">About</a>
+                          <a id="tab-A" href="#pane-A" className="nav-link active" data-toggle="tab" role="tab">{ct.about}</a>
                         </li>
                         <li className="nav-item">
-                          <a id="tab-B" href="#pane-B" className="nav-link" data-toggle="tab" role="tab">Facilities</a>
+                          <a id="tab-B" href="#pane-B" className="nav-link" data-toggle="tab" role="tab">{ct.facilities}</a>
                         </li>
                         <li className="nav-item">
-                          <a id="tab-C" href="#pane-C" className="nav-link" data-toggle="tab" role="tab">List of Documents</a>
-                        </li>
-
-                        <li className="nav-item">
-                          <a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab">User Manual</a>
+                          <a id="tab-C" href="#pane-C" className="nav-link" data-toggle="tab" role="tab">{ct.listOfDocuments}</a>
                         </li>
 
                         <li className="nav-item">
-                          <a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">Registration Fees</a>
+                          <a id="tab-d" href="#pane-d" className="nav-link" data-toggle="tab" role="tab">{ct.userManual}</a>
+                        </li>
+
+                        <li className="nav-item">
+                          <a id="tab-e" href="#pane-e" className="nav-link" data-toggle="tab" role="tab">{ct.registrationFees}</a>
                         </li>
                         <li className="nav-item">
-                          <a id="tab-f" href="#pane-f" className="nav-link" data-toggle="tab" role="tab">Rules & Regulations</a>
+                          <a id="tab-f" href="#pane-f" className="nav-link" data-toggle="tab" role="tab">{ct.rulesAndRegulations}</a>
                         </li>
 
                       </ul>
@@ -209,8 +214,7 @@ function MR() {
                           <div id="collapse-A" className="collapse show" role="tabpanel" aria-labelledby="heading-A">
 
                             <div className="flex-grow-1 free-1">
-                              <p>The Marriage registration Module allows the citizens of Odisha state to apply for a marriage registration
-                                certificate from any municipality through a website or a mobile application remotely. </p>
+                              <p>{translations.marriageRegistrationDescription} </p>
                             </div>
                           </div>
                         </div>
@@ -220,16 +224,16 @@ function MR() {
                           <div className="card-header" role="tab" id="heading-B">
                             <h5 className="mb-0">
                               <a className="collapsed" data-toggle="collapse" href="#collapse-B" data-parent="#content" aria-expanded="false" aria-controls="collapse-B">
-                                Facilities
+                                {ct.facilities}
                               </a>
                             </h5>
                           </div>
                           <div id="collapse-B" className="collapse" role="tabpanel" aria-labelledby="heading-B">
                             <div className="flex-grow-1 free-1">
                               <p>
-                                1. Apply for Marriage registration Certificate <br></br>
-                                2. Receive prompt notifications and updates <br></br>
-                                3. Modify your Marriage Certificate if required
+                                1. {translations.facility1} <br></br>
+                                2. {translations.facility2} <br></br>
+                                3. {translations.facility3}
                               </p>
                             </div>
                           </div>
@@ -243,7 +247,7 @@ function MR() {
                           <div className="card-header" role="tab" id="heading-C">
                             <h5 className="mb-0">
                               <a className="collapsed" data-toggle="collapse" href="#collapse-C" data-parent="#content" aria-expanded="false" aria-controls="collapse-C">
-                                List of Documents
+                                {ct.listOfDocuments}
                               </a>
                             </h5>
                           </div>
@@ -282,7 +286,7 @@ function MR() {
                           <div className="card-header" role="tab" id="heading-d">
                             <h5 className="mb-0">
                               <a className="collapsed" data-toggle="collapse" href="#collapse-d" data-parent="#content" aria-expanded="false" aria-controls="collapse-d">
-                                User Manual
+                                {ct.userManual}
                               </a>
                             </h5>
                           </div>
@@ -320,7 +324,7 @@ function MR() {
                           <div className="card-header" role="tab" id="heading-e">
                             <h5 className="mb-0">
                               <a className="collapsed" data-toggle="collapse" href="#collapse-e" data-parent="#content" aria-expanded="false" aria-controls="collapse-e">
-                                Marriage Registration Fees
+                                {translations.marriageRegistrationFees}
                               </a>
                             </h5>
                           </div>
@@ -345,7 +349,7 @@ function MR() {
                           <div className="card-header" role="tab" id="heading-e">
                             <h5 className="mb-0">
                               <a className="collapsed" data-toggle="collapse" href="#collapse-e" data-parent="#content" aria-expanded="false" aria-controls="collapse-f">
-                                RULES & REGULATIONS
+                                {ct.rulesAndRegulations}
                               </a>
                             </h5>
                           </div>
