@@ -1,68 +1,101 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { useSelector } from 'react-redux';
+import usePageLocalization from "../../utils/usePageLocalization";
+import LanguageSwitcher from "../LanguageSwitcher";
 
 function Menubar() {
+
+    const language = useSelector((state) => state.localization.language);
+    const translations = usePageLocalization(language, 'menuBar');
     return <header id="header">
         <div className="container">
-
             <div className="logo float-left">
-                <Link to="/home"><img src="assets/img/Sujog.jpg" alt="" className="img-fluid" /></Link>
+                <Link to="/home">
+                    <img src="assets/img/Sujog.jpg" alt={translations.headerLogoAlt} className="img-fluid" />
+                </Link>
             </div>
             <nav className="nav-menu float-right d-none d-lg-block">
                 <ul>
-                    <li className="active"><Link to="/home">Home</Link></li>
-                    {/* <li><Link to="/aboutus" >About Us</Link></li> */}
-                    <li className="drop-down"><Link to="/home">Services</Link>
+                    <li className="active">
+                        <Link to="/home">{translations.navigationHome}</Link>
+                    </li>
+                    <li className="drop-down">
+                        <Link to="/home">{translations.navigationServices}</Link>
                         <ul>
-                            {/* <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">OBPAS</a></li> */}
-                            {/* <li><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">Building Permission Approval</a></li> */}
-                            <li><a href="/obpas-dashboard" rel="noreferrer">Building Permission Approval</a></li>
-                            <li><Link to="/pgr">Public Grievance Redressal</Link></li>
-                            <li><Link to="/pt">Property Tax</Link></li>
-                            <li><Link to="/wns">Water & Sewerage</Link></li>
-                            <li><Link to="/tl">Trade License</Link></li>
-                            <li><Link to="/mr">Marriage Registration</Link></li>
+                            <li>
+                                <Link to="/obpas-dashboard">{translations.navigationBuildingPermissionApproval}</Link>
+                            </li>
+                            <li>
+                                <Link to="/pgr">{translations.navigationPublicGrievanceRedressal}</Link>
+                            </li>
+                            <li>
+                                <Link to="/pt">{translations.navigationPropertyTax}</Link>
+                            </li>
+                            <li>
+                                <Link to="/wns">{translations.navigationWaterAndSewerage}</Link>
+                            </li>
+                            <li>
+                                <Link to="/tl">{translations.navigationTradeLicense}</Link>
+                            </li>
+                            <li>
+                                <Link to="/mr">{translations.navigationMarriageRegistration}</Link>
+                            </li>
                         </ul>
                     </li>
-                    <li className="drop-down"><Link to="/home">Information</Link>
+                    <li className="drop-down">
+                        <Link to="/home">{translations.navigationInformation}</Link>
                         <ul>
-                            <li><Link to="rti">RTI</Link></li>
-                            <li><Link to="/home">Public Notice</Link></li>
-                            <li><a rel="noreferrer" href="/Deshboard/images/Citizen Charter_HUD_Final.pdf" target="_blank">Citizen Charter</a></li>
-                            <li><Link to="privacy-policy">Privacy Policy</Link></li>
+                            <li>
+                                <Link to="rti">{translations.navigationRTI}</Link>
+                            </li>
+                            <li>
+                                <Link to="/home">{translations.navigationPublicNotice}</Link>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="/Deshboard/images/Citizen Charter_HUD_Final.pdf" target="_blank">
+                                    {translations.navigationCitizenCharter}
+                                </a>
+                            </li>
+                            <li>
+                                <Link to="privacy-policy">{translations.navigationPrivacyPolicy}</Link>
+                            </li>
                         </ul>
                     </li>
-                    {/* <li className="drop-down"><Link >ULBs</Link>
-                        <ul>
-                            <li><a rel="noreferrer" href="https://sujogportal.odisha.gov.in/cuttack">Cuttack</a></li>
-                            <li><a rel="noreferrer" href="https://sujogportal.odisha.gov.in/berhampur">Berhampur</a></li>
-                        </ul>
-                    </li> */}
-                    <li><Link to="/ulbs">ULBs</Link></li>
-                    <li><Link to="/contactus">Helpdesk</Link></li>
-                    {/* <li className="login"><a href="https://sujog.odisha.gov.in/citizen/" rel="noreferrer">login</a></li> */}
-                    <li class="login">
-                        <div class="dropdown">
-                            <div class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                Log In
+                    <li>
+                        <Link to="/ulbs">{translations.navigationULBs}</Link>
+                    </li>
+                    <li>
+                        <Link to="/contactus">{translations.navigationHelpdesk}</Link>
+                    </li>
+                    <li className="login">
+                        <div className="dropdown">
+                            <div className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {translations.navigationLogIn}
                             </div>
-
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/citizen/user/register">Citizen</a>
-                                <a class="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/employee/user/login">Department</a>
-                                <a class="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/digit-ui/citizen/login">others</a>
-                                <a class="dropdown-item d-lg-block" style={{ color: "#000" }} href="/tpa">TPA</a>
+                            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/citizen/user/register">
+                                    {translations.navigationLogInCitizen}
+                                </a>
+                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/employee/user/login">
+                                    {translations.navigationLogInDepartment}
+                                </a>
+                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/digit-ui/citizen/login">
+                                    {translations.navigationLogInOthers}
+                                </a>
+                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="/tpa">
+                                    {translations.navigationLogInTPA}
+                                </a>
                             </div>
                         </div>
                     </li>
+                    <li className="language-switcher">
+                        <LanguageSwitcher />
+                    </li>
                 </ul>
-
-
             </nav>
-
-
         </div>
     </header>
+
 };
 export default Menubar;

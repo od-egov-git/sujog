@@ -497,9 +497,86 @@ body {
  /*--------------------------------------------------------------
  # Sections General
  --------------------------------------------------------------*/
- section {
-   padding: 60px 0;
+ /* section {
+   padding: 0px 0;
+ } */
+ .language-switcher{
+  margin: 0rem 0px 0px 2rem;
  }
+
+ @media (max-width: 768px) {
+  .language-switcher {
+    margin: 10px 0 0 0; /* Add margin-top of 10px and remove left margin */
+    font-size: 0.9rem;
+    padding: 4px 8px;
+  }
+}
+
+ /* src/Components/LanguageSwitcher.css */
+
+.language-switcher-dropdown {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  color: #495057;
+  padding: 6px 12px;
+  font-size: 1rem;
+  appearance: none; /* Hide default arrow */
+  outline: none;
+  transition: border-color 0.2s ease;
+  cursor: pointer;
+}
+
+/* Add a custom arrow */
+.language-switcher-dropdown::after {
+  content: '▼';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Hover and focus styles */
+.language-switcher-dropdown:hover,
+.language-switcher-dropdown:focus {
+  border-color: #80bdff;
+  background-color: #e9ecef;
+}
+
+/* Style the dropdown when it’s in the menu */
+.language-switcher-dropdown {
+  color: #333;
+  font-weight: 600;
+  padding: 8px 12px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .language-switcher-dropdown {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    margin-left: 5px;
+  }
+}
+
+.loader {
+  border: 8px solid #f3f3f3; /* Light gray */
+  border-top: 8px solid #007bff; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
  .section-bg {
    background-color: #f5fbff;

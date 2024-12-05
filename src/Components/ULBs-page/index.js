@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { ULB_DISTRICT_LIST } from "../../utils/ulbDistrictList";
 import { ULB_MICROSITES } from "../../utils/ulbMicrosites";
 import Select from "react-select";
+import usePageLocalization from "../../utils/usePageLocalization";
+import { connect, useSelector } from "react-redux";
 
 const districtList = ULB_DISTRICT_LIST.reduce((init, curr) => {
   if (init.includes(curr["district"])) return [...init];
@@ -16,17 +18,19 @@ const ulbDistrictMapping = ULB_DISTRICT_LIST.reduce((init, curr) => {
   return initCopy;
 }, {});
 
-const ulbDropdownOptions = Object.keys(ULB_MICROSITES).map((eachUlb) => ({
-  value: eachUlb,
-  label: eachUlb,
-}));
 
-const ULBSpage = () => {
+
+const ULBSpage = ({language}) => {
+  const translations = usePageLocalization(language, 'ulb');
   const [activeTab, setActiveTab] = useState({
     district: districtList[0],
     index: 0,
   });
   const [selectedUlb, setSelectedUlb] = useState("");
+  const ulbDropdownOptions = Object.keys(ULB_MICROSITES).map((eachUlb) => ({
+    value: eachUlb,
+    label: translations[eachUlb],
+  }));
   const handleUlbSelct = (slctItem) => {
     const districtToShow = ULB_DISTRICT_LIST.find(
       (each) => slctItem.value === each.ulbName
@@ -43,12 +47,12 @@ const ULBSpage = () => {
       <section class="breadcrumbs">
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
-            <h2>ULBs</h2>
+            <h2>{translations.ULBs}</h2>
             <ol>
               <li>
-                <a href="/home">Home</a>
+                <a href="/home">{translations.home}</a>
               </li>
-              <li>ULBs</li>
+              <li>{translations.ULBs}</li>
             </ol>
           </div>
         </div>
@@ -79,7 +83,7 @@ const ULBSpage = () => {
                       }
                     >
                       <a href={`#od-${each}`} data-toggle="tab">
-                        {each}
+                        {translations[each]}
                       </a>
                     </li>
                   ))}
@@ -99,7 +103,7 @@ const ULBSpage = () => {
                           //   setActiveTab({ index: index, district: eachKey })
                           // }
                         >
-                          {eachKey}
+                          {translations[eachKey]}
                         </h1>
                         <p
                         // className={`${
@@ -119,10 +123,10 @@ const ULBSpage = () => {
                                         target="_blank"
                                         rel="noreferrer"
                                       >
-                                        {eachUlb}
+                                        {translations[eachUlb]}
                                       </a>
                                     ) : (
-                                      eachUlb
+                                      translations[eachUlb]
                                     )}
                                   </li>
                                 ) : null}
@@ -142,4 +146,8 @@ const ULBSpage = () => {
     </main>
   );
 };
-export default ULBSpage;
+const mapStateToProps = (state) => ({
+	language: state.localization.language,
+});
+
+export default connect(mapStateToProps)(ULBSpage);

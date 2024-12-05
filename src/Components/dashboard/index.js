@@ -1,9 +1,13 @@
 import React from "react";
+import { connect, useSelector } from "react-redux";
 import { Helmet } from "react-helmet";
 import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
+import usePageLocalization from "../../utils/usePageLocalization";
 import "./index.css";
 
-function Dashboard() {
+function Dashboard({ language }) {
+  const translations = usePageLocalization(language, 'obpas');
+  const ct = usePageLocalization(language,'common')
   const downloadExcel = (fileName) => {
     const link = document.createElement('a');
     link.href = fileName;
@@ -15,19 +19,19 @@ function Dashboard() {
   return (
     <div id="layoutSidenav_content">
       <Helmet>
-        <title>Welcome to ODISHA DIGIT</title>
+        <title>OBPAS</title>
       </Helmet>
       <main>
-        <header class="page-header page-header-dark bg-gradient-primary-to-secondary">
-          <div class="container-fluid">
-            <div class="page-header-content">
-              <div class="row align-items-center justify-content-between">
-                <div class="col-auto">
-                  <h1 class="page-header-title">
-                    <div class="page-header-icon">
-                      <i data-feather="activity"></i>
+        <header className="page-header page-header-dark bg-gradient-primary-to-secondary">
+          <div className="container-fluid">
+            <div className="page-header-content">
+              <div className="row align-items-center justify-content-between">
+                <div className="col-auto">
+                  <h1 className="page-header-title">
+                    <div className="page-header-icon">
+                      <i data-feather={translations.pageHeaderIcon}></i>
                     </div>
-                    Welcome to Online Building Plan Approval
+                    {translations.pageHeaderTitle}
                   </h1>
                 </div>
               </div>
@@ -35,56 +39,54 @@ function Dashboard() {
           </div>
         </header>
 
-        <div class="obps-sec-cntr">
-          <div class="col-xl-12 col-md-12 mb-4 card">
+
+        <div className="obps-sec-cntr">
+          <div className="col-xl-12 col-md-12 mb-4 card">
             <div className="obps-notice-cntr">
-              <div class="card-header">OBPAS Notice board</div>
+              <div className="card-header">{translations.obpsNoticeBoardTitle}</div>
               <div className="obps-notice-card-cntr">
-                <div class="card obps-notice-card">
-                  <div class="card-header">
-                    <h6>SUJOG OBPAS Training/Doubt Clearing Weekly Session</h6>
+                <div className="card obps-notice-card">
+                  <div className="card-header">
+                    <h6>{translations.sujogTrainingSessionTitle}</h6>
                   </div>
-                  <div class="card-body obps-notice-card-body">
-                    <p>{"Every Tuesday · 4:30 pm - 6:30 pm"}</p>
+                  <div className="card-body obps-notice-card-body">
+                    <p>{translations.sujogTrainingSessionTime}</p>
                     <p>
-                      Google Meet joining link:{" "}
+                      {translations.googleMeetLinkText}{" "}
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://meet.google.com/cva-wxrd-yvc"
+                        href={translations.googleMeetLink}
                       >
-                        https://meet.google.com/cva-wxrd-yvc
+                        {translations.googleMeetLink}
                       </a>
                     </p>
                   </div>
                 </div>
-                <div class="card obps-notice-card">
-                  <div class="card-header">
-                    <h6>Latest News</h6>
+                <div className="card obps-notice-card">
+                  <div className="card-header">
+                    <h6>{translations.latestNewsTitle}</h6>
                   </div>
-                  <div class="card-body obps-notice-card-body obps-news-scrl">
-                    <p>List of Services currently live in SUJOG OBPAS</p>
+                  <div className="card-body obps-notice-card-body obps-news-scrl">
+                    <p>{translations.servicesLiveInSUJOG}</p>
                     <ul>
-                      <li>New Construction</li>
-                      <li>Addition & Alteration</li>
-                      <li>Occupancy Certificate</li>
-                      <li>Pre-Approved Plans Approval</li>
-                      <li>Approval By Accredited Person</li>
-                      <li>Architect Registration & Renewal</li>
-                      <li>
-                        Approval of areas under OTPIT (Odisha Town Planning and
-                        improvement Trust)
-                      </li>
-                      <li>Revocation of Building Permit</li>
+                      <li>{translations.newConstruction}</li>
+                      <li>{translations.additionAndAlteration}</li>
+                      <li>{translations.occupancyCertificate}</li>
+                      <li>{translations.preApprovedPlansApproval}</li>
+                      <li>{translations.approvalByAccreditedPerson}</li>
+                      <li>{translations.architectRegistrationRenewal}</li>
+                      <li>{translations.approvalOTPIT}</li>
+                      <li>{translations.revocationOfBuildingPermit}</li>
                     </ul>
 
-                    <p>Important functionalities currently live:</p>
+                    <p>{translations.importantFunctionalitiesLive}</p>
                     <ul>
-                      <li>Typical Floor Plans</li>
-                      <li>Drawing Rework</li>
-                      <li>Road widening provision</li>
-                      <li>TDR provision</li>
-                      <li>Mixed-Use projects</li>
+                      <li>{translations.typicalFloorPlans}</li>
+                      <li>{translations.drawingRework}</li>
+                      <li>{translations.roadWideningProvision}</li>
+                      <li>{translations.tdrProvision}</li>
+                      <li>{translations.mixedUseProjects}</li>
                     </ul>
                   </div>
                 </div>
@@ -93,14 +95,15 @@ function Dashboard() {
           </div>
         </div>
 
+
         <div class="obps-sec-cntr">
           <div class="col">
             <div class="row">
               <div class="col-xl-6 col-md-6 mb-4 card">
                 <div class="card-header">
-                  Public Dashboard{" "}
+                  {translations.publicDashboard}{" "}
                   <span class="lart1">
-                    Last Update: {showFormattedCurrentDate()}
+                    {translations.lastUpdate}: {showFormattedCurrentDate()}
                   </span>
                 </div>
 
@@ -118,7 +121,7 @@ function Dashboard() {
                               <span class="float-right">
                                 <i class="fa fa-arrow-down"></i>
                               </span>
-                              <h6>Building Plan Application Approval</h6>
+                              <h6>{translations.bpa}</h6>
                             </a>
                           </div>
                           <div
@@ -130,42 +133,42 @@ function Dashboard() {
                               <table className="table table-bordered table-striped">
                                 <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
                                   <tr>
-                                    <th scope="col">Particulars</th>
-                                    <th scope="col">Details</th>
+                                    <th scope="col">{translations.particulars}</th>
+                                    <th scope="col">{translations.details}</th>
                                   </tr>
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td>{translations.timeLimit}</td>
                                     <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>15 Days</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Total Number of applications received</td>
+                                    <td>{translations.totalApplication}</td>
                                     <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Total Number of applications approved</td>
+                                    <td>{translations.totalApproved}</td>
                                     <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>{translations.avgTime}</td>
                                     <td>15 Days</td>
                                   </tr>
                                   <tr>
-                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>{translations.medianTime}</td>
                                     <td>15 Days</td>
                                   </tr>
                                   <tr>
-                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>{translations.minTime}</td>
                                     <td>15 Days</td>
                                   </tr>
                                   <tr>
-                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>{translations.maxTime}</td>
                                     <td>15 Days</td>
                                   </tr>
                                   <tr>
-                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
-                                    <td><a href="#" style={{whiteSpace:'nowrap'}} onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>₹ 134,981</a></td>
+                                    <td>{translations.avgFeeTakenByDept}</td>
+                                    <td><a href="#" style={{ whiteSpace: 'nowrap' }} onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>₹ 134,981</a></td>
                                   </tr>
                                 </tbody>
                               </table>
@@ -183,7 +186,7 @@ function Dashboard() {
                               <span class="float-right">
                                 <i class="fa fa-arrow-down"></i>
                               </span>
-                              <h6>Occupancy certificate</h6>
+                              <h6>{translations.occupancyCertificate}</h6>
                               <span class="float-right">
                                 <i class="ti-plus"></i>
                               </span>
@@ -198,41 +201,41 @@ function Dashboard() {
                               <table className="table table-bordered table-striped">
                                 <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
                                   <tr>
-                                    <th scope="col">Particulars</th>
-                                    <th scope="col">Details</th>
+                                    <th scope="col">{translations.particulars}</th>
+                                    <th scope="col">{translations.details}</th>
                                   </tr>
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td>{translations.timeLimit}</td>
                                     <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>30 Days</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Total Number of applications received</td>
+                                    <td>{translations.totalApplication}</td>
                                     <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Total Number of applications approved</td>
+                                    <td>{translations.totalApproved}</td>
                                     <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>{translations.avgTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>{translations.medianTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>{translations.minTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>{translations.maxTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
+                                    <td>{translations.avgFeeTakenByDept}</td>
                                     <td>0</td>
                                   </tr>
                                 </tbody>
@@ -252,7 +255,7 @@ function Dashboard() {
                               <span class="float-right">
                                 <i class="fa fa-arrow-down"></i>
                               </span>
-                              <h6>Plinth Approval</h6>
+                              <h6>{translations.plinthApproval}</h6>
                               <span class="float-right">
                                 <i class="ti-plus"></i>
                               </span>
@@ -267,41 +270,41 @@ function Dashboard() {
                               <table className="table table-bordered table-striped">
                                 <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
                                   <tr>
-                                    <th scope="col">Particulars</th>
-                                    <th scope="col">Details</th>
+                                    <th scope="col">{translations.particulars}</th>
+                                    <th scope="col">{translations.details}</th>
                                   </tr>
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td>{translations.timeLimit}</td>
                                     <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>30 Days</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Total Number of applications received</td>
+                                    <td>{translations.totalApplication}</td>
                                     <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Total Number of applications approved</td>
+                                    <td>{translations.totalApproved}</td>
                                     <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>{translations.avgTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>{translations.medianTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>{translations.minTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>{translations.maxTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
+                                    <td>{translations.avgFeeTakenByDept}</td>
                                     <td>0</td>
                                   </tr>
                                 </tbody>
@@ -321,7 +324,7 @@ function Dashboard() {
                               <span class="float-right">
                                 <i class="fa fa-arrow-down"></i>
                               </span>
-                              <h6>Alteration and Addition/Revision/Revalidation of Building Plan</h6>
+                              <h6>{translations.alterationTitle}</h6>
                               <span class="float-right">
                                 <i class="ti-plus"></i>
                               </span>
@@ -336,42 +339,42 @@ function Dashboard() {
                               <table className="table table-bordered table-striped">
                                 <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
                                   <tr>
-                                    <th scope="col">Particulars</th>
-                                    <th scope="col">Details</th>
+                                    <th scope="col">{translations.particulars}</th>
+                                    <th scope="col">{translations.details}</th>
                                   </tr>
                                 </thead>
                                 <tbody>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
-                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td>{translations.timeLimit}</td>
                                     <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>15 Days</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Total Number of applications received</td>
+                                    <td>{translations.totalApplication}</td>
                                     <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>249</a></td>
                                   </tr>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
-                                    <td>Total Number of applications approved</td>
+                                    <td>{translations.totalApproved}</td>
                                     <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>249</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>{translations.avgTime}</td>
                                     <td>15 Days</td>
                                   </tr>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
-                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>{translations.medianTime}</td>
                                     <td>15 Days</td>
                                   </tr>
                                   <tr>
-                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>{translations.minTime}</td>
                                     <td>15 Days</td>
                                   </tr>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
-                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>{translations.maxTime}</td>
                                     <td>15 Days</td>
                                   </tr>
                                   <tr>
-                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
-                                    <td><a href="#" style={{whiteSpace:'nowrap'}} onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>₹ 42,744</a></td>
+                                    <td>{translations.avgFeeTakenByDept}</td>
+                                    <td><a href="#" style={{ whiteSpace: 'nowrap' }} onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>₹ 42,744</a></td>
                                   </tr>
                                 </tbody>
                               </table>
@@ -390,7 +393,7 @@ function Dashboard() {
                               <span class="float-right">
                                 <i class="fa fa-arrow-down"></i>
                               </span>
-                              <h6>Demolition and Reconstruction of Building</h6>
+                              <h6>{translations.demplotion}</h6>
                               <span class="float-right">
                                 <i class="ti-plus"></i>
                               </span>
@@ -405,41 +408,41 @@ function Dashboard() {
                               <table className="table table-bordered table-striped">
                                 <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
                                   <tr>
-                                    <th scope="col">Particulars</th>
-                                    <th scope="col">Details</th>
+                                    <th scope="col">{translations.particulars}</th>
+                                    <th scope="col">{translations.details}</th>
                                   </tr>
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <td>Time Limit prescribed as per the Public Service Guarantee Act</td>
+                                    <td>{translations.timeLimit}</td>
                                     <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>30 Days</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Total Number of applications received</td>
+                                    <td>{translations.totalApplication}</td>
                                     <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Total Number of applications approved</td>
+                                    <td>{translations.totalApproved}</td>
                                     <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
                                   </tr>
                                   <tr>
-                                    <td>Average time taken to obtain registration/renewal</td>
+                                    <td>{translations.avgTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>Median time taken to obtain registration/renewal</td>
+                                    <td>{translations.medianTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>Minimum time taken to obtain registration/renewal</td>
+                                    <td>{translations.minTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>Maximum time taken to obtain registration/renewal</td>
+                                    <td>{translations.maxTime}</td>
                                     <td>0</td>
                                   </tr>
                                   <tr>
-                                    <td>"Average fee" taken by the Department for completion of entire process of obtaining approval/certificate</td>
+                                    <td>{translations.avgFeeTakenByDept}</td>
                                     <td>0</td>
                                   </tr>
                                 </tbody>
@@ -455,7 +458,7 @@ function Dashboard() {
 
               <div class="col-xl-6 col-md-6 mb-4 card card2">
                 <div class="card-header">
-                  Information related to Building Plan Application Approval
+                  {translations.informationofObpasTitle}
                 </div>
                 <div class="row card-body">
                   <div class="col-md-12">
@@ -469,7 +472,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Documents required in OBPAS
+                            {ct.docInObpas}
                           </a>
                         </li>
                         <li class="nav-item">
@@ -480,7 +483,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Fee Estimate
+                            {ct.feeEstimate}
                           </a>
                         </li>
                         <li class="nav-item">
@@ -491,7 +494,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Field Verification checklist
+                            {ct.fieldVerificationChecklist}
                           </a>
                         </li>
                         <li class="nav-item">
@@ -502,7 +505,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Rules and Regulations
+                            {ct.rulesAndRegulations}
                           </a>
                         </li>
                         <li class="nav-item">
@@ -513,7 +516,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Procedure
+                            {ct.procedure}
                           </a>
                         </li>
 
@@ -525,7 +528,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            OBPAS Training Videos
+                            {ct.obpasTrainingVideos}
                           </a>
                         </li>
                         <li class="nav-item">
@@ -536,7 +539,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Drawing Manual
+                            {ct.drawingManual}
                           </a>
                         </li>
                         <li class="nav-item">
@@ -547,7 +550,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Drawing Template
+                            {ct.drawingTemplate}
                           </a>
                         </li>
 
@@ -559,7 +562,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Project Risk Criterias{" "}
+                            {ct.projectRiskCriteria}{" "}
                           </a>
                         </li>
 
@@ -571,7 +574,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Reference Files
+                            {ct.referenceFiles}
                           </a>
                         </li>
 
@@ -583,7 +586,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            Practice Files
+                            {ct.practiceFiles}
                           </a>
                         </li>
 
@@ -595,7 +598,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            User Manuals
+                            {ct.userManual}
                           </a>
                         </li>
 
@@ -607,7 +610,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            NOC list
+                            {ct.nocList}
                           </a>
                         </li>
 
@@ -619,7 +622,7 @@ function Dashboard() {
                             data-toggle="tab"
                             role="tab"
                           >
-                            List of live OBPAS Services
+                            {ct.listofliveOBPASServices}
                           </a>
                         </li>
 
@@ -684,7 +687,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-B"
                               >
-                                Drawing Manual
+                                {ct.drawingManual}
                               </a>
                             </h5>
                           </div>
@@ -778,7 +781,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-C"
                               >
-                                Drawing Template
+                                {ct.drawingTemplate}
                               </a>
                             </h5>
                           </div>
@@ -905,7 +908,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-d"
                               >
-                                Project Risk Criterias
+                                {ct.projectRiskCriteria}
                               </a>
                             </h5>
                           </div>
@@ -967,7 +970,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-e"
                               >
-                                Reference Files
+                                {ct.referenceFiles}
                               </a>
                             </h5>
                           </div>
@@ -1144,7 +1147,7 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              OBPAS Reference File - Apartment Project_V1.2(DXF)
+                                OBPAS Reference File - Apartment Project_V1.2(DXF)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPAS Reference File - Apartment Project_V1.2.dxf"
@@ -1243,7 +1246,7 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              OBPAS Reference File - Typical Floor Plan_V1.2(DWG)
+                                OBPAS Reference File - Typical Floor Plan_V1.2(DWG)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPAS Reference File - Typical Floor Plan_V1.2.dwg"
@@ -1276,7 +1279,7 @@ function Dashboard() {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              OBPAS Reference File - Typical Floor Plan_V1.2(DXF)
+                                OBPAS Reference File - Typical Floor Plan_V1.2(DXF)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPAS Reference File - Typical Floor Plan_V1.2.dxf"
@@ -1326,7 +1329,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-f"
                               >
-                                Practice Files
+                                {ct.practiceFiles}
                               </a>
                             </h5>
                           </div>
@@ -1453,7 +1456,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-g"
                               >
-                                User Manuals
+                                {ct.userManual}
                               </a>
                             </h5>
                           </div>
@@ -1614,7 +1617,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-h"
                               >
-                                NOC list
+                                {ct.nocList}
                               </a>
                             </h5>
                           </div>
@@ -1676,7 +1679,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-i"
                               >
-                                Documents required in OBPAS
+                                {ct.docInObpas}
                               </a>
                             </h5>
                           </div>
@@ -1738,7 +1741,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-j"
                               >
-                                Fee Estimate
+                                {ct.feeEstimate}
                               </a>
                             </h5>
                           </div>
@@ -1786,7 +1789,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-k"
                               >
-                                Field Verification checklist
+                                {ct.fieldVerificationChecklist}
                               </a>
                             </h5>
                           </div>
@@ -1832,7 +1835,7 @@ function Dashboard() {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              SITE INSPECTION CHECKLIST DEMOLITION OF BUILDING.pdf
+                                SITE INSPECTION CHECKLIST DEMOLITION OF BUILDING.pdf
                                 <div class="h5 pull-right">
                                   <a
                                     href="Deshboard/images/SITE INSPECTION CHECKLIST DEMOLITION OF BUILDING.pdf"
@@ -1949,7 +1952,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-l"
                               >
-                                Rules and Regulations
+                                {ct.rulesAndRegulations}
                               </a>
                             </h5>
                           </div>
@@ -2028,7 +2031,7 @@ function Dashboard() {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              ODA Rules 2020.pdf
+                                ODA Rules 2020.pdf
                                 <div class="h5 pull-right">
                                   <a
                                     href="Deshboard/images/ODA Rules 2020.pdf"
@@ -2078,7 +2081,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-m"
                               >
-                                Procedure
+                                {ct.procedure}
                               </a>
                             </h5>
                           </div>
@@ -2190,7 +2193,7 @@ function Dashboard() {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Sujog OBPAS_Demolition Workflow.pdf
+                                Sujog OBPAS_Demolition Workflow.pdf
                                 <div class="h5 pull-right">
                                   <a
                                     href="Deshboard/images/Sujog OBPAS_Demolition Workflow.pdf"
@@ -2240,7 +2243,7 @@ function Dashboard() {
                                 aria-expanded="false"
                                 aria-controls="collapse-n"
                               >
-                                List of live OBPAS Services
+                                {ct.listofliveOBPASServices}
                               </a>
                             </h5>
                           </div>
@@ -2299,4 +2302,8 @@ function Dashboard() {
     </div>
   );
 }
-export default Dashboard;
+const mapStateToProps = (state) => ({
+  language: state.localization.language,
+});
+
+export default connect(mapStateToProps)(Dashboard);
