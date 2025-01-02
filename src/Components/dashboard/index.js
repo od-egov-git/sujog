@@ -759,6 +759,38 @@ function Dashboard() {
                                 </div>
                               </div>
                             </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                              Common FAQs related to CAD to Pdf generation for Architects
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Common FAQs related to CAD to Pdf generation for Architects.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Common FAQs related to CAD to Pdf generation for Architects.pdf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
 
