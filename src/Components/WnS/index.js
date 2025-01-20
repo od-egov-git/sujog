@@ -4,9 +4,17 @@ import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 import { connect, useSelector } from "react-redux";
 import usePageLocalization from "../../utils/usePageLocalization";
 
-function WnS({language}) {
+function WnS({ language }) {
 	const translations = usePageLocalization(language, 'wns');
 	const ct = usePageLocalization(language, 'common');
+	const downloadExcel = (fileName) => {
+		const link = document.createElement('a');
+		link.href = fileName;
+		link.download = fileName;
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	  }
 	return <div class="container">
 		<div id="layoutSidenav_content">
 			<Helmet><title>{translations.helmetTitle}</title> </Helmet>
@@ -37,127 +45,68 @@ function WnS({language}) {
 									<div class="container">
 										<div class="row">
 											<div id="accordion" class="width2">
+												{/* New Format table is added */}
 												<div class="card">
 													<div class="card-header">
-														<a class="card-link text-dark" data-toggle="collapse" href="#collapseOne"><span class="float-right"><i class="fa fa-arrow-down"></i></span>
+														<a
+															class="card-link text-dark"
+															data-toggle="collapse"
+															href="#collapseOne"
+														>
+															<span class="float-right">
+																<i class="fa fa-arrow-down"></i>
+															</span>
 															<h6>{translations.helmetTitle}</h6>
 														</a>
 													</div>
-													<div id="collapseOne" class="collapse show" data-parent="#accordion">
+													<div
+														id="collapseOne"
+														class="collapse show"
+														data-parent="#accordion"
+													>
 														<div class="card-body">
-															<div class="row card-body">
-																<div class="col-xl-4 col-md-6 mb-4">
-																	<div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-																		<div class="card-body">
-																			<div class="d-flex align-items-center">
-																				<div class="flex-grow-1">
-																					<h6>{translations.serviceDeliveryTime}</h6>
-																					{/* <div class="small font-weight-bold text-primary mb-1">Low Risk Approval</div>
-																					<div class="h5">7 Days</div>
-																					<div class="small font-weight-bold text-primary mb-1">Other than Low Risk Approval </div>
-																					<div class="h5">60 Days</div> */}
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-xl-4 col-md-6 mb-4">
-																	<div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-																		<div class="card-body">
-																			<div class="d-flex align-items-center">
-																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-secondary mb-1">{translations.totalNumberofApplicationsReceived}</div>
-																					<div class="h5">8765</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-xl-4 col-md-6 mb-4">
-																	<div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-																		<div class="card-body">
-																			<div class="d-flex align-items-center">
-																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-success mb-1">{translations.numberofApplicationsApproved}</div>
-																					<div class="h5">7848</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-xl-4 col-md-6 mb-4">
-																	<div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-																		<div class="card-body">
-																			<div class="d-flex align-items-center">
-																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-info mb-1">{translations.numberofApplicationsRejected}</div>
-																					<div class="h5">196</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-xl-4 col-md-6 mb-4">
-																	<div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-primary h-100">
-																		<div class="card-body">
-																			<div class="d-flex align-items-center">
-																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-primary mb-1">{translations.totalNumberofApplicationsPending}</div>
-																					<div class="h5">721</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-xl-4 col-md-6 mb-4">
-																	<div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-secondary h-100">
-																		<div class="card-body">
-																			<div class="d-flex align-items-center">
-																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-secondary mb-1">{translations.avgNumberofDaysforApproval}</div>
-																					<div class="h5">14</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-xl-4 col-md-6 mb-4">
-																	<div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-																		<div class="card-body">
-																			<div class="d-flex align-items-center">
-																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-success mb-1">{translations.medianNumberofDaysforApproval}</div>
-																					<div class="h5">3</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-xl-4 col-md-6 mb-4">
-																	<div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-info h-100">
-																		<div class="card-body">
-																			<div class="d-flex align-items-center">
-																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-info mb-1">{translations.minimumNumberofDaysforApproval}</div>
-																					<div class="h5">1</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-xl-4 col-md-6 mb-4">
-																	<div class="card border-top-0 border-bottom-0 border-right-0 border-left-lg border-success h-100">
-																		<div class="card-body">
-																			<div class="d-flex align-items-center">
-																				<div class="flex-grow-1">
-																					<div class="small font-weight-bold text-success mb-1">{translations.maximumNumberofDaysforApproval}</div>
-																					<div class="h5">226</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
+															<table className="table table-bordered table-striped">
+																<thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
+																	<tr>
+																		<th scope="col">{translations.particulars}</th>
+																		<th scope="col">{translations.details}</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>{translations.timeLimit}</td>
+																		<td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>15 Days</a></td>
+																	</tr>
+																	<tr>
+																		<td>{translations.totalApplication}</td>
+																		<td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
+																	</tr>
+																	<tr>
+																		<td>{translations.totalApproved}</td>
+																		<td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
+																	</tr>
+																	<tr>
+																		<td>{translations.avgTime}</td>
+																		<td>15 Days</td>
+																	</tr>
+																	<tr>
+																		<td>{translations.medianTime}</td>
+																		<td>15 Days</td>
+																	</tr>
+																	<tr>
+																		<td>{translations.minTime}</td>
+																		<td>15 Days</td>
+																	</tr>
+																	<tr>
+																		<td>{translations.maxTime}</td>
+																		<td>15 Days</td>
+																	</tr>
+																	<tr>
+																		<td>{translations.avgFeeTakenByDept}</td>
+																		<td><a href="#" style={{ whiteSpace: 'nowrap' }} onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>₹ 134,981</a></td>
+																	</tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 												</div>
@@ -332,10 +281,10 @@ function WnS({language}) {
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">1948 H&UD Deptt._Water Rule.pdf
 																<div className="h5 pull-right"><a href="Deshboard/images/1948 H&UD Deptt._Water Rule.pdf" className="tooltip" target="_blank">
-																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
 																</div>
 																<div className="h5 pull-right"><a href="Deshboard/images/1948 H&UD Deptt._Water Rule.pdf" className="tooltip" target="_blank">
-																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt="" className="fkdl" /></a>
 																</div>
 															</div>
 														</div>
@@ -343,10 +292,10 @@ function WnS({language}) {
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">Odisha State Urban Water Supply Policy-2013.pdf
 																<div className="h5 pull-right"><a href="Deshboard/images/Odisha State Urban Water Supply Policy-2013.pdf" className="tooltip" target="_blank">
-																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
 																</div>
 																<div className="h5 pull-right"><a href="Deshboard/images/Odisha State Urban Water Supply Policy-2013.pdf" className="tooltip" target="_blank">
-																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt="" className="fkdl" /></a>
 																</div>
 															</div>
 														</div>
@@ -354,10 +303,10 @@ function WnS({language}) {
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">Water_Tariff_2024-25.pdf
 																<div className="h5 pull-right"><a href="Deshboard/images/water tariff_2024-25.pdf" className="tooltip" target="_blank">
-																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
 																</div>
 																<div className="h5 pull-right"><a href="Deshboard/images/water tariff_2024-25.pdf" className="tooltip" target="_blank">
-																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt="" className="fkdl" /></a>
 																</div>
 															</div>
 														</div>
@@ -365,10 +314,10 @@ function WnS({language}) {
 														<div className="flex-grow-1 free-1">
 															<div className="small font-weight-bold text-primary mb-1">Water works rules.pdf
 																<div className="h5 pull-right"><a href="Deshboard/images/Water works rules.pdf" className="tooltip" target="_blank">
-																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt ="" className="fkdl" /></a>
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
 																</div>
 																<div className="h5 pull-right"><a href="Deshboard/images/Water works rules.pdf" className="tooltip" target="_blank">
-																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt ="" className="fkdl" /></a>
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt="" className="fkdl" /></a>
 																</div>
 															</div>
 														</div>
