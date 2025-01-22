@@ -83,9 +83,7 @@ function Menubar() {
                                 <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/digit-ui/citizen/login">
                                     {translations.navigationLogInOthers}
                                 </a>
-                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="/tpa">
-                                    {translations.navigationLogInTPA}
-                                </a>
+                                <Link to="/tpa">{translations.navigationLogInTPA}</Link>
                             </div>
                         </div>
                     </li>

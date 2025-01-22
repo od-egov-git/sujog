@@ -3,34 +3,35 @@ import React, { useState } from "react";
 import Select from "react-select";
 import { ALL_TENANTS_FROM_MDMS } from "../../utils/tanentInfo";
 import { ULB_MICROSITES } from "../../utils/ulbMicrosites";
+import usePageLocalization from "../../utils/usePageLocalization";
+import { connect, useSelector } from "react-redux";
+
 import "./index.css";
 
-const ulbDropdownOptions = ALL_TENANTS_FROM_MDMS.map((each) => ({
-  value: each.code,
-  label: each.name,
-}))
-  // .filter((each) => Object.keys(ULB_MICROSITES).includes(each.label))
-  .sort((a, b) => {
-    return a.label > b.label ? 1 : -1;
-  });
-
-const serviceOptions = [
-  { value: "WS", label: "Water & Sewerage" },
-  { value: "PT", label: "Property Tax" },
-  { value: "TL", label: "Trade License" },
-  { value: "BPA", label: "Building Plan Approval" },
-  { value: "MR", label: "Marriage Registration" },
-];
-
-const CONSUMER_NO_PLACEHOLDER_MAPPER = {
-  PT: "Property Id",
-  TL: "Trade License Number",
-  WS: "Connection Number",
-  MR: "Marriage Registration Number",
-  BPA: "Application Number",
-};
-
-const TPA = () => {
+const TPA = ({ language }) => {
+  const translations = usePageLocalization(language, 'tpa');
+  const ulbTranslation = usePageLocalization(language,'ulb')
+  const serviceOptions = [
+    { value: "WS", label: `${translations.waterSewerageTitle}` },
+    { value: "PT", label: `${translations.propertyTaxTitle}` },
+    { value: "TL", label: `${translations.tradeLicenseTitle}` },
+    { value: "BPA", label: `${translations.bpaTitle}` },
+    { value: "MR", label: `${translations.marriageRegistrationTitle}` },
+  ];
+  const ulbDropdownOptions = ALL_TENANTS_FROM_MDMS.map((each) => ({
+    value: each.code,
+    label: ulbTranslation[each.code],
+  }))
+    .sort((a, b) => {
+      return a.label > b.label ? 1 : -1;
+    });
+    const CONSUMER_NO_PLACEHOLDER_MAPPER = {
+      PT: translations.propertyId,
+      TL: translations.tradeLicenseNumber,
+      WS: translations.connectionNo,
+      MR: translations.mrNo,
+      BPA: "Application Number",
+    };
   const [formData, setFormData] = useState({
     tenantId: "",
     businessService: "",
@@ -139,12 +140,12 @@ const TPA = () => {
       <section class="breadcrumbs">
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
-            <h2>Third Party Verification</h2>
+            <h2>{translations.tpaVerification}</h2>
             <ol>
               <li>
-                <a href="/home">Home</a>
+                <a href="/home">{translations.home}</a>
               </li>
-              <li>Third Party Verification</li>
+              <li>{translations.tpaVerification}</li>
             </ol>
           </div>
         </div>
@@ -155,10 +156,10 @@ const TPA = () => {
           <div className="tpa-form-sec">
             <div className="tpa-form-item">
               <label>
-                City <span className="tpa-reqd">*</span>{" "}
+                {translations.city} <span className="tpa-reqd">*</span>{" "}
               </label>
               <Select
-                placeholder="Select City"
+                placeholder={translations.selectCity}
                 value={formData["tenantId"]}
                 onChange={(value) => handleFormChange("tenantId", value)}
                 options={ulbDropdownOptions}
@@ -167,10 +168,10 @@ const TPA = () => {
             </div>
             <div className="tpa-form-item">
               <label>
-                Service <span className="tpa-reqd">*</span>{" "}
+                {translations.service} <span className="tpa-reqd">*</span>{" "}
               </label>
               <Select
-                placeholder="Select Service"
+                placeholder={translations.selectService}
                 value={formData["businessService"]}
                 onChange={(value) => handleFormChange("businessService", value)}
                 options={serviceOptions}
@@ -183,7 +184,7 @@ const TPA = () => {
                   <label>
                     {
                       CONSUMER_NO_PLACEHOLDER_MAPPER[
-                        formData["businessService"]["value"]
+                      formData["businessService"]["value"]
                       ]
                     }
                     <span className="tpa-reqd">*</span>
@@ -203,58 +204,58 @@ const TPA = () => {
                   "Some error occured at the server end. Kindly try after sometime."}
               </div>
               <button className="tpa-submit-btn" onClick={handleFormSubmit}>
-                Search
+                {translations.search}
               </button>
             </div>
           </div>
           <div className={`${showResult ? "tpa-result-sec" : "rslt-hide"}`}>
             {showResult && (
               <div className="tpa-result-cntr">
-                <div className="tpa-result-hdr">Search Result</div>
+                <div className="tpa-result-hdr">{translations.searchREsult}</div>
                 <div className="tpa-result-body">
                   {result["consumerNo"] ? (
                     <>
                       <div className="tpa-rslt-item">
-                        <label className="tpa-rslt-lbl">Consumer ID</label>
+                        <label className="tpa-rslt-lbl">{translations.consumerId}</label>
                         <span className="tpa-colon">:</span>
                         <span>{result["consumerNo"]}</span>
                       </div>
                       <div className="tpa-rslt-item">
-                        <label className="tpa-rslt-lbl">Status</label>
+                        <label className="tpa-rslt-lbl">{translations.status}</label>
                         <span className="tpa-colon">:</span>
                         <span>{result["status"]}</span>
                       </div>
                       <div className="tpa-rslt-item">
-                        <label className="tpa-rslt-lbl">Address</label>
+                        <label className="tpa-rslt-lbl">{translations.address}</label>
                         <span className="tpa-colon">:</span>
                         <span>{result["address"]}</span>
                       </div>
                       <hr />
-                      <div className="tpr-ownr-info-hdr">Owner Info</div>
+                      <div className="tpr-ownr-info-hdr">{translations.ownerInfo}</div>
                       {result["owner"] && result["owner"].length > 0
                         ? result["owner"].map((each, index) => (
-                            <div key={`tpr-rslt-key-${index}`}>
-                              <div className="tpa-rslt-item">
-                                <label className="tpa-rslt-lbl">
-                                  Owner Name
-                                </label>
-                                <span className="tpa-colon">:</span>
-                                <span>{each["name"]}</span>
-                              </div>
-                              <div className="tpa-rslt-item">
-                                <label className="tpa-rslt-lbl">Address</label>
-                                <span className="tpa-colon">:</span>
-                                <span>{each["address"] || 'NA'}</span>
-                              </div>
-                              {index + 1 !== result["owner"].length && (
-                                <hr className="tpr-divider-owner" />
-                              )}
+                          <div key={`tpr-rslt-key-${index}`}>
+                            <div className="tpa-rslt-item">
+                              <label className="tpa-rslt-lbl">
+                                {translations.ownerName}
+                              </label>
+                              <span className="tpa-colon">:</span>
+                              <span>{each["name"]}</span>
                             </div>
-                          ))
-                        : "No Owner Details Found"}
+                            <div className="tpa-rslt-item">
+                              <label className="tpa-rslt-lbl">{translations.address}</label>
+                              <span className="tpa-colon">:</span>
+                              <span>{each["address"] || 'NA'}</span>
+                            </div>
+                            {index + 1 !== result["owner"].length && (
+                              <hr className="tpr-divider-owner" />
+                            )}
+                          </div>
+                        ))
+                        : translations.noOwnerFound}
                     </>
                   ) : (
-                    <div className="tpa-no-data">No Details Found.</div>
+                    <div className="tpa-no-data">{translations.noDetailsFound}</div>
                   )}
                 </div>
               </div>
@@ -266,4 +267,8 @@ const TPA = () => {
   );
 };
 
-export default TPA;
+const mapStateToProps = (state) => ({
+  language: state.localization.language,
+});
+
+export default connect(mapStateToProps)(TPA);
