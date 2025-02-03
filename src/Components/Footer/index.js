@@ -4,9 +4,11 @@ import { showFormattedCurrentDate } from "../../Actions/CommonFunctions";
 import { connect, useSelector } from "react-redux";
 import usePageLocalization from "../../utils/usePageLocalization";
 
-function Footer({language}) {
+function Footer({ language }) {
   const translations = usePageLocalization(language, 'footer');
-
+  const username = ["h", "e", "l", "p", "d", "e", "s", "k", ".", "s", "u", "j", "o", "g"];
+  const domain = ["o", "d", "i", "s", "h", "a", ".", "g", "o", "v", ".", "i", "n"];
+  const email = username.join("") + "@" + domain.join("");
   return (
     <>
       <footer id="footer">
@@ -58,6 +60,7 @@ function Footer({language}) {
                   </li>
                   <li>
                     <i class="bx bx-envelope"></i>{translations.helpdeskEmail}{" "}
+                    <img src="/Deshboard/images/contact_email.PNG" alt="Contact Email" />
                   </li>
                   <li>
                     <i class="bx bx-mobile"></i> {translations.helpdeskPhone}
