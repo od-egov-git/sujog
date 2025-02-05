@@ -9,7 +9,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -47,7 +47,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -86,7 +86,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -128,7 +128,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -170,7 +170,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -204,7 +204,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -244,7 +244,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -280,7 +280,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -316,7 +316,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -350,7 +350,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -386,7 +386,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -420,7 +420,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -459,7 +459,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -495,7 +495,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -531,7 +531,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -565,7 +565,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -601,7 +601,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -635,7 +635,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -671,7 +671,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -707,7 +707,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -741,7 +741,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -777,7 +777,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -811,7 +811,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -847,7 +847,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -883,7 +883,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -917,7 +917,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -951,7 +951,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -987,7 +987,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -1026,7 +1026,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -1067,7 +1067,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM",
       "Sat": "9.00 AM - 12.00 PM"
@@ -1107,7 +1107,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1142,7 +1142,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1180,7 +1180,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1215,7 +1215,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1250,7 +1250,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1285,7 +1285,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1323,7 +1323,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1358,7 +1358,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1393,7 +1393,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1428,7 +1428,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1463,7 +1463,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1498,7 +1498,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1533,7 +1533,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1568,7 +1568,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1603,7 +1603,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1638,7 +1638,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1673,7 +1673,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1708,7 +1708,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1747,7 +1747,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1786,7 +1786,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1821,7 +1821,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1856,7 +1856,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1891,7 +1891,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1926,7 +1926,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1959,7 +1959,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -1997,7 +1997,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2032,7 +2032,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2067,7 +2067,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2106,7 +2106,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2141,7 +2141,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2176,7 +2176,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2211,7 +2211,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2246,7 +2246,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2281,7 +2281,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2316,7 +2316,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2351,7 +2351,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2386,7 +2386,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2421,7 +2421,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2456,7 +2456,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2491,7 +2491,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2526,7 +2526,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2564,7 +2564,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2599,7 +2599,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2637,7 +2637,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2675,7 +2675,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2710,7 +2710,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2745,7 +2745,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2780,7 +2780,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2821,7 +2821,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2859,7 +2859,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2894,7 +2894,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2929,7 +2929,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2964,7 +2964,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -2999,7 +2999,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3037,7 +3037,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3072,7 +3072,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3107,7 +3107,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3142,7 +3142,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3177,7 +3177,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3212,7 +3212,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3247,7 +3247,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3285,7 +3285,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3320,7 +3320,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3355,7 +3355,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3390,7 +3390,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3425,7 +3425,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3463,7 +3463,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3498,7 +3498,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3533,7 +3533,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3568,7 +3568,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3603,7 +3603,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3638,7 +3638,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3673,7 +3673,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3708,7 +3708,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3743,7 +3743,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3778,7 +3778,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3813,7 +3813,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3848,7 +3848,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3883,7 +3883,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3918,7 +3918,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3953,7 +3953,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -3988,7 +3988,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4023,7 +4023,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4058,7 +4058,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4093,7 +4093,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4128,7 +4128,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4163,7 +4163,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4198,7 +4198,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4233,7 +4233,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4268,7 +4268,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4303,7 +4303,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4338,7 +4338,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4373,7 +4373,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4408,7 +4408,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
@@ -4443,7 +4443,7 @@ export const ALL_TENANTS_FROM_MDMS = [
     "type": "CITY",
     "twitterUrl": null,
     "facebookUrl": null,
-    "emailId": "helpdesk.sujog@odisha.gov.in",
+    
     "OfficeTimings": {
       "Mon - Fri": "9.00 AM - 6.00 PM"
     },
