@@ -75,15 +75,15 @@ function WnS({ language }) {
 																<tbody>
 																	<tr>
 																		<td>{translations.timeLimit}</td>
-																		<td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>15 Days</a></td>
+																		<td><a href="#" onClick={() => downloadExcel('/Deshboard/images/19465 Notification of HandUD services under ORTPSA 2012001.pdf')}>90 Days</a></td>
 																	</tr>
 																	<tr>
 																		<td>{translations.totalApplication}</td>
-																		<td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
+																		<td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>900</a></td>
 																	</tr>
 																	<tr>
 																		<td>{translations.totalApproved}</td>
-																		<td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
+																		<td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>800</a></td>
 																	</tr>
 																	<tr>
 																		<td>{translations.avgTime}</td>
@@ -95,15 +95,15 @@ function WnS({ language }) {
 																	</tr>
 																	<tr>
 																		<td>{translations.minTime}</td>
-																		<td>15 Days</td>
+																		<td>1 Days</td>
 																	</tr>
 																	<tr>
 																		<td>{translations.maxTime}</td>
-																		<td>15 Days</td>
+																		<td>90 Days</td>
 																	</tr>
 																	<tr>
 																		<td>{translations.avgFeeTakenByDept}</td>
-																		<td><a href="#" style={{ whiteSpace: 'nowrap' }} onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>₹ 134,981</a></td>
+																		<td><a href="#" style={{ whiteSpace: 'nowrap' }} onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>₹ 813</a></td>
 																	</tr>
 																</tbody>
 															</table>
@@ -137,6 +137,9 @@ function WnS({ language }) {
 												</li>
 												<li class="nav-item">
 													<a id="tab-d" href="#pane-d" class="nav-link" data-toggle="tab" role="tab">{ct.userManual}</a>
+												</li>
+												<li class="nav-item">
+													<a id="tab-f" href="#pane-f" class="nav-link" data-toggle="tab" role="tab">{ct.procedure}</a>
 												</li>
 
 
@@ -317,6 +320,30 @@ function WnS({ language }) {
 																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
 																</div>
 																<div className="h5 pull-right"><a href="Deshboard/images/Water works rules.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt="" className="fkdl" /></a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												{/* Procedure Document Start */}
+												<div id="pane-f" className="card tab-pane fade" role="tabpanel" aria-labelledby="tab-f">
+													<div className="card-header" role="tab" id="heading-f">
+														<h5 className="mb-0">
+															<a className="collapsed" data-toggle="collapse" href="#collapse-e" data-parent="#content" aria-expanded="false" aria-controls="collapse-e">
+																{ct.procedure}
+															</a>
+														</h5>
+													</div>
+
+													<div id="collapse-f" className="collapse" role="tabpanel" aria-labelledby="heading-e">
+														<div className="flex-grow-1 free-1">
+															<div className="small font-weight-bold text-primary mb-1">Procedure for Water & Sewerage Connection.pdf
+																<div className="h5 pull-right"><a href="Deshboard/images/Procedure for Water & Sewerage Connection 1.pdf" className="tooltip" target="_blank">
+																	<span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
+																</div>
+																<div className="h5 pull-right"><a href="Deshboard/images/Procedure for Water & Sewerage Connection 1.pdf" className="tooltip" target="_blank">
 																	<span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt="" className="fkdl" /></a>
 																</div>
 															</div>
