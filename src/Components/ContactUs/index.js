@@ -1,7 +1,11 @@
 import React from "react";
+import { connect, useSelector } from "react-redux";
+import usePageLocalization from "../../utils/usePageLocalization";
 
 
-function ContactUs() {
+function ContactUs({language}) {
+  const translations = usePageLocalization(language, 'contactus');
+
     return <main id="main">
 
 
@@ -9,10 +13,10 @@ function ContactUs() {
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Contact us</h2>
+          <h2>{translations.contactus}</h2>
           <ol>
-            <li><a href="home">Home</a></li>
-            <li>contact</li>
+            <li><a href="home">{translations.home}</a></li>
+            <li>{translations.contact}</li>
           </ol>
         </div>
 
@@ -23,7 +27,7 @@ function ContactUs() {
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact Us</h2>
+          <h2>{translations.contactus}</h2>
         </div>
 
         <div class="row">
@@ -31,15 +35,15 @@ function ContactUs() {
           <div class="col-lg-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up">
             <div class="info-box">
               <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>Odisha,Bhubaneswar</p>
+              <h3>{translations.ourAddress}</h3>
+              <p>{translations.bbsr}</p>
             </div>
           </div>
 
           <div class="col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div class="info-box">
               <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
+              <h3>{translations.email}</h3>
               <p>helpdesk.sujog@odisha.gov.in</p>
             </div>
           </div>
@@ -47,7 +51,7 @@ function ContactUs() {
           <div class="col-lg-3 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
             <div class="info-box ">
               <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
+              <h3>{translations.callus}</h3>
               <p>1800 121 6833</p>
             </div>
           </div>
@@ -88,4 +92,8 @@ function ContactUs() {
 
   </main>
 };
-export default ContactUs;
+const mapStateToProps = (state) => ({
+	language: state.localization.language,
+});
+
+export default connect(mapStateToProps)(ContactUs);

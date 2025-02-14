@@ -1,0 +1,23 @@
+{
+    "helmetTitle": "ସାର୍ବଜନୀନ ଅଭିଯୋଗ ସମାଧାନ",
+    "headerContent": "ସେବା/ଜନ ସାଧାରଣ ଅଭିଯୋଗ ସମାଧାନ",
+    "publicDashboard": "ସାର୍ବଜନୀନ ଡ୍ୟାସବୋର୍ଡ",
+    "lastUpdate": "ଶେଷ ଅଦ୍ୟତନ",
+    "serviceDeliveryTime": "ସେବା ପ୍ରଦାନ ସମୟ",
+    "totalNumberofApplicationsReceived": "ଗ୍ରହଣ କରାଯାଇଥିବା ମୋଟ ଆବେଦନ ସଂଖ୍ୟା",
+    "numberofApplicationsApproved": "ଅନୁମୋଦିତ ଆବେଦନ ସଂଖ୍ୟା",
+    "numberofApplicationsRejected": "ପ୍ରତ୍ୟାଖ୍ୟାନ କରାଯାଇଥିବା ଆବେଦନଗୁଡ଼ିକର ସଂଖ୍ୟା",
+    "totalNumberofApplicationsPending": "ବିଚାରାଧୀନ ଥିବା ମୋଟ ଆବେଦନ ସଂଖ୍ୟା",
+    "avgNumberofDaysforApproval": "ଅନୁମୋଦନ ପାଇଁ ହାରାହାରି/ହାରାହାରି ଦିନ ସଂଖ୍ୟା",
+    "medianNumberofDaysforApproval": "ଅନୁମୋଦନ ପାଇଁ ଦିନର ମଧ୍ୟମ ସଂଖ୍ୟା",
+    "minimumNumberofDaysforApproval": "ଅନୁମୋଦନ ପାଇଁ ସର୍ବନିମ୍ନ ଦିନ ସଂଖ୍ୟା",
+    "maximumNumberofDaysforApproval": "ଅନୁମୋଦନ ପାଇଁ ସର୍ବାଧିକ ଦିନ ସଂଖ୍ୟା",
+    "pgrInfo": "ସାର୍ବଜନୀନ ଅଭିଯୋଗ ସମାଧାନ ସମ୍ବନ୍ଧୀୟ ସୂଚନା",
+    "pgrSystemDescription": "ପିଜିଆର ସିଷ୍ଟମ ହେଉଛି ଏକ ଆପ୍ଲିକେସନ୍ ଯେଉଁଥିରେ ନାଗରିକମାନେ ଅଭିଯୋଗ ଦାଖଲ କରିପାରିବେ ଏବଂ ସମାଧାନ ବ୍ୟବସ୍ଥାର ସ୍ଥିତିକୁ ଟ୍ରାକ୍ କରିପାରିବେ। ଏହା ନାଗରିକମାନଙ୍କୁ ସେମାନଙ୍କ ଅଭିଯୋଗ ଅନଲାଇନରେ ପଞ୍ଜିକରଣ କରିବା, ବନ୍ଦ ହେବା ପର୍ଯ୍ୟନ୍ତ ଅଭିଯୋଗ ସମାଧାନର ଅଗ୍ରଗତି ଉପରେ ନଜର ରଖିବା ପାଇଁ ଅନୁମତି ଦେଇଥାଏ।",
+    "fileComplaintRemotely": "1. ଦୂରସ୍ଥ ଭାବେ ଶିକାୟତ ଦାଖଲ କରନ୍ତୁ",
+    "trackComplaint": "2. ଦାଖଲ ହୋଇଥିବା ଶିକାୟତକୁ ଟ୍ରାକ୍ କରନ୍ତୁ",
+    "communicateWithAuthorities": "3. ସ୍ଥାନୀୟ କ୍ଷେତ୍ରରେ ପ୍ରାଧିକାରୀଙ୍କ ସହିତ ଆପଣଙ୍କର ଶିକାୟତ ସମ୍ପର୍କରେ ସଂଯୋଗ କରନ୍ତୁ",
+    "receiveUpdates": "4. ଆପଣଙ୍କର ଶିକାୟତର ସ୍ଥିତି ସମ୍ପର୍କରେ ତତ୍କାଳ ସୂଚନା ଏବଂ ଅଦ୍ୟତନ ଗ୍ରହଣ କରନ୍ତୁ",
+    "rateGrievanceService": "5. ଶିକାୟତ ନିରାକରଣ ସେବାକୁ ମୂଲ୍ୟାଙ୍କନ କରନ୍ତୁ"
+  }
+  

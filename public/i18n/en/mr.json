@@ -1,0 +1,20 @@
+{
+    "title": "Services / Marriage Registration",
+    "helmetTitle": "Marriage Registration",
+    "publicDashboard": "Public Dashboard",
+    "lastUpdate": "Last Update",
+    "mrInfo": "Information related to Marriage Registration",
+    "serviceDeliveryTime": "Service Delivery Time",
+    "totalNumberofApplicationsReceived": "Total Number of Applications Received",
+    "numberofApplicationsApproved": "Number of Applications Approved",
+    "numberofApplicationsRejected": "Number of Applications Rejected",
+    "totalNumberofApplicationsPending": "Total Number of Applications Pending",
+    "avgNumberofDaysforApproval": "Mean/Average Number of Days for Approval",
+    "medianNumberofDaysforApproval": "Median Number of Days for Approval",
+    "minimumNumberofDaysforApproval": "Minimum Number of Days for Approval",
+    "maximumNumberofDaysforApproval": "Maximum Number of Days for Approval",
+    "marriageRegistrationDescription": "The Marriage registration Module allows the citizens of Odisha state to apply for a marriage registration certificate from any municipality through a website or a mobile application remotely.",
+    "facility1": "Apply for Marriage registration Certificate",
+    "facility2": "Receive prompt notifications and updates",
+    "facility3": "Modify your Marriage Certificate if required"
+}

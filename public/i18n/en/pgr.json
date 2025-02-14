@@ -1,0 +1,22 @@
+{
+    "helmetTitle": "Public Grievance Redressal",
+    "headerContent": "Services / Public Grievance Redressal",
+    "publicDashboard": "Public Dashboard",
+    "lastUpdate": "Last Update",
+    "serviceDeliveryTime": "Service Delivery Time",
+    "totalNumberofApplicationsReceived": "Total Number of Applications Received",
+    "numberofApplicationsApproved": "Number of Applications Approved",
+    "numberofApplicationsRejected": "Number of Applications Rejected",
+    "totalNumberofApplicationsPending": "Total Number of Applications Pending",
+    "avgNumberofDaysforApproval": "Mean/Average Number of Days for Approval",
+    "medianNumberofDaysforApproval": "Median Number of Days for Approval",
+    "minimumNumberofDaysforApproval": "Minimum Number of Days for Approval",
+    "maximumNumberofDaysforApproval": "Maximum Number of Days for Approval",
+    "pgrInfo": "Information related to Public Grievance Redressal",
+    "pgrSystemDescription": "PGR system is an application in which citizens can lodge complaints and track the status of redressal mechanism. It allows citizens to register their grievance online, track the grievance resolution progress until its closure.",
+    "fileComplaintRemotely": "1. File a complaint remotely",
+    "trackComplaint": "2. Track the filed complaint",
+    "communicateWithAuthorities": "3. Communicate with local authorities regarding your complaint",
+    "receiveUpdates": "4. Receive prompt updates and notifications regarding the status of your complaint",
+    "rateGrievanceService": "5. Rate the Grievance redressal service"
+}

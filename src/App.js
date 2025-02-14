@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-
+import { useState } from 'react';
 import Header from "./Components/Header";
 import MenuBar from "./Components/MenuBar";
 import HomePage from "./Components/HomePage";
@@ -20,11 +20,13 @@ import PrivacyPolicy from "./Components/PrivacyPolicy";
 import ULBSpage from "./Components/ULBs-page";
 import TPA from "./Components/TPA";
 import Notification from "./Components/Notification";
+import Loader from './Components/Loader';
 function App() {
   const isTopWindow = window === window.top;
-
+  // Get translation loading status from Redux
   return (
     <section>
+      <Loader />
       {isTopWindow ? (
         <>
           {/* <Notification /> */}
