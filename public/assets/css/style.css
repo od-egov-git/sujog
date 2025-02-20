@@ -916,7 +916,8 @@ body {
    display:inline-block;
    width:100%;
    transition: all ease-in-out 0.4s;
-
+   word-wrap: break-word;
+   white-space: normal;
  }
 
  .counts .count-box2 h4 {
