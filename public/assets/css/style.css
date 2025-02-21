@@ -27,7 +27,7 @@ body {
    border-radius: 3px;
    right: 15px;
    bottom: 15px;
-   background: #428bca;
+   background: #F47216;
    color: #fff;
    transition: display 0.5s ease-in-out;
    z-index: 99999;
@@ -348,7 +348,7 @@ body {
  .chif img{width:100%; margin-top:40%;}
  .chif p{font-size:13px; padding:5px 10px; color:#fff;}
  .chif p strong{font-style:italic;}
- .login .dropdown .btn{border-radius:19px; background: #0579c6; padding: 5px 33px !important;
+ .login .dropdown .btn{border-radius:19px; background: #F47216; padding: 5px 33px !important;
   color: #fff !important; margin: 6px 0px 0px 0px; border:none;}
  .login .dropdown .dropdown-menu a{padding:8px 15px;}
 
@@ -845,7 +845,7 @@ body {
  # About Lists
  --------------------------------------------------------------*/
  .card-body .description{/*margin-left:0px !important;*/}
- .icon-box .btn-primary{background-color:#0579c6}
+ .icon-box .btn-primary{background-color:#F47216}
 
  .about-lists {
    padding: 40px;
@@ -910,13 +910,17 @@ body {
  .counts .count-box2 {
    box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
    padding: 20px;
-   background: #0579c6;
+   background: #F47216;
    margin-bottom: 30px;
    border-radius:5px;
-   display:inline-block;
+   display:flex;
+   justify-content: center;
+   align-items: center;
    width:100%;
+   height: 100px;
    transition: all ease-in-out 0.4s;
-
+   word-wrap: break-word;
+   white-space: normal;
  }
 
  .counts .count-box2 h4 {
@@ -944,6 +948,10 @@ body {
    font-family: "Raleway", sans-serif;
    font-size: 14px;
  }
+
+ /* .count-box2 a {
+  text-decoration: none; 
+} */
 
  /*--------------------------------------------------------------
  # Services
@@ -1456,7 +1464,7 @@ body {
  }
 
  #footer {
-   background: #0579c6;
+   background: #F47216;
    padding: 0 0 30px 0;
    color: #fff;
    font-size: 14px;
@@ -1464,9 +1472,16 @@ body {
    float:left;
  }
 
+ .footer-border {
+  width: 300px;  
+  border-top: 2px solid #F47216;
+  margin: 0 auto; 
+}
+
  #footer .footer-top {
-   background: #013151;
-   padding: 60px 0 30px 0;
+   background: #FFFFFF;
+   padding: 35px 0 30px 0;
+   height: 220px
  }
 
  #footer .footer-top .footer-info {
@@ -1493,7 +1508,7 @@ body {
    font-size: 18px;
    display: inline-block;
    background: #fff;
-   color: #0579c6;
+   color: #F47216;
    line-height: 1;
    padding: 8px 0;
    margin-right: 4px;
@@ -1531,7 +1546,7 @@ body {
 
  #footer .footer-top .footer-links ul i {
    padding-right: 2px;
-   color: #9eccf4;
+   color: #013151;
    font-size: 18px;
    line-height: 1;
  }
@@ -1547,7 +1562,7 @@ body {
  }
 
  #footer .footer-top .footer-links ul a {
-   color: #fff;
+   color: #013151;
    transition: 0.3s;
    display: inline-block;
    line-height: 1;
@@ -1592,7 +1607,8 @@ body {
 
  #footer .copyright {
    text-align:left;
-   padding-top: 30px;
+   padding-top: 15px;
+   height: 30px
  }
 
  #footer .credits {
@@ -1613,7 +1629,7 @@ body {
  #topbar .contact-info a{color:#fff;}
  #topbar .contact-info .icofont-phone, .icofont-envelope { color:#fff !important; padding-left:0px; margin-left:0px; border:2px solid #fff;
   border-radius:50%; width:30px; height: 30px; display: inline-block;  text-align: center; padding: 8px 0px 0px 0px !important;}
- #topbar {background:#0579c6; border:none;}
+ #topbar {background:#F47216; border:none;}
  .font-site{float:left;}
  .social-links .dropdown{float:right;}
  .social-links .language2 button{font-size:12px; border-radius:50px; background-color:#fff; color:#24a360; border:none;}
@@ -1624,14 +1640,14 @@ body {
  .dropdown-toggle::after{display:none;}
  .dropdown-item{padding: .25rem 0px; }
  .nav-menu ul li a{color:#005288; font-weight:500; text-transform:uppercase; padding:12px 25px 0px 25px;}
- .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a{color:#018f44;}
+ .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a{color:#F47216;}
  #header .logo img{margin: 12px 0px 0px 0px;}
  .about .container{box-shadow:none;}
  .about .about-content{padding:0px;}
  .section-title h2{text-align:justify;}
  .section-title h3{text-transform:uppercase;}
  .about .section-title p{font-size:13px; font-size: 13px; line-height: 30px;  font-style: normal; text-align: justify;}
- .section-title h2{color:#0579c6;}
+ .section-title h2{color:#F47216;}
  .about .icon-box .icon {background:none;}
  .about .icon-box:hover .icon{background:none;}
  .description span a{color:#ff3c00; font-weight:bold;}
@@ -1663,8 +1679,8 @@ body {
  .list-aggregate li{height:auto; border-bottom:1px solid #8e73ad;}
  .list-aggregate li p { color:#686666; padding:0px; margin:0px; text-align:justify;  font-size: 12px; font-weight: 500; }
  .list-aggregate li:hover { background-color: rgba(36, 1, 77, 0.1);}
- .buy-policy-2 h3{font-size:15px; text-align:justify; color:#0579c6;}
- .policy-img2{width:75px; height:75px; border-radius:50%; background-color:#0579c6;}
+ .buy-policy-2 h3{font-size:15px; text-align:justify; color:#F47216;}
+ .policy-img2{width:75px; height:75px; border-radius:50%; background-color:#F47216;}
  .policy-img2 h4{font-size:20px; line-height:13px; font-weight:bold; color:#fff; margin:0px; padding:24px 0px 0px 0px;}
  .policy-img2 span{font-size:12px; color:#fff;}
  .list-aggregate{left:-41px !important;}
@@ -1672,14 +1688,14 @@ body {
 
  .odisha-map{float:right; height:auto; background-color:#fff; border-radius:10px; width:100%;     box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);}
  .odisha-map img{width:100%;}
- .ulb h2{color:#0579c6; font-size:40px; margin:0px; padding:0px 0px 10px 0px; }
+ .ulb h2{color:#F47216; font-size:40px; margin:0px; padding:0px 0px 10px 0px; }
  .servic-right p a:hover{color:#000;}
  .counts .text-center a{transition: all ease-in-out 0.4s;}
  .counts .text-center a:hover{transform: scale(1.1);}
 
  .inner-page .video-box img{width:300px;}
  .inner-page {background-color:#fff;}
- .inner-page h2{color:#0579c6; font-size:25px; text-transform:uppercase;}
+ .inner-page h2{color:#F47216; font-size:25px; text-transform:uppercase;}
  .contact h1{color:#5f6061; }
  .inner-page p{font-size:14px; line-height:30px;}
  .icon-box .description .bx{font-size:30px; padding:0px; margin:0px;font-weight:bold;}

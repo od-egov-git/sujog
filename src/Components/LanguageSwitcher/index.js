@@ -33,7 +33,7 @@ function LanguageSwitcher() {
   };
 
   return (
-    <select onChange={handleLanguageChange} defaultValue="en" className="language-switcher-dropdown">
+    <select onChange={handleLanguageChange} defaultValue="en" className="language-switcher-dropdown"   style={{borderRadius: "20px"}}>
       <option value="en">English</option>
       <option value="or">ଓଡିଆ</option>
     </select>
