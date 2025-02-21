@@ -37,10 +37,10 @@ function RTI({ language }) {
                   {translations.rtiAct1}
                 </p>
 
-                <p><a href="assets/img/rti-act-2005.pdf" target="_blank" rel="noreferrer" >{translations.link1} </a></p>
-                <p><a href="assets/img/Right-Inforamtion-Act-2005-Odia.pdf" target="_blank" rel="noreferrer" > {translations.link2} </a></p>
-                <p><a href="assets/img/Odisha-Right-to-Information-Rules-2005-Odia-2-ok.pdf" target="_blank" rel="noreferrer"> {translations.link3} </a></p>
-                <p><a href="assets/img/Odisha-RTI-Amendment-Rules-2006.pdf" target="_blank" rel="noreferrer">{translations.link4}</a></p>
+                <p><a href="assets/img/rti-act-2005.pdf" target="_blank" rel="noreferrer" style={{color:"#F47216"}} >{translations.link1} </a></p>
+                <p><a href="assets/img/Right-Inforamtion-Act-2005-Odia.pdf" target="_blank" rel="noreferrer" style={{color:"#F47216"}} > {translations.link2} </a></p>
+                <p><a href="assets/img/Odisha-Right-to-Information-Rules-2005-Odia-2-ok.pdf" target="_blank" rel="noreferrer" style={{color:"#F47216"}}> {translations.link3} </a></p>
+                <p><a href="assets/img/Odisha-RTI-Amendment-Rules-2006.pdf" target="_blank" rel="noreferrer" style={{color:"#F47216"}}>{translations.link4}</a></p>
               </div>
             </div>
           </div>

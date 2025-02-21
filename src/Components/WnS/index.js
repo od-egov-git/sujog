@@ -66,7 +66,7 @@ function WnS({ language }) {
 													>
 														<div class="card-body">
 															<table className="table table-bordered table-striped">
-																<thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
+																<thead style={{ backgroundColor: '#F47216', color: 'white' }}>
 																	<tr>
 																		<th scope="col">{translations.particulars}</th>
 																		<th scope="col">{translations.details}</th>
