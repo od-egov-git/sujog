@@ -363,13 +363,13 @@ const HomePage = ({ language }) => {
                         <ul
                           className="list-aggregate"
                           id="marquee-vertical-2"
-                          style={{ display: 'none' }}
+                          // style={{ display: 'block' }}
                         >
                           <li>
-                            <div className="policy-img2">
+                            {/* <div className="policy-img2">
                               <h4>{translations.award1DateMonth}</h4>
                               <span>{translations.award1DateYear}</span>
-                            </div>
+                            </div> */}
                             <div className="buy-policy-2">
                               <h3>
                                 <a
@@ -380,15 +380,14 @@ const HomePage = ({ language }) => {
                                   {translations.award1Title}
                                 </a>
                               </h3>
-                              <p>{translations.award1Description}</p>
+                              {/* <p>{translations.award1Description}</p> */}
                             </div>
                           </li>
-
                           <li>
-                            <div className="policy-img2">
+                            {/* <div className="policy-img2">
                               <h4>{translations.award2DateMonth}</h4>
                               <span>{translations.award2DateYear}</span>
-                            </div>
+                            </div> */}
                             <div className="buy-policy-2">
                               <h3>
                                 <a
@@ -399,7 +398,25 @@ const HomePage = ({ language }) => {
                                   {translations.award2Title}
                                 </a>
                               </h3>
-                              <p>{translations.award2Description}</p>
+                              {/* <p>{translations.award2Description}</p> */}
+                            </div>
+                          </li>
+                          <li>
+                            {/* <div className="policy-img2">
+                              <h4>{translations.award2DateMonth}</h4>
+                              <span>{translations.award2DateYear}</span>
+                            </div> */}
+                            <div className="buy-policy-2">
+                              <h3>
+                                <a
+                                  href={translations.award3Link}
+                                  rel="noreferrer"
+                                  target="_blank"
+                                >
+                                  {translations.award3Title}
+                                </a>
+                              </h3>
+                              {/* <p>{translations.award2Description}</p> */}
                             </div>
                           </li>
                         </ul>
