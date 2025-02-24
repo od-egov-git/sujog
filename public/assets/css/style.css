@@ -1481,7 +1481,7 @@ body {
  #footer .footer-top {
    background: #FFFFFF;
    padding: 35px 0 30px 0;
-   height: 220px
+   /* height: 220px */
  }
 
  #footer .footer-top .footer-info {
@@ -1680,6 +1680,7 @@ body {
  .list-aggregate li p { color:#686666; padding:0px; margin:0px; text-align:justify;  font-size: 12px; font-weight: 500; }
  .list-aggregate li:hover { background-color: rgba(36, 1, 77, 0.1);}
  .buy-policy-2 h3{font-size:15px; text-align:justify; color:#F47216;}
+ .buy-policy-2 h3 a {display: block; overflow: hidden; word-wrap: break-word; word-break: break-word; width: 100%; white-space: normal;}
  .policy-img2{width:75px; height:75px; border-radius:50%; background-color:#F47216;}
  .policy-img2 h4{font-size:20px; line-height:13px; font-weight:bold; color:#fff; margin:0px; padding:24px 0px 0px 0px;}
  .policy-img2 span{font-size:12px; color:#fff;}
