@@ -63,12 +63,12 @@ function Menubar() {
                         </ul>
                     </li>
                     <li>
-                        <Link to="/ulbs">{translations.navigationULBs}</Link>
+                        <Link to="/ulbs" style={{ textTransform: 'none' }}>{translations.navigationULBs}</Link>
                     </li>
                     <li>
                         <Link to="/contactus">{translations.navigationHelpdesk}</Link>
                     </li>
-                    <li className="login">
+                    <li className="login" style={{marginLeft: "20px"}}>
                         <div className="dropdown">
                             <div className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {translations.navigationLogIn}
@@ -80,9 +80,9 @@ function Menubar() {
                                 <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/employee/user/login">
                                     {translations.navigationLogInDepartment}
                                 </a>
-                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/digit-ui/citizen/login">
+                                {/* <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/digit-ui/citizen/login">
                                     {translations.navigationLogInOthers}
-                                </a>
+                                </a> */}
                                 <Link to="/tpa">{translations.navigationLogInTPA}</Link>
                             </div>
                         </div>

@@ -1,12 +1,13 @@
 {
     "huddDisclaimer": "HUDD does not give any warranties, whether express or implied, as to the suitability or usability of the Sujog Portal, its software or any of its content.",
     "lastUpdate": "Last Update: ",
-    "quickLinks": "Quick link",
-    "contact": "contact",
-    "termsOfService": "Terms of service",
-    "privacyPolicy": "Privacy policy",
-    "address": "address",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "address": "Address",
     "city": "Bhubaneswar",
+    "helpdeskEmail": "helpdesk.sujog@odisha.gov.in",
     "helpdeskPhone": "1800 121 6833",
     "copyrightText": "@2021 Govt. of Odisha. Design & Developed by sujog. Site best viewed in Chrome and above (1280 X 800)"
   }

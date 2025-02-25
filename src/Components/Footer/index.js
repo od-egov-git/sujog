@@ -11,7 +11,7 @@ function Footer({ language }) {
   const email = username.join("") + "@" + domain.join("");
   return (
     <>
-      <footer id="footer">
+      <footer id="footer" className="footer-border">
         <div class="footer-top">
           <div class="container">
             <div class="row">
@@ -21,22 +21,22 @@ function Footer({ language }) {
                 data-aos-delay="200"
               >
                 <img src="assets/img/Sujog.jpg" alt="" />
-                <p>
+                {/* <p style={{color: "#013151", fontWeight: "bold", marginTop: "15px"}}>
                   {translations.huddDisclaimer}
-                </p>
-                <p>{translations.lastUpdate} {showFormattedCurrentDate()}</p>
+                </p> */}
+                <p  style={{color: "#013151", fontWeight: "bold", marginTop: "20px"}}>{translations.lastUpdate} {showFormattedCurrentDate()}</p>
               </div>
 
-              <div class="col-lg-4 col-md-6 footer-links">
-                <h4>{translations.quickLinks}</h4>
+              <div class="col-lg-4 col-md-6 footer-links" style={{marginLeft: "20px", marginRight: "-20px"}}>
+                <h4 style={{color: "#F47216", fontWeight: "bold", marginTop: "5px"}}>{translations.quickLinks}</h4>
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <Link to="contactus">{translations.contact}</Link>
+                    <Link to="contactus" style={{ fontWeight: 'bold' }}>{translations.contact}</Link>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="assets/img/Sujog_T&C.pdf" target="_blank">
+                    <a href="assets/img/Sujog_T&C.pdf" target="_blank" style={{ fontWeight: 'bold' }}>
                       {translations.termsOfService}
                     </a>
                   </li>
@@ -45,6 +45,7 @@ function Footer({ language }) {
                     <a
                       href="assets/img/SUJOG Privacy Policy_2024.pdf"
                       target="_blank"
+                      style={{ fontWeight: 'bold' }}
                     >
                       {translations.privacyPolicy}
                     </a>
@@ -53,16 +54,16 @@ function Footer({ language }) {
               </div>
 
               <div class="col-lg-4 col-md-6 footer-links">
-                <h4>{translations.address}</h4>
+                <h4 style={{color: "#F47216", fontWeight: "bold", marginTop: "5px"}}>{translations.address}</h4>
                 <ul>
-                  <li>
+                  <li style={{color: "#013151", fontWeight: "bold"}}>
                     <i class="bx bx-map"></i> {translations.city}{" "}
                   </li>
-                  <li>
+                  <li style={{color: "#013151", fontWeight: "bold"}}>
                     <i class="bx bx-envelope"></i>{translations.helpdeskEmail}{" "}
-                    <img src="/Deshboard/images/contact_email.PNG" alt="Contact Email" />
+                    {/* <img src="/Deshboard/images/contact_email.PNG" alt="Contact Email" /> */}
                   </li>
-                  <li>
+                  <li style={{color: "#013151", fontWeight: "bold"}}>
                     <i class="bx bx-mobile"></i> {translations.helpdeskPhone}
                   </li>
                 </ul>
