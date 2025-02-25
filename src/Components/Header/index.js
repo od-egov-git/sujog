@@ -9,13 +9,13 @@ class Header extends Component {
                     <span style={{ fontSize: "16px" }}><i className="icofont-phone"></i> 1800 121 6833</span>
                     <span style={{ fontSize: "16px" }}><i className="icofont-envelope"></i> helpdesk.sujog@odisha.gov.in</span>
                 </div>
-                <nav className="nav-menu float-right d-none d-lg-block">
+                {/* <nav className="nav-menu float-right d-none d-lg-block">
                     <ul>
                         <li className="language-switcher">
                             <LanguageSwitcher />
                         </li>
                     </ul>
-                </nav>
+                </nav> */}
             </div>
         </section>
     }

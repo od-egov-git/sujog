@@ -188,6 +188,7 @@ body {
    font-weight: 500;
    text-transform: none;
    color: #103453;
+   background-color: #ffffff;
  }
 
  .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
@@ -256,7 +257,7 @@ body {
  .mobile-nav a {
    display: block;
    position: relative;
-   color: #e3f0fc;
+   color: #F47216;
    padding: 10px 20px;
    font-weight: 500;
  }

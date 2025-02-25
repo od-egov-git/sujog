@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import usePageLocalization from "../../utils/usePageLocalization";
-// import LanguageSwitcher from "../LanguageSwitcher";
+import LanguageSwitcher from "../LanguageSwitcher";
 
 function Menubar() {
 
@@ -87,9 +87,9 @@ function Menubar() {
                             </div>
                         </div>
                     </li>
-                    {/* <li className="language-switcher">
+                    <li className="language-switcher">
                         <LanguageSwitcher />
-                    </li> */}
+                    </li>
                 </ul>
             </nav>
         </div>
