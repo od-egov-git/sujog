@@ -55,7 +55,7 @@ function TL({language}) {
                           <div id="collapseOne" className="collapse show" data-parent="#accordion">
                             <div className="card-body">
                               <table className="table table-bordered table-striped">
-                                <thead style={{ backgroundColor: '#0061f2', color: 'white' }}>
+                                <thead style={{ backgroundColor: '#F47216', color: 'white' }}>
                                   <tr>
                                     <th scope="col">{translations.particulars}</th>
                                     <th scope="col">{translations.details}</th>
@@ -95,7 +95,7 @@ function TL({language}) {
                                     <td><a href="#" style={{whiteSpace:'nowrap'}} onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_July 2024.pdf')}>₹ 3851</a></td>
                                   </tr>
                                   <tr>
-                                    <td colSpan="2" style={{ backgroundColor: '#f1f1f1',fontWeight:'Bold', textAlign: 'center', fontStyle: 'italic', color:"rgb(0, 97, 242)" }}>
+                                    <td colSpan="2" style={{ backgroundColor: '#f1f1f1',fontWeight:'Bold', textAlign: 'center', fontStyle: 'italic', color:"#F47216" }}>
                                       **{translations.certificateIssueDesc}
                                     </td>
                                   </tr>

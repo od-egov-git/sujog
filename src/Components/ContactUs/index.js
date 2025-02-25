@@ -8,7 +8,7 @@ function ContactUs({language}) {
 
     return <main id="main">
 
-
+{/* 
     <section class="breadcrumbs">
       <div class="container">
 
@@ -21,12 +21,12 @@ function ContactUs({language}) {
         </div>
 
       </div>
-    </section>
+    </section> */}
 
     <section id="contact" class="contact">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title" style={{marginTop: "30px"}}>
           <h2>{translations.contactus}</h2>
         </div>
 

@@ -97,21 +97,21 @@ const HomePage = ({ language }) => {
         <div id="about" class="about about-pading">
           <div class="container">
             <div class="row no-gutters">
-              <div
+              {/* <div
                 class="col-lg-5 col-md-6 video-box"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
                 <img src="assets/img/mobile.png" class="img-fluid" alt="" />
-              </div>
+              </div> */}
 
-              <div class="col-lg-7 col-md-6 d-flex flex-column">
+              <div class="col-lg-12 col-md-12 d-flex flex-column align-items-center justify-content-center" style={{ marginTop: "30px" }}>
                 <div
                   class="section-title"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <h2>{translations.aboutSujog}</h2>
+                  <h2 style={{ textAlign: "center" }}>{translations.aboutSujog}</h2>
                   <p>
                     {translations.aboutSUJOGDesc}
                   </p>
@@ -123,53 +123,61 @@ const HomePage = ({ language }) => {
                   role="button"
                   aria-expanded="false"
                   aria-controls="collapseExample"
+                  style={{ backgroundColor: "#F47216" }}
                 >
                   {translations.readMore}
                 </a>
               </div>
 
-              <div className="col-lg-12 col-md-12 text1">
+              <div className="col-lg-12 col-md-12 text1" style={{ marginTop: "20px", borderRadius: "20px" }}>
                 <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
                   <div className="collapse" id="collapseExample">
-                    <div className="card card-body">
+                    <div className="" style={{ marginTop: "10px", marginBottom: "10px", padding: "20px" }}>
                       {/* Vision Section */}
                       <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div className="icon">
-                          <img src="assets/img/OBJECTIVE.png" className="img-fluid" alt="" />
+                        <div className="icon" style={{ margin: "20px", marginRight: "30px" }}>
+                          <img src="assets/img/vision_orange.png" className="img-fluid" alt="" />
                         </div>
+                        <div style={{ flexGrow: 1, marginLeft: "54px" }}>
                         <h4 className="title">
                           <a href="about.html">{translations.visionTitle}</a>
                         </h4>
                         <p className="description">{translations.visionDescription}</p>
-                      </div>
-
-                      {/* Objective Section */}
-                      <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div className="icon">
-                          <img src="assets/img/vision.png" className="img-fluid" alt="" />
                         </div>
-                        <h4 className="title">
-                          <a href="">{translations.objectiveTitle}</a>
-                        </h4>
-                        <p className="description">
-                          {translations.objectiveDescription}
-                          <br />
-                          <strong>a.</strong> {translations.objectivePointA}
-                          <br />
-                          <strong>b.</strong> {translations.objectivePointB}
-                          <br />
-                          <strong>c.</strong> {translations.objectivePointC1}
-                          <br />
-                          <i className="bx bx-wifi-0"></i> {translations.objectivePointC2}
+                      </div>
+                    </div>
+                    <div className="" style={{ marginTop: "20px", marginBottom: "10px", padding: "20px" }}>
+                      {/* Objective Section */}
+                      <div className="icon-box d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
+                        <div className="icon" style={{ marginLeft: "20px", marginTop: "0px", flexShrink: 0, height: "100%" }}>
+                          <img src="assets/img/objective_orange.png" className="img-fluid" alt="" />
+                        </div>
+                        <div style={{ flexGrow: 1, marginLeft: "30px" }}>
+                          <h4 className="title" style={{ marginLeft: "30px" }}>
+                            <a href="">{translations.objectiveTitle}</a>
+                          </h4>
+                          <p className="description" style={{ textAlign: "left", marginLeft: "30px" }}>
+                            {translations.objectiveDescription}
+                            <br />
+                            <strong>a.</strong> {translations.objectivePointA}
+                            <br />
+                            <strong>b.</strong> {translations.objectivePointB}
+                            <br />
+                            <strong>c.</strong> {translations.objectivePointC}
+                            <br />
+                            <strong>c.</strong> {translations.objectivePointD}
+                            <br />
+                            {/* <i className="bx bx-wifi-0"></i> {translations.objectivePointC2}
                           <br />
                           <i className="bx bx-wifi-0"></i> {translations.objectivePointC3}
-                          <br />
-                          <strong>d.</strong> {translations.objectivePointD}
-                          <br />
-                          <strong>e.</strong> {translations.objectivePointE}
-                          <br />
-                          <strong>f.</strong> {translations.objectivePointF}
-                        </p>
+                          <br /> */}
+                            <strong>d.</strong> {translations.objectivePointE}
+                            <br />
+                            <strong>e.</strong> {translations.objectivePointF}
+                            <br />
+                            <strong>f.</strong> {translations.objectivePointG}
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -180,17 +188,17 @@ const HomePage = ({ language }) => {
           </div>
         </div>
 
-        <section className="counts section-bg2">
+        <section className="counts section-bg2" style={{ marginTop: "25px" }}>
           <div className="container">
             <div className="section-title">
-              <h1>{translations.servicesTitle}</h1>
+              <h2 style={{ textAlign: "center" }}>{translations.servicesTitle}</h2>
               <p>{translations.servicesDescription}</p>
             </div>
             <div className="row">
               {/* Building Permission Approval */}
               <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up">
                 <div className="count-box">
-                  <img src="assets/img/servic-1.png" alt="" />
+                  <img src="assets/img/bpa_orange.png" alt="" style={{width: "13%"}}/>
                   <div className="servic-right">
                     <h4>
                       <a href="/obpas-dashboard" rel="noreferrer">
@@ -209,7 +217,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/servic-2.png" alt="" />
+                  <img src="assets/img/pgr_orange.png" alt="" style={{width: "15%"}}/>
                   <div className="servic-right">
                     <h4>
                       <Link to="pgr">{translations.pgrTitle}</Link>
@@ -222,7 +230,7 @@ const HomePage = ({ language }) => {
               {/* Trade License */}
               <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up">
                 <div className="count-box">
-                  <img src="assets/img/servic-3.png" alt="" />
+                  <img src="assets/img/trade_orange.png" alt="" style={{width: "13%"}}/>
                   <div className="servic-right">
                     <h4>
                       <Link to="tl">{translations.tradeLicenseTitle}</Link>
@@ -239,7 +247,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/servic-4.png" alt="" />
+                  <img src="assets/img/property_orange.png" alt="" style={{width: "15%"}}/>
                   <div className="servic-right">
                     <h4>
                       <Link to="pt">{translations.propertyTaxTitle}</Link>
@@ -257,7 +265,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/water.png" alt="" />
+                  <img src="assets/img/water_orange.png" alt="" style={{width: "17%"}}/>
                   <div className="servic-right">
                     <h4>
                       <Link to="wns">{translations.waterSewerageTitle}</Link>
@@ -274,7 +282,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/finance.png" alt="" />
+                  <img src="assets/img/marriage_orange.png" alt="" style={{width: "15%"}}/>
                   <div className="servic-right">
                     <h4>
                       <Link to="mr">{translations.marriageRegistrationTitle}</Link>
@@ -283,6 +291,58 @@ const HomePage = ({ language }) => {
                   </div>
                 </div>
               </div>
+
+              {/* Layout Approval */}
+              <div
+                className="col-lg-6 col-md-6 content-item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div className="count-box">
+                  <img src="assets/img/layoutapproval_orange.png" alt="" style={{width: "15%"}}/>
+                  <div className="servic-right">
+                    <h4>
+                      <Link to="">{translations.layoutApprovalTitle}</Link>
+                    </h4>
+                    <p>{translations.layoutApprovalDescription}</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Land and Building Regularization */}
+              {/* <div
+                className="col-lg-6 col-md-6 content-item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div className="count-box">
+                  <img src="assets/img/finance.png" alt="" />
+                  <div className="servic-right">
+                    <h4>
+                      <Link to="">{translations.regularizationTitle}</Link>
+                    </h4>
+                    <p>{translations.regularizationDescription}</p>
+                  </div>
+                </div>
+              </div> */}
+
+              {/* Faecal Sludge and Septage Management */}
+              <div
+                className="col-lg-6 col-md-6 content-item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div className="count-box">
+                  <img src="assets/img/fssm.svg" alt="" style={{width: "15%"}}/>
+                  <div className="servic-right">
+                    <h4>
+                      <Link to="">{translations.fssmTitle}</Link>
+                    </h4>
+                    <p>{translations.fssmDescription}</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
@@ -295,7 +355,7 @@ const HomePage = ({ language }) => {
               <div className="col-lg-7 col-md-6 text-center" data-aos="fade-up">
                 <div className="whats-new">
                   <div className="section-title">
-                    <h4>{translations.whatsNewTitle}</h4>
+                    <h4 style={{color: "#F47216"}}>{translations.whatsNewTitle}</h4>
                   </div>
                   <div className="body1-left-side">
                     <div className="block-hdnews">
@@ -303,13 +363,13 @@ const HomePage = ({ language }) => {
                         <ul
                           className="list-aggregate"
                           id="marquee-vertical-2"
-                          style={{ display: 'none' }}
+                          // style={{ display: 'block' }}
                         >
                           <li>
-                            <div className="policy-img2">
+                            {/* <div className="policy-img2">
                               <h4>{translations.award1DateMonth}</h4>
                               <span>{translations.award1DateYear}</span>
-                            </div>
+                            </div> */}
                             <div className="buy-policy-2">
                               <h3>
                                 <a
@@ -320,15 +380,14 @@ const HomePage = ({ language }) => {
                                   {translations.award1Title}
                                 </a>
                               </h3>
-                              <p>{translations.award1Description}</p>
+                              {/* <p>{translations.award1Description}</p> */}
                             </div>
                           </li>
-
                           <li>
-                            <div className="policy-img2">
+                            {/* <div className="policy-img2">
                               <h4>{translations.award2DateMonth}</h4>
                               <span>{translations.award2DateYear}</span>
-                            </div>
+                            </div> */}
                             <div className="buy-policy-2">
                               <h3>
                                 <a
@@ -339,7 +398,25 @@ const HomePage = ({ language }) => {
                                   {translations.award2Title}
                                 </a>
                               </h3>
-                              <p>{translations.award2Description}</p>
+                              {/* <p>{translations.award2Description}</p> */}
+                            </div>
+                          </li>
+                          <li>
+                            {/* <div className="policy-img2">
+                              <h4>{translations.award2DateMonth}</h4>
+                              <span>{translations.award2DateYear}</span>
+                            </div> */}
+                            <div className="buy-policy-2">
+                              <h3>
+                                <a
+                                  href={translations.award3Link}
+                                  rel="noreferrer"
+                                  target="_blank"
+                                >
+                                  {translations.award3Title}
+                                </a>
+                              </h3>
+                              {/* <p>{translations.award2Description}</p> */}
                             </div>
                           </li>
                         </ul>
@@ -356,7 +433,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="ulb">
-                  <h2>{translations.ulbProfileTitle}</h2>
+                  <h2  style={{fontSize: "33px"}}>{translations.ulbProfileTitle}</h2>
                 </div>
                 <div className="odisha-map">
                   <img id="myImg" src="assets/img/map-2.jpg" alt={translations.ulbMapAlt} />
@@ -386,6 +463,7 @@ const HomePage = ({ language }) => {
                   href={translations.link1Url}
                   target="_blank"
                   rel="noreferrer"
+                  style={{ textDecoration: 'none' }}
                 >
                   <div className="count-box2">
                     <h4>{translations.link1Title}</h4>
@@ -403,6 +481,7 @@ const HomePage = ({ language }) => {
                   href={translations.link2Url}
                   rel="noreferrer"
                   target="_blank"
+                  style={{ textDecoration: 'none' }}
                 >
                   <div className="count-box2">
                     <h4>{translations.link2Title}</h4>
@@ -420,6 +499,7 @@ const HomePage = ({ language }) => {
                   href={translations.link3Url}
                   rel="noreferrer"
                   target="_blank"
+                  style={{ textDecoration: 'none' }}
                 >
                   <div className="count-box2">
                     <h4>{translations.link3Title}</h4>
@@ -437,6 +517,7 @@ const HomePage = ({ language }) => {
                   href={translations.link4Url}
                   rel="noreferrer"
                   target="_blank"
+                  style={{ textDecoration: 'none' }}
                 >
                   <div className="count-box2">
                     <h4>{translations.link4Title}</h4>
@@ -454,6 +535,7 @@ const HomePage = ({ language }) => {
                   href={translations.link5Url}
                   rel="noreferrer"
                   target="_blank"
+                  style={{ textDecoration: 'none' }}
                 >
                   <div className="count-box2">
                     <h4>{translations.link5Title}</h4>
@@ -471,6 +553,7 @@ const HomePage = ({ language }) => {
                   href={translations.link6Url}
                   rel="noreferrer"
                   target="_blank"
+                  style={{ textDecoration: 'none' }}
                 >
                   <div className="count-box2">
                     <h4>{translations.link6Title}</h4>
@@ -488,6 +571,7 @@ const HomePage = ({ language }) => {
                   href={translations.link7Url}
                   rel="noreferrer"
                   target="_blank"
+                  style={{ textDecoration: 'none' }}
                 >
                   <div className="count-box2">
                     <h4>{translations.link7Title}</h4>
@@ -505,6 +589,7 @@ const HomePage = ({ language }) => {
                   href={translations.link8Url}
                   rel="noreferrer"
                   target="_blank"
+                  style={{ textDecoration: 'none' }}
                 >
                   <div className="count-box2">
                     <h4>{translations.link8Title}</h4>
