@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import usePageLocalization from "../../utils/usePageLocalization";
-// import LanguageSwitcher from "../LanguageSwitcher";
+import LanguageSwitcher from "../LanguageSwitcher";
 
 function Menubar() {
 
@@ -68,7 +68,7 @@ function Menubar() {
                     <li>
                         <Link to="/contactus">{translations.navigationHelpdesk}</Link>
                     </li>
-                    <li className="login" style={{marginLeft: "20px"}}>
+                    <li className="login" style={{ marginLeft: "20px" }}>
                         <div className="dropdown">
                             <div className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {translations.navigationLogIn}
@@ -87,9 +87,9 @@ function Menubar() {
                             </div>
                         </div>
                     </li>
-                    {/* <li className="language-switcher">
+                    <li className="language-switcher">
                         <LanguageSwitcher />
-                    </li> */}
+                    </li>
                 </ul>
             </nav>
         </div>
