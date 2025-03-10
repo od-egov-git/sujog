@@ -7,7 +7,7 @@ class Header extends Component {
             <div className="container clearfix">
                 <div className="contact-info float-left">
                     <span style={{ fontSize: "16px" }}><i className="icofont-phone"></i> 1800 121 6833</span>
-                    <span style={{ fontSize: "16px" }}><i className="icofont-envelope"></i> helpdesk.sujog@odisha.gov.in</span>
+                    <span><i className="icofont-envelope"></i><img src="/assets/img/email_header.png" alt="Contact Email" style={{width: "65%"}}/></span>
                 </div>
                 {/* <nav className="nav-menu float-right d-none d-lg-block">
                     <ul>
