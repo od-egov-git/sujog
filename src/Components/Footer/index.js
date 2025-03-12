@@ -24,11 +24,11 @@ function Footer({ language }) {
                 {/* <p style={{color: "#013151", fontWeight: "bold", marginTop: "15px"}}>
                   {translations.huddDisclaimer}
                 </p> */}
-                <p  style={{color: "#013151", fontWeight: "bold", marginTop: "20px"}}>{translations.lastUpdate} {showFormattedCurrentDate()}</p>
+                <p style={{ color: "#013151", fontWeight: "bold", marginTop: "20px" }}>{translations.lastUpdate} {showFormattedCurrentDate()}</p>
               </div>
 
-              <div class="col-lg-4 col-md-6 footer-links" style={{marginLeft: "20px", marginRight: "-20px"}}>
-                <h4 style={{color: "#F47216", fontWeight: "bold", marginTop: "5px"}}>{translations.quickLinks}</h4>
+              <div class="col-lg-4 col-md-6 footer-links" style={{ marginLeft: "20px", marginRight: "-20px" }}>
+                <h4 style={{ color: "#F47216", fontWeight: "bold", marginTop: "5px" }}>{translations.quickLinks}</h4>
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
@@ -54,16 +54,16 @@ function Footer({ language }) {
               </div>
 
               <div class="col-lg-4 col-md-6 footer-links">
-                <h4 style={{color: "#F47216", fontWeight: "bold", marginTop: "5px"}}>{translations.address}</h4>
+                <h4 style={{ color: "#F47216", fontWeight: "bold", marginTop: "5px" }}>{translations.address}</h4>
                 <ul>
-                  <li style={{color: "#013151", fontWeight: "bold"}}>
+                  <li style={{ color: "#013151", fontWeight: "bold" }}>
                     <i class="bx bx-map"></i> {translations.city}{" "}
                   </li>
-                  <li style={{color: "#013151", fontWeight: "bold"}}>
+                  <li style={{ color: "#013151", fontWeight: "bold" }}>
                     <i class="bx bx-envelope"></i>{" "}
-                    <img src="/assets/img/email_footer.png" alt="Contact Email"  style={{width: "65%"}} />
+                    <img src="/assets/img/email_footer.png" alt="Contact Email" style={{ width: "65%" }} />
                   </li>
-                  <li style={{color: "#013151", fontWeight: "bold"}}>
+                  <li style={{ color: "#013151", fontWeight: "bold" }}>
                     <i class="bx bx-mobile"></i> {translations.helpdeskPhone}
                   </li>
                 </ul>
