@@ -8,6 +8,12 @@ function Menubar() {
 
     const language = useSelector((state) => state.localization.language);
     const translations = usePageLocalization(language, 'menuBar');
+    const currentDomain = window.location.hostname;
+    console.log("hostname: ", currentDomain);
+    const baseUrl = currentDomain.includes("-dev")
+        ? "https://sujog-dev.odisha.gov.in"
+        : "https://sujog.odisha.gov.in";
+
     return <header id="header">
         <div className="container">
             <div className="logo float-left">
@@ -74,10 +80,10 @@ function Menubar() {
                                 {translations.navigationLogIn}
                             </div>
                             <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/citizen/user/register">
+                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href={`${baseUrl}/citizen/user/register`}>
                                     {translations.navigationLogInCitizen}
                                 </a>
-                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/employee/user/login">
+                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href={`${baseUrl}/employee/user/login`}>
                                     {translations.navigationLogInDepartment}
                                 </a>
                                 {/* <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href="https://sujog.odisha.gov.in/digit-ui/citizen/login">

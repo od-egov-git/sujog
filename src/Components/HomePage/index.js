@@ -69,6 +69,18 @@ const HomePage = ({ language }) => {
                 <div
                   className="carousel-item active"
                   style={{
+                    backgroundImage: "url('assets/img/slide/utkarsh_odisha.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center"
+                  }}
+                >
+                  <div className="carousel-container">
+                    <div className="carousel-content container"></div>
+                  </div>
+                </div>
+                <div
+                  className="carousel-item"
+                  style={{
                     backgroundImage: "url('assets/img/cover_image_3.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "center"
@@ -81,7 +93,7 @@ const HomePage = ({ language }) => {
                 <div
                   className="carousel-item"
                   style={{
-                    backgroundImage: "url('assets/img/cover_image_1.jpg')",
+                    backgroundImage: "url('assets/img/slide/utkarsh_odisha_2.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "center"
                   }}
@@ -117,7 +129,9 @@ const HomePage = ({ language }) => {
                 <div
                   className="carousel-item"
                   style={{
-                    backgroundImage: "url('assets/img/cover_image_5.jpg')",
+                    backgroundImage: "url('assets/img/cover_image_6.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center"
                   }}
                 >
                   <div className="carousel-container">
@@ -134,16 +148,16 @@ const HomePage = ({ language }) => {
         <div id="about" class="about about-pading">
           <div class="container">
             <div class="row no-gutters" style={{background: "url('/assets/img/Banner.jpg')"}}>
-              <div
+              {/* <div
                 class="col-lg-5 col-md-6 video-box"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 style={{ overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}
               >
                 <img src="assets/img/CM_DCM (2).png" class="img-fluid" alt="" style={{ transform: "scale(0.9) translateX(0%) translateY(8%)" }} />
-              </div>
+              </div> */}
 
-              <div class="col-lg-7 col-md-6 d-flex flex-column align-items-center justify-content-center" style={{ marginTop: "30px" }}>
+              <div class="col-lg-12 col-md-12 d-flex flex-column align-items-center justify-content-center" style={{ marginTop: "30px" }}>
                 <div
                   class="section-title"
                   data-aos="fade-up"

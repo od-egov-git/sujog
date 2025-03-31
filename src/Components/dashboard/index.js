@@ -700,10 +700,10 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Drawing Manual_Odisha OBPS_v1.7
+                              Drawing Manual_Odisha OBPS_v1.8
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.7.pdf"
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.8.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -717,7 +717,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.7.pdf"
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.8.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -732,10 +732,10 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Layout Approval Drawing Manual V1.2
+                              Layout Approval Drawing Manual V1.3
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Drawing Manual V1.2.pdf"
+                                    href="/Deshboard/images/Layout Approval Drawing Manual V1.3.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -749,7 +749,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Drawing Manual V1.2.pdf"
+                                    href="/Deshboard/images/Layout Approval Drawing Manual V1.3.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -858,10 +858,10 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Layout Approval Template V 1.2(DXF)
+                              Layout Approval Template V 1.3(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Template V 1.2.dxf"
+                                    href="/Deshboard/images/Layout Approval Template V 1.3.dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -875,7 +875,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Template V 1.2.dxf"
+                                    href="/Deshboard/images/Layout Approval Template V 1.3.dxf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -1570,7 +1570,7 @@ function Dashboard({ language }) {
                                 OBPAS User Manual_Architect & Technical Person
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS User Manual_Architect & Technical Person_1.8.pdf"
+                                    href="/Deshboard/images/OBPAS User Manual_Architect & Technical Person_01042025.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1584,7 +1584,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS User Manual_Architect & Technical Person_1.8.pdf"
+                                    href="/Deshboard/images/OBPAS User Manual_Architect & Technical Person_01042025.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -1669,7 +1669,7 @@ function Dashboard({ language }) {
                                 Building Regularization_User Manual_Architect & Technical Person
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Building Regularization_User Manual_Architect & Technical Person.pdf"
+                                    href="/Deshboard/images/Building Regularization and Land & Building Regularization_User Manual_Architect & Technical Person.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1683,7 +1683,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Building Regularization_User Manual_Architect & Technical Person.pdf"
+                                    href="/Deshboard/images/Building Regularization and Land & Building Regularization_User Manual_Architect & Technical Person.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
