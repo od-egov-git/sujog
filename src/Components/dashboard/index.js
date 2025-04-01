@@ -7,7 +7,7 @@ import "./index.css";
 
 function Dashboard({ language }) {
   const translations = usePageLocalization(language, 'obpas');
-  const ct = usePageLocalization(language,'common')
+  const ct = usePageLocalization(language, 'common')
   const downloadExcel = (fileName) => {
     const link = document.createElement('a');
     link.href = fileName;
@@ -700,7 +700,7 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Drawing Manual_Odisha OBPS_v1.8
+                                Drawing Manual_Odisha OBPS_v1.8
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.8.pdf"
@@ -732,7 +732,7 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Layout Approval Drawing Manual V1.3
+                                Layout Approval Drawing Manual V1.3
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Layout Approval Drawing Manual V1.3.pdf"
@@ -764,7 +764,7 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Common FAQs related to CAD to Pdf generation for Architects
+                                Common FAQs related to CAD to Pdf generation for Architects
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Common FAQs related to CAD to Pdf generation for Architects.pdf"
@@ -826,7 +826,7 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Odisha OBPS Drawing Template_v1.7(DWG)
+                                Odisha OBPS Drawing Template_v1.7(DWG)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Odisha OBPS Drawing Template_v1.7.dwg"
@@ -858,7 +858,7 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Layout Approval Template V 1.3(DXF)
+                                Layout Approval Template V 1.3(DXF)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Layout Approval Template V 1.3.dxf"
@@ -891,7 +891,7 @@ function Dashboard({ language }) {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              Odisha OBPS Drawing Template_v1.7(DXF)
+                                Odisha OBPS Drawing Template_v1.7(DXF)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Odisha OBPS Drawing Template_v1.7.dxf"
@@ -1344,7 +1344,7 @@ function Dashboard({ language }) {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              OBPAS Reference files -PDF generation Category A(DXF)
+                                OBPAS Reference files -PDF generation Category A(DXF)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPAS Reference files -PDF generation Category A.dxf"
@@ -1377,7 +1377,7 @@ function Dashboard({ language }) {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                              OBPAS Reference files -PDF generation Category C&D(DXF)
+                                OBPAS Reference files -PDF generation Category C&D(DXF)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPAS Reference files -PDF generation Category C&D.dxf"
@@ -1666,7 +1666,7 @@ function Dashboard({ language }) {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Building Regularization_User Manual_Architect & Technical Person
+                                Building Regularization and Land & Building Regularization_User Manual_Architect & Technical Person
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Building Regularization and Land & Building Regularization_User Manual_Architect & Technical Person.pdf"

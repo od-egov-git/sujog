@@ -51,9 +51,13 @@ const HomePage = ({ language }) => {
         <Helmet>
           <title>{translations.application}</title>
         </Helmet>
-        {/* <div className="chif aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-          <img alt="homepage" src="assets/img/CM_DCM.png" style={{transform: "scale(1.6) translateX(-13.5%) translateY(47%)"}} />
-        </div> */}
+        <div className="chif aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" style={{backgroundColor: "#F47216"}}>
+          <img alt="homepage" src="assets/img/Odisha-cm.png" style={{transform: "scale(1.1) translateY(7%)"}} />
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginTop: "15%" }}>
+                  <span style={{ color: "#FFFFFF", fontSize: "1.1vw", fontWeight: "bold" }}>{translations.cmName}</span>
+                  <span style={{ color: "#FFFFFF", fontSize: "0.9vw" }}>{translations.cmDesc}</span>
+                </div>
+        </div>
         <section id="hero">
           <div className="hero-container">
             <div
@@ -65,6 +69,7 @@ const HomePage = ({ language }) => {
                 className="carousel-indicators"
                 id="hero-carousel-indicators"
               ></ol>
+              
               <div className="carousel-inner" role="listbox">
                 <div
                   className="carousel-item active"
@@ -131,7 +136,8 @@ const HomePage = ({ language }) => {
                   style={{
                     backgroundImage: "url('assets/img/cover_image_6.jpg')",
                     backgroundSize: "cover",
-                    backgroundPosition: "center"
+                    backgroundPosition: "center",
+                    transform: "scaleX(-1)"
                   }}
                 >
                   <div className="carousel-container">
@@ -139,6 +145,13 @@ const HomePage = ({ language }) => {
                   </div>
                 </div>
               </div>
+              {/* <div style={{ position: "absolute", zIndex: "99", left: "890px", right: "50px", top: "60px" }}>
+                <img style={{ width: "200px" }} src="assets/img/Odisha-cm.png" />
+                <div class="company-badge" style={{ paddingLeft: "16px", backgroundColor: "rgba(255, 255, 255, 0.85)", left: "-10px" }}>
+                  <span style={{ color: "#F47216", fontSize: "16px" }}>Shri Mohan Charan Majhi </span><br />
+                  <span style={{ fontSize: "12px" }}> Hon'ble Chief Minister</span>
+                </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -147,7 +160,7 @@ const HomePage = ({ language }) => {
       <main id="main">
         <div id="about" class="about about-pading">
           <div class="container">
-            <div class="row no-gutters" style={{background: "url('/assets/img/Banner.jpg')"}}>
+            <div class="row no-gutters" style={{ background: "url('/assets/img/Banner.jpg')" }}>
               {/* <div
                 class="col-lg-5 col-md-6 video-box"
                 data-aos="fade-up"
@@ -164,7 +177,7 @@ const HomePage = ({ language }) => {
                   data-aos-delay="100"
                 >
                   <h2 style={{ textAlign: "center" }}>{translations.aboutSujog}</h2>
-                  <p style={{padding: "25px"}}>
+                  <p style={{ padding: "25px" }}>
                     {translations.aboutSUJOGDesc}
                   </p>
                 </div>
