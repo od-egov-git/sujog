@@ -138,7 +138,8 @@ const HomePage = ({ language }) => {
                   style={{
                     backgroundImage: "url('assets/img/cover_image_6.jpg')",
                     backgroundSize: "cover",
-                    backgroundPosition: "center"
+                    backgroundPosition: "center",
+                    transform: "scaleX(-1)"
                   }}
                 >
                   <div className="carousel-container">
