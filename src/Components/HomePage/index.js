@@ -65,6 +65,13 @@ const HomePage = ({ language }) => {
                 className="carousel-indicators"
                 id="hero-carousel-indicators"
               ></ol>
+              <div style={{ position: "absolute", zIndex: "99", left: "20px", right: "50px", top: "20px" }}>
+                <img style={{ width: "180px" }} src="assets/img/Odisha-cm.png" />
+                <div class="company-badge" style={{ paddingLeft: "16px", backgroundColor: "rgba(255, 255, 255, 0.85)", left: "-10px" }}>
+                  <span style={{ color: "#F47216", fontSize: "18px" }}>Shri Mohan Charan Majhi </span><br />
+                  <span> Hon'ble Chief Minister</span>
+                </div>
+              </div>
               <div className="carousel-inner" role="listbox">
                 <div
                   className="carousel-item active"
@@ -147,7 +154,7 @@ const HomePage = ({ language }) => {
       <main id="main">
         <div id="about" class="about about-pading">
           <div class="container">
-            <div class="row no-gutters" style={{background: "url('/assets/img/Banner.jpg')"}}>
+            <div class="row no-gutters" style={{ background: "url('/assets/img/Banner.jpg')" }}>
               {/* <div
                 class="col-lg-5 col-md-6 video-box"
                 data-aos="fade-up"
@@ -164,7 +171,7 @@ const HomePage = ({ language }) => {
                   data-aos-delay="100"
                 >
                   <h2 style={{ textAlign: "center" }}>{translations.aboutSujog}</h2>
-                  <p style={{padding: "25px"}}>
+                  <p style={{ padding: "25px" }}>
                     {translations.aboutSUJOGDesc}
                   </p>
                 </div>

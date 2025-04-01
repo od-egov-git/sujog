@@ -393,6 +393,19 @@ body {
    text-align: left;
  }
 
+ #hero .company-badge {
+  display: inline-block;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: color-mix(in srgb, var(--background-color), transparent 92%);
+  border-radius: 50px;
+  color: var(--contrast-color);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.company-badge {color: #fff; position: relative; left: -20px; top: 8px;}
+
  @media (max-width: 992px) {
    #hero, #hero .carousel-item {
      height: calc(100vh - 70px);
