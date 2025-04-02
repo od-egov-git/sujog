@@ -51,8 +51,12 @@ const HomePage = ({ language }) => {
         <Helmet>
           <title>{translations.application}</title>
         </Helmet>
-        <div className="chif aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-          <img alt="homepage" src="assets/img/NewCM.jpg" style={{ width: "100%", height: "auto" }} />
+        <div className="chif aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" style={{backgroundColor: "#F47216"}}>
+          <img alt="homepage" src="assets/img/Odisha-cm.png" style={{transform: "scale(1.1) translateY(7%)"}} />
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginTop: "15%" }}>
+                  <span style={{ color: "#FFFFFF", fontSize: "1.1vw", fontWeight: "bold" }}>{translations.cmName}</span>
+                  <span style={{ color: "#FFFFFF", fontSize: "0.9vw" }}>{translations.cmDesc}</span>
+                </div>
         </div>
         <section id="hero">
           <div className="hero-container">
@@ -65,22 +69,75 @@ const HomePage = ({ language }) => {
                 className="carousel-indicators"
                 id="hero-carousel-indicators"
               ></ol>
+              
               <div className="carousel-inner" role="listbox">
                 <div
                   className="carousel-item active"
                   style={{
-                    backgroundImage: "url('assets/img/slide/slide-2.jpg')",
+                    backgroundImage: "url('assets/img/slide/utkarsh_odisha.webp')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center"
                   }}
                 >
                   <div className="carousel-container">
                     <div className="carousel-content container"></div>
                   </div>
                 </div>
-
                 <div
                   className="carousel-item"
                   style={{
-                    backgroundImage: "url('assets/img/slide/slide-3.jpg')",
+                    backgroundImage: "url('assets/img/cover_image_3.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center"
+                  }}
+                >
+                  <div className="carousel-container">
+                    <div className="carousel-content container"></div>
+                  </div>
+                </div>
+                <div
+                  className="carousel-item"
+                  style={{
+                    backgroundImage: "url('assets/img/slide/utkarsh_odisha_2.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center"
+                  }}
+                >
+                  <div className="carousel-container">
+                    <div className="carousel-content container"></div>
+                  </div>
+                </div>
+                <div
+                  className="carousel-item"
+                  style={{
+                    backgroundImage: "url('assets/img/cover_image_2.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center"
+                  }}
+                >
+                  <div className="carousel-container">
+                    <div className="carousel-content container"></div>
+                  </div>
+                </div>
+                <div
+                  className="carousel-item"
+                  style={{
+                    backgroundImage: "url('assets/img/cover_image_4.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center"
+                  }}
+                >
+                  <div className="carousel-container">
+                    <div className="carousel-content container"></div>
+                  </div>
+                </div>
+                <div
+                  className="carousel-item"
+                  style={{
+                    backgroundImage: "url('assets/img/cover_image_6.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    transform: "scaleX(-1)"
                   }}
                 >
                   <div className="carousel-container">
@@ -88,6 +145,13 @@ const HomePage = ({ language }) => {
                   </div>
                 </div>
               </div>
+              {/* <div style={{ position: "absolute", zIndex: "99", left: "890px", right: "50px", top: "60px" }}>
+                <img style={{ width: "200px" }} src="assets/img/Odisha-cm.png" />
+                <div class="company-badge" style={{ paddingLeft: "16px", backgroundColor: "rgba(255, 255, 255, 0.85)", left: "-10px" }}>
+                  <span style={{ color: "#F47216", fontSize: "16px" }}>Shri Mohan Charan Majhi </span><br />
+                  <span style={{ fontSize: "12px" }}> Hon'ble Chief Minister</span>
+                </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -96,13 +160,14 @@ const HomePage = ({ language }) => {
       <main id="main">
         <div id="about" class="about about-pading">
           <div class="container">
-            <div class="row no-gutters">
+            <div class="row no-gutters" style={{ background: "url('/assets/img/Banner.jpg')" }}>
               {/* <div
                 class="col-lg-5 col-md-6 video-box"
                 data-aos="fade-up"
                 data-aos-delay="100"
+                style={{ overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}
               >
-                <img src="assets/img/mobile.png" class="img-fluid" alt="" />
+                <img src="assets/img/CM_DCM (2).png" class="img-fluid" alt="" style={{ transform: "scale(0.9) translateX(0%) translateY(8%)" }} />
               </div> */}
 
               <div class="col-lg-12 col-md-12 d-flex flex-column align-items-center justify-content-center" style={{ marginTop: "30px" }}>
@@ -112,7 +177,7 @@ const HomePage = ({ language }) => {
                   data-aos-delay="100"
                 >
                   <h2 style={{ textAlign: "center" }}>{translations.aboutSujog}</h2>
-                  <p>
+                  <p style={{ padding: "25px" }}>
                     {translations.aboutSUJOGDesc}
                   </p>
                 </div>
@@ -139,10 +204,10 @@ const HomePage = ({ language }) => {
                           <img src="assets/img/vision_orange.png" className="img-fluid" alt="" />
                         </div>
                         <div style={{ flexGrow: 1, marginLeft: "54px" }}>
-                        <h4 className="title">
-                          <a href="about.html">{translations.visionTitle}</a>
-                        </h4>
-                        <p className="description">{translations.visionDescription}</p>
+                          <h4 className="title">
+                            <a href="about.html">{translations.visionTitle}</a>
+                          </h4>
+                          <p className="description">{translations.visionDescription}</p>
                         </div>
                       </div>
                     </div>
@@ -165,17 +230,17 @@ const HomePage = ({ language }) => {
                             <br />
                             <strong>c.</strong> {translations.objectivePointC}
                             <br />
-                            <strong>c.</strong> {translations.objectivePointD}
+                            <strong>d.</strong> {translations.objectivePointD}
                             <br />
                             {/* <i className="bx bx-wifi-0"></i> {translations.objectivePointC2}
                           <br />
                           <i className="bx bx-wifi-0"></i> {translations.objectivePointC3}
                           <br /> */}
-                            <strong>d.</strong> {translations.objectivePointE}
+                            <strong>e.</strong> {translations.objectivePointE}
                             <br />
-                            <strong>e.</strong> {translations.objectivePointF}
+                            <strong>f.</strong> {translations.objectivePointF}
                             <br />
-                            <strong>f.</strong> {translations.objectivePointG}
+                            <strong>g.</strong> {translations.objectivePointG}
                           </p>
                         </div>
                       </div>
@@ -198,7 +263,7 @@ const HomePage = ({ language }) => {
               {/* Building Permission Approval */}
               <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up">
                 <div className="count-box">
-                  <img src="assets/img/bpa_orange.png" alt="" style={{width: "13%"}}/>
+                  <img src="assets/img/bpa_orange.png" alt="" style={{ width: "13%" }} />
                   <div className="servic-right">
                     <h4>
                       <a href="/obpas-dashboard" rel="noreferrer">
@@ -217,7 +282,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/pgr_orange.png" alt="" style={{width: "15%"}}/>
+                  <img src="assets/img/pgr_orange.png" alt="" style={{ width: "15%" }} />
                   <div className="servic-right">
                     <h4>
                       <Link to="pgr">{translations.pgrTitle}</Link>
@@ -230,7 +295,7 @@ const HomePage = ({ language }) => {
               {/* Trade License */}
               <div className="col-lg-6 col-md-6 content-item" data-aos="fade-up">
                 <div className="count-box">
-                  <img src="assets/img/trade_orange.png" alt="" style={{width: "13%"}}/>
+                  <img src="assets/img/trade_orange.png" alt="" style={{ width: "13%" }} />
                   <div className="servic-right">
                     <h4>
                       <Link to="tl">{translations.tradeLicenseTitle}</Link>
@@ -247,7 +312,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/property_orange.png" alt="" style={{width: "15%"}}/>
+                  <img src="assets/img/property_orange.png" alt="" style={{ width: "15%" }} />
                   <div className="servic-right">
                     <h4>
                       <Link to="pt">{translations.propertyTaxTitle}</Link>
@@ -265,7 +330,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/water_orange.png" alt="" style={{width: "17%"}}/>
+                  <img src="assets/img/water_orange.png" alt="" style={{ width: "17%" }} />
                   <div className="servic-right">
                     <h4>
                       <Link to="wns">{translations.waterSewerageTitle}</Link>
@@ -282,7 +347,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/marriage_orange.png" alt="" style={{width: "15%"}}/>
+                  <img src="assets/img/marriage_orange.png" alt="" style={{ width: "15%" }} />
                   <div className="servic-right">
                     <h4>
                       <Link to="mr">{translations.marriageRegistrationTitle}</Link>
@@ -299,7 +364,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/layoutapproval_orange.png" alt="" style={{width: "15%"}}/>
+                  <img src="assets/img/layoutapproval_orange.png" alt="" style={{ width: "15%" }} />
                   <div className="servic-right">
                     <h4>
                       <Link to="">{translations.layoutApprovalTitle}</Link>
@@ -333,7 +398,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="count-box">
-                  <img src="assets/img/fssm.svg" alt="" style={{width: "15%"}}/>
+                  <img src="assets/img/fssm.svg" alt="" style={{ width: "15%" }} />
                   <div className="servic-right">
                     <h4>
                       <Link to="">{translations.fssmTitle}</Link>
@@ -355,7 +420,7 @@ const HomePage = ({ language }) => {
               <div className="col-lg-7 col-md-6 text-center" data-aos="fade-up">
                 <div className="whats-new">
                   <div className="section-title">
-                    <h4 style={{color: "#F47216"}}>{translations.whatsNewTitle}</h4>
+                    <h4 style={{ color: "#F47216" }}>{translations.whatsNewTitle}</h4>
                   </div>
                   <div className="body1-left-side">
                     <div className="block-hdnews">
@@ -363,7 +428,7 @@ const HomePage = ({ language }) => {
                         <ul
                           className="list-aggregate"
                           id="marquee-vertical-2"
-                          // style={{ display: 'block' }}
+                        // style={{ display: 'block' }}
                         >
                           <li>
                             {/* <div className="policy-img2">
@@ -433,7 +498,7 @@ const HomePage = ({ language }) => {
                 data-aos-delay="200"
               >
                 <div className="ulb">
-                  <h2  style={{fontSize: "33px"}}>{translations.ulbProfileTitle}</h2>
+                  <h2 style={{ fontSize: "33px" }}>{translations.ulbProfileTitle}</h2>
                 </div>
                 <div className="odisha-map">
                   <img id="myImg" src="assets/img/map-2.jpg" alt={translations.ulbMapAlt} />
