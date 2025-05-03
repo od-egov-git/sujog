@@ -762,7 +762,7 @@ function Dashboard({ language }) {
                                 </div>
                               </div>
                             </div>
-                            <div class="flex-grow-1 free-1">
+                            {/* <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
                                 Common FAQs related to CAD to Pdf generation for Architects
                                 <div class="h5 pull-right">
@@ -793,7 +793,7 @@ function Dashboard({ language }) {
                                   </a>
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
 
@@ -1684,6 +1684,39 @@ function Dashboard({ language }) {
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/Building Regularization and Land & Building Regularization_User Manual_Architect & Technical Person.pdf"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Common FAQs for Architects
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Common FAQs for Architects.pdf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Common FAQs for Architects.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
