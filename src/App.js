@@ -29,7 +29,7 @@ function App() {
       <Loader />
       {isTopWindow ? (
         <>
-          <Notification />
+          {/* <Notification /> */}
           <Header />
           <MenuBar />
           {/* { <HomePage /> } */}
