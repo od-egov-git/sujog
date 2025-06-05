@@ -60,7 +60,7 @@ function Footer({ language }) {
                     <i class="bx bx-map"></i> {translations.city}{" "}
                   </li>
                   <li style={{color: "#013151", fontWeight: "bold"}}>
-                    <i class="bx bx-envelope"></i>{translations.helpdeskEmail}{" "}
+                    <i class="bx bx-envelope"></i>helpdesk[dot]sujog[at]odisha[dot]gov[dot]in{" "}
                     {/* <img src="/Deshboard/images/contact_email.PNG" alt="Contact Email" /> */}
                   </li>
                   <li style={{color: "#013151", fontWeight: "bold"}}>
