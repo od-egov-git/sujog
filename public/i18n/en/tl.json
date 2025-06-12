@@ -23,5 +23,5 @@
     "minTime": "Minimum time taken to obtain registration/renewal",
     "avgFeeTakenByDept": "'Average fee' taken by the Department for completion of entire process of obtaining approval/certificate",
     "totalApplication": "Total Number of applications received",
-    "certificateIssueDesc" : "Certificate is issued instantly right after the payment of the application fee"
+    "certificateIssueDesc" : "Provisional Certificate is issued instantly right after the payment of the application fee"
 }
