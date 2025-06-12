@@ -144,15 +144,15 @@ function Dashboard({ language }) {
                                   </tr>
                                   <tr>
                                     <td>{translations.totalApplication}</td>
-                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_May 2025.pdf')}>5266</a></td>
                                   </tr>
                                   <tr>
                                     <td>{translations.totalApproved}</td>
-                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>2909</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/BPA_May 2025.pdf')}>5266</a></td>
                                   </tr>
                                   <tr>
                                     <td>{translations.avgTime}</td>
-                                    <td>15 Days</td>
+                                    <td>38 Days</td>
                                   </tr>
                                   <tr>
                                     <td>{translations.medianTime}</td>
@@ -160,7 +160,7 @@ function Dashboard({ language }) {
                                   </tr>
                                   <tr>
                                     <td>{translations.minTime}</td>
-                                    <td>15 Days</td>
+                                    <td>1 Days</td>
                                   </tr>
                                   <tr>
                                     <td>{translations.maxTime}</td>
@@ -168,7 +168,7 @@ function Dashboard({ language }) {
                                   </tr>
                                   <tr>
                                     <td>{translations.avgFeeTakenByDept}</td>
-                                    <td><a href="#" style={{ whiteSpace: 'nowrap' }} onClick={() => downloadExcel('/Deshboard/images/BPA_July 2024.pdf')}>₹ 134,981</a></td>
+                                    <td><a href="#" style={{ whiteSpace: 'nowrap' }} onClick={() => downloadExcel('/Deshboard/images/BPA_May 2025.pdf')}>₹ 73,113</a></td>
                                   </tr>
                                 </tbody>
                               </table>
@@ -212,31 +212,31 @@ function Dashboard({ language }) {
                                   </tr>
                                   <tr>
                                     <td>{translations.totalApplication}</td>
-                                    <td><a href="#" onClick={() => downloadExcel('applications_received.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Occupancy Certificate_May 2025.pdf')}>66</a></td>
                                   </tr>
                                   <tr>
                                     <td>{translations.totalApproved}</td>
-                                    <td><a href="#" onClick={() => downloadExcel('applications_approved.xlsx')}>0</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Occupancy Certificate_May 2025.pdf')}>66</a></td>
                                   </tr>
                                   <tr>
                                     <td>{translations.avgTime}</td>
-                                    <td>0</td>
+                                    <td>90 Days</td>
                                   </tr>
                                   <tr>
                                     <td>{translations.medianTime}</td>
-                                    <td>0</td>
+                                    <td>75 Days</td>
                                   </tr>
                                   <tr>
                                     <td>{translations.minTime}</td>
-                                    <td>0</td>
+                                    <td>1 Days</td>
                                   </tr>
                                   <tr>
                                     <td>{translations.maxTime}</td>
-                                    <td>0</td>
+                                    <td>267 Days</td>
                                   </tr>
                                   <tr>
                                     <td>{translations.avgFeeTakenByDept}</td>
-                                    <td>0</td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Occupancy Certificate_May 2025.pdf')}>₹ 1,000</a></td>
                                   </tr>
                                 </tbody>
                               </table>
@@ -350,11 +350,11 @@ function Dashboard({ language }) {
                                   </tr>
                                   <tr>
                                     <td>{translations.totalApplication}</td>
-                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>249</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_May 2025.pdf')}>986</a></td>
                                   </tr>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
                                     <td>{translations.totalApproved}</td>
-                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>249</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_May 2025.pdf')}>986</a></td>
                                   </tr>
                                   <tr>
                                     <td>{translations.avgTime}</td>
@@ -366,7 +366,7 @@ function Dashboard({ language }) {
                                   </tr>
                                   <tr>
                                     <td>{translations.minTime}</td>
-                                    <td>15 Days</td>
+                                    <td>1 Days</td>
                                   </tr>
                                   <tr style={{ backgroundColor: '#f8f9fa' }}>
                                     <td>{translations.maxTime}</td>
@@ -374,7 +374,7 @@ function Dashboard({ language }) {
                                   </tr>
                                   <tr>
                                     <td>{translations.avgFeeTakenByDept}</td>
-                                    <td><a href="#" style={{ whiteSpace: 'nowrap' }} onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_July 2024.pdf')}>₹ 42,744</a></td>
+                                    <td><a href="#" style={{ whiteSpace: 'nowrap' }} onClick={() => downloadExcel('/Deshboard/images/Addition Alteration Revision Revalidation_May 2025.pdf')}>₹ 13,459</a></td>
                                   </tr>
                                 </tbody>
                               </table>
