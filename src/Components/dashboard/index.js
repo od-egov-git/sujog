@@ -700,10 +700,10 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Drawing Manual_Odisha OBPS_v1.8
+                                Drawing Manual_Odisha OBPS_v1.9
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.8.pdf"
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.9.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -717,7 +717,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.8.pdf"
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.9.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -826,10 +826,10 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Odisha OBPS Drawing Template_v1.7(DWG)
+                                Odisha OBPS Drawing Template_v1.9(DWG)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.7.dwg"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.9(DWG).dwg"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -843,7 +843,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.7.dwg"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.9(DWG).dwg"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -891,10 +891,10 @@ function Dashboard({ language }) {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Odisha OBPS Drawing Template_v1.7(DXF)
+                                Odisha OBPS Drawing Template_v1.9(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.7.dxf"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.9(DXF).dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -908,7 +908,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.7.dxf"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.9(DXF).dxf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -1344,10 +1344,10 @@ function Dashboard({ language }) {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                OBPAS Reference files -PDF generation Category A(DXF)
+                                OBPAS Reference files -PDF generation Category A(ZIP)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS Reference files -PDF generation Category A.dxf"
+                                    href="/Deshboard/images/OBPAS Reference files -PDF & Sign generation Category A(ZIP).zip"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1361,7 +1361,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS Reference files -PDF generation Category A.dxf"
+                                    href="/Deshboard/images/OBPAS Reference files -PDF & Sign generation Category A(ZIP).zip"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -1377,10 +1377,10 @@ function Dashboard({ language }) {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                OBPAS Reference files -PDF generation Category C&D(DXF)
+                                OBPAS Reference files -PDF generation Category C&D(ZIP)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS Reference files -PDF generation Category C&D.dxf"
+                                    href="/Deshboard/images/OBPAS Reference files -PDF & Sign generation Category C&D(ZIP).zip"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1394,7 +1394,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS Reference files -PDF generation Category C&D.dxf"
+                                    href="/Deshboard/images/OBPAS Reference files -PDF & Sign generation Category C&D(ZIP).zip"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
