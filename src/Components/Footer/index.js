@@ -59,9 +59,10 @@ function Footer({ language }) {
                   <li style={{ color: "#013151", fontWeight: "bold" }}>
                     <i class="bx bx-map"></i> {translations.city}{" "}
                   </li>
-                  <li style={{ color: "#013151", fontWeight: "bold" }}>
-                    <i class="bx bx-envelope"></i>{" "}
-                    <img src="/assets/img/email_footer.png" alt="Contact Email" style={{ width: "65%" }} />
+
+                  <li style={{color: "#013151", fontWeight: "bold"}}>
+                    <i class="bx bx-envelope"></i>helpdesk[dot]sujog[at]odisha[dot]gov[dot]in{" "}
+                    {/* <img src="/Deshboard/images/contact_email.PNG" alt="Contact Email" /> */}
                   </li>
                   <li style={{ color: "#013151", fontWeight: "bold" }}>
                     <i class="bx bx-mobile"></i> {translations.helpdeskPhone}
