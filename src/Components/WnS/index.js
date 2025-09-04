@@ -248,7 +248,7 @@ function WnS({ language }) {
 														<div class="flex-grow-1 free-1">
 															<div class="small font-weight-bold text-primary mb-1">Water & Sewerage User Manual for Citizen
 
-																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_WS_Citizen User Manual_July 2024.pdf" class="tooltip" target="_blank">
+																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_WS_Citizen User Manual_Updated 2.pdf" class="tooltip" target="_blank">
 																	<span class="tooltiptext">Download</span><img alt="Water & Sewerage" src="/assets/img/download.svg" class="fkdl" /></a>
 																</div>
 																<div class="h5 pull-right"><a href="/Deshboard/images/SUJOG_WS_Citizen User Manual_July 2024.pdf" class="tooltip" target="_blank">
