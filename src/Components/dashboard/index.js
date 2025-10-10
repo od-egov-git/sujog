@@ -700,10 +700,10 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Drawing Manual_Odisha OBPS_v1.9
+                                Drawing Manual_Odisha OBPS_v1.10
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.9.pdf"
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.10.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -717,7 +717,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.9.pdf"
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.10.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -826,10 +826,10 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Odisha OBPS Drawing Template_v1.9(DWG)
+                                Odisha OBPS Drawing Template_v1.10(DWG)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.9(DWG).dwg"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.10(DWG).dwg"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -843,7 +843,39 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.9(DWG).dwg"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.10(DWG).dwg"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                Odisha OBPS Drawing Template_v1.10(DXF)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.10(DXF).dxf"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.10(DXF).dxf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -1344,7 +1376,7 @@ function Dashboard({ language }) {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                OBPAS Reference files -PDF generation Category A(ZIP)
+                                OBPAS Reference Files -PDF generation Category A(ZIP)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPAS Reference files -PDF & Sign generation Category A(ZIP).zip"
@@ -1377,7 +1409,7 @@ function Dashboard({ language }) {
 
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                OBPAS Reference files -PDF generation Category C&D(ZIP)
+                                OBPAS Reference Files -PDF generation Category C&D(ZIP)
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPAS Reference files -PDF & Sign generation Category C&D(ZIP).zip"
@@ -1395,6 +1427,39 @@ function Dashboard({ language }) {
                                 <div class="h5 pull-right">
                                   <a
                                     href="/Deshboard/images/OBPAS Reference files -PDF & Sign generation Category C&D(ZIP).zip"
+                                    class="tooltip"
+                                  >
+                                    <span class="tooltiptext">View</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/view.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="flex-grow-1 free-1">
+                              <div class="small font-weight-bold text-primary mb-1">
+                                OBPAS Reference Files - Ancillary Road for Commercial Project(ZIP)
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPAS Reference Files - Ancillary road for Commercial Project.zip"
+                                    class="tooltip"
+                                    target="_blank"
+                                  >
+                                    <span class="tooltiptext">Download</span>
+                                    <img
+                                      alt="bpa"
+                                      src="/Deshboard/images/download.svg"
+                                      class="fkdl"
+                                    />
+                                  </a>
+                                </div>
+                                <div class="h5 pull-right">
+                                  <a
+                                    href="/Deshboard/images/OBPAS Reference Files - Ancillary road for Commercial Project.zip"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
