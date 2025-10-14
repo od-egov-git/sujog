@@ -66,6 +66,13 @@ function Menubar() {
                             <li>
                                 <Link to="privacy-policy">{translations.navigationPrivacyPolicy}</Link>
                             </li>
+                            <li>
+                                <a className="dropdown-item d-lg-block" style={{ color: "#000" }} href={`${baseUrl}/citizen/withoutAuth/egov-usm/search`}>
+                                    {translations.navigationRegistration}
+                                </a>
+
+                                {/* <Link to="Registration">{translations.navigationRegistration}</Link> */}
+                            </li>
                         </ul>
                     </li>
                     <li>
