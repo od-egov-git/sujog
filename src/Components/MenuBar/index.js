@@ -66,6 +66,7 @@ function Menubar() {
                             <li>
                                 <Link to="privacy-policy">{translations.navigationPrivacyPolicy}</Link>
                             </li>
+                            
                         </ul>
                     </li>
                     <li>
@@ -74,6 +75,13 @@ function Menubar() {
                     <li>
                         <Link to="/contactus">{translations.navigationHelpdesk}</Link>
                     </li>
+                    <li>
+                            <a className="dropdown-item d-lg-block" style={{ color: "#00528" }} href={`${baseUrl}/citizen/withoutAuth/egov-usm/search`}>
+                                    {translations.navigationRegistration}
+                                </a>     
+
+                                {/* <Link to="Registration">{translations.navigationRegistration}</Link> */}
+                            </li>
                     <li className="login" style={{ marginLeft: "20px" }}>
                         <div className="dropdown">
                             <div className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -333,11 +333,11 @@ function MR() {
 
                             <div className="flex-grow-1 free-1">
                               <div className="small font-weight-bold text-primary mb-1">Marriage Registration Fees
-                                <div className="h5 pull-right"><a href="/Deshboard/images/Marriage Registration Fee_2023.pdf" className="tooltip" target="_blank">
+                                <div className="h5 pull-right"><a href="/Deshboard/images/Marriage Registration Fee_August 2025.pdf" className="tooltip" target="_blank">
                                   <span className="tooltiptext">Download</span><img src="/assets/img/download.svg" alt="" className="fkdl" /></a>
                                 </div>
 
-                                <div className="h5 pull-right"><a href="/Deshboard/images/Marriage Registration Fee_2023.pdf" className="tooltip" target="_blank">
+                                <div className="h5 pull-right"><a href="/Deshboard/images/Marriage Registration Fee_August 2025.pdf" className="tooltip" target="_blank">
                                   <span className="tooltiptext">View</span><img src="/assets/img/view.svg" alt="" className="fkdl" /></a>
                                 </div>
                               </div>

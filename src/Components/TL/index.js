@@ -68,11 +68,11 @@ function TL({language}) {
                                   </tr>
                                   <tr>
                                     <td>{translations.totalApplication}</td>
-                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_July 2024.pdf')}>3035</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_May 2025.pdf')}>3626</a></td>
                                   </tr>
                                   <tr>
                                     <td>{translations.totalApproved}</td>
-                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_July 2024.pdf')}>3035</a></td>
+                                    <td><a href="#" onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_May 2025.pdf')}>3626</a></td>
                                   </tr>
                                   <tr>
                                     <td>{translations.avgTime}</td>
@@ -92,7 +92,7 @@ function TL({language}) {
                                   </tr>
                                   <tr>
                                     <td>{translations.avgFeeTakenByDept}</td>
-                                    <td><a href="#" style={{whiteSpace:'nowrap'}} onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_July 2024.pdf')}>₹ 3851</a></td>
+                                    <td><a href="#" style={{whiteSpace:'nowrap'}} onClick={() => downloadExcel('/Deshboard/images/Trade License Applications_May 2025.pdf')}>₹ 4,272</a></td>
                                   </tr>
                                   <tr>
                                     <td colSpan="2" style={{ backgroundColor: '#f1f1f1',fontWeight:'Bold', textAlign: 'center', fontStyle: 'italic', color:"#F47216" }}>
