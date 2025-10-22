@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css'; // Import your CSS file for styles
 
 const Notification = () => {
-  const message = "SUJOG Portal will be undergoing server maintenance from 7:00 PM on 10th May 2025 to 7:00 AM on 12th May 2025. During this period, the portal will be temporarily unavailable.";
+  const message = "SUJOG Services will be temporarily unavailable from 3:00 PM onwards for SDC storage maintenance. Services will resume once the activity is completed.";
 
   return (
     <div className="notification-bar">
