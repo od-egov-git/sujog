@@ -732,10 +732,10 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Layout Approval Drawing Manual V1.3
+                                Layout Approval Drawing Manual V1.4
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Drawing Manual V1.3.pdf"
+                                    href="/Deshboard/images/Layout Approval Drawing Manual V1.4.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -890,10 +890,10 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Layout Approval Template V 1.3(DXF)
+                                Layout Approval Template V1.4(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Template V 1.3.dxf"
+                                    href="/Deshboard/images/Layout Approval Template V1.4.dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1047,10 +1047,10 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Layout Approval Reference File v1(DXF)
+                                Layout Approval Reference File v1.2(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Reference File v1.dxf"
+                                    href="/Deshboard/images/Layout Approval Reference File v1.2.dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
