@@ -17,6 +17,7 @@ import PT from "./Components/PT";
 import WnS from "./Components/WnS";
 import TL from "./Components/TL";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
+import Registration from "./Components/Registration";
 import ULBSpage from "./Components/ULBs-page";
 import TPA from "./Components/TPA";
 import Notification from "./Components/Notification";
@@ -29,7 +30,7 @@ function App() {
       <Loader />
       {isTopWindow ? (
         <>
-          {/* <Notification /> */}
+           {/* <Notification /> */}
           <Header />
           <MenuBar />
           {/* { <HomePage /> } */}
@@ -53,6 +54,7 @@ function App() {
             <Route path="/rti" component={Rti} />
             <Route path="/obpas-dashboard" component={Dashboard} />
             <Route path="/privacy-policy" component={PrivacyPolicy} />
+            <Route path="/Registration" component={Registration} />
             <Route path="/ulbs" component={ULBSpage} />
             <Route path="/tpa" component={TPA} />
             <Route render={() => <Redirect to="/home" />} />
