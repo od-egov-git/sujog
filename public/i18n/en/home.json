@@ -6,7 +6,8 @@
     "cmDesc": "Hon'ble Chief Minister",
     "aboutSujog": "ABOUT SUJOG",
     "aboutSUJOGDesc": "Housing & Urban Development Department, Odisha's SUJOG (Sustainable Urban Services in a Jiffy) aims to enable seamless e-governance across all Urban Local Bodies (ULBs) in the State. By leveraging advanced ICT tools and a statewide Citizen Service Centre (CSC) network, SUJOG ensures transparent, efficient, and accessible urban services. This initiative aims to enhance service delivery, accountability, and citizen experience, driving Odisha towards a smart and sustainable urban future.",
-    "readMore": "Read more + ",
+    "readMore": "Read More + ",
+    "readLess": "Read Less - ",
     "visionTitle": "Vision",
     "visionDescription": "To keep citizens at the centre of the Digital Transformation of urban services.",
     "objectiveTitle": "Objective",
@@ -62,7 +63,7 @@
     "link1Url": "https://odisha.gov.in/",
     "link2Title": "About Odisha",
     "link2Url": "https://en.wikipedia.org/wiki/Odisha",
-    "link3Title": "OdishaOne",
+    "link3Title": "Odisha One",
     "link3Url": "https://www.odishaone.gov.in/citizen/auth/login",
     "link4Title": "Housing & Urban Development Department",
     "link4Url": "https://urban.odisha.gov.in/",
@@ -73,5 +74,6 @@
     "link7Title": "Pareshram",
     "link7Url": "https://pareshram-labour.odisha.gov.in/en/labour",
     "link8Title": "Odisha Tender",
-    "link8Url": "https://www.tendersodisha.gov.in/nicgep/app"
+    "link8Url": "https://www.tendersodisha.gov.in/nicgep/app",
+    "wnTitle": "Check Out Whats New"
 }

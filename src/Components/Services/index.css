@@ -1,0 +1,136 @@
+.service-tabs {
+  display: flex;
+  transition: transform 0.3s ease;
+  gap: 25px;
+  white-space: nowrap;  
+}
+.service-tab-pill {
+  padding: 12px 30px;
+  border-radius: 40px;
+  background: #f2f4f7;
+  color: #1c355e;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s ease;
+  white-space: nowrap;   
+}
+
+.service-tab-pill:hover {
+  background: #e7e9ef;
+}
+
+.service-tab-pill.active {
+  background: #fe7a51;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(254, 122, 81, 0.5);
+  font-weight: 600;
+}
+
+.service-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  min-height: 350px;
+}
+
+.service-left {
+  width: 50%;
+}
+
+.service-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #013b7a; 
+  margin-bottom: 10px;
+}
+
+.service-title-underline {
+  width: 60px;
+  height: 4px;
+  background-color: #fe7a51;
+  border-radius: 2px;
+  margin-bottom: 25px;
+}
+
+.service-desc {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #04285c;
+  max-width: 520px;
+}
+
+.service-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.service-bullets li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  padding-left: 28px;
+  background-size: 18px;
+  color: #333;
+}
+
+.service-right img {
+  width: 480px;
+}
+
+.service-tabs-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.tab-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: #f2f4f7;
+  color: #1c355e;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.tab-arrow:hover {
+  background: #e7e9ef;
+}
+
+.service-tabs-viewport {
+  width: 65%;        
+  overflow: hidden;   
+}
+
+@media (max-width: 768px) {
+  .service-content {
+      flex-direction: column-reverse !important; 
+      text-align: center;
+  }
+
+  .service-title {
+    text-align: left !important;
+  }
+
+  .service-left {
+      width: 100%;
+      margin-top: 16px;
+  }
+
+  .service-right {
+      width: 100%;
+  }
+
+  .service-right img {
+      width: 70%;
+      margin: 0 auto;
+      display: block;
+  }
+}
