@@ -47,6 +47,42 @@
   font-size: 18px; /* Adjust the font size as needed */
   margin: 1rem 0;
 }
+/* Target the React Bootstrap button with a specific class for higher specificity */
+.custom-quick-guide-button.btn-secondary {
+  /* Change the default colors */
+  background-color: #F47216; /* A shade of green */
+  border-color: #F47216;
+  color: white;
+}
+
+/* Override the hover state as well */
+.custom-quick-guide-button.btn-secondary:hover {
+  background-color: #F47216;
+  border-color: #F47216;
+}
+
+/* Style the tooltiptext span */
+.custom-quick-guide-button .tooltiptext {
+  /* Your custom tooltip styles here */
+  color: #fff;
+}
+
+.btn-secondary {
+  /* Override the default background color */
+  background-color: #F47216; /* Original secondary color */
+  
+  /* Change to a custom blue */
+  background-color: #007bff;
+  
+  /* Override the default border color */
+  border-color: #6c757d; /* Original secondary border color */
+  
+  /* Change to a custom blue */
+  border-color: #007bff;
+}
+
+
+
 
 /* Media query to target mobile devices */
 @media (max-width: 767px) {

@@ -700,10 +700,10 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Drawing Manual_Odisha OBPS_v1.10
+                                Drawing Manual_Odisha OBPS_v1.11
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.10.pdf"
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.11.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -717,7 +717,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.10.pdf"
+                                    href="/Deshboard/images/Drawing Manual_Odisha OBPS_v1.11.pdf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -732,10 +732,10 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Layout Approval Drawing Manual V1.3
+                                Layout Approval Drawing Manual V1.4
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Drawing Manual V1.3.pdf"
+                                    href="/Deshboard/images/Layout Approval Drawing Manual V1.4.pdf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -826,10 +826,10 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Odisha OBPS Drawing Template_v1.10(DWG)
+                                Odisha OBPS Drawing Template_v1.11(DWG)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.10(DWG).dwg"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.11(DWG).dwg"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -843,7 +843,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.10(DWG).dwg"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.11(DWG).dwg"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -858,10 +858,10 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Odisha OBPS Drawing Template_v1.10(DXF)
+                                Odisha OBPS Drawing Template_v1.11(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.10(DXF).dxf"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.11(DXF).dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -875,7 +875,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.10(DXF).dxf"
+                                    href="/Deshboard/images/Odisha OBPS Drawing Template_v1.11(DXF).dxf"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
@@ -890,10 +890,10 @@ function Dashboard({ language }) {
                             </div>
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Layout Approval Template V 1.3(DXF)
+                                Layout Approval Template V1.4(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Template V 1.3.dxf"
+                                    href="/Deshboard/images/Layout Approval Template V1.4.dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1047,10 +1047,10 @@ function Dashboard({ language }) {
                           >
                             <div class="flex-grow-1 free-1">
                               <div class="small font-weight-bold text-primary mb-1">
-                                Layout Approval Reference File v1(DXF)
+                                Layout Approval Reference File v1.2(DXF)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/Layout Approval Reference File v1.dxf"
+                                    href="/Deshboard/images/Layout Approval Reference File v1.2.dxf"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1412,7 +1412,7 @@ function Dashboard({ language }) {
                                 OBPAS Reference Files -PDF generation Category C&D(ZIP)
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS Reference files -PDF & Sign generation Category C&D(ZIP).zip"
+                                    href="/Deshboard/images/PDF generation Category C&D(ZIP).zip"
                                     class="tooltip"
                                     target="_blank"
                                   >
@@ -1426,7 +1426,7 @@ function Dashboard({ language }) {
                                 </div>
                                 <div class="h5 pull-right">
                                   <a
-                                    href="/Deshboard/images/OBPAS Reference files -PDF & Sign generation Category C&D(ZIP).zip"
+                                    href="/Deshboard/images/PDF generation Category C&D(ZIP).zip"
                                     class="tooltip"
                                   >
                                     <span class="tooltiptext">View</span>
