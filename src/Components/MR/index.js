@@ -267,11 +267,11 @@ function MR() {
                             </div>
                             <div className="flex-grow-1 free-1">
                               <div className="small font-weight-bold text-primary mb-1">Reference format for Joint Affidavit
-                                <div className="h5 pull-right"><a href="/Deshboard/images/Affidavit Format.pdf" className="tooltip"
+                                <div className="h5 pull-right"><a href="/Deshboard/images/Joint affidavit-060126.pdf" className="tooltip"
                                   target="_blank">
                                   <span className="tooltiptext">Download</span><img src="/assets/img/download.svg" className="fkdl" /></a>
                                 </div>
-                                <div className="h5 pull-right"><a href="/Deshboard/images/Affidavit Format.pdf" className="tooltip" target="_blank">
+                                <div className="h5 pull-right"><a href="/Deshboard/images/Joint affidavit-060126.pdf" className="tooltip" target="_blank">
                                   <span className="tooltiptext">View</span><img src="/assets/img/view.svg" className="fkdl" /></a>
                                 </div>
                               </div>
