@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import usePageLocalization from "../../utils/usePageLocalization";
 import LanguageSwitcher from "../LanguageSwitcher";
+import PublicServices from "../PublicServices";
 
 function Menubar() {
 
@@ -14,7 +15,7 @@ function Menubar() {
         ? "https://sujog-dev.odisha.gov.in"
         : "https://sujog.odisha.gov.in";
 
-    return <header id="header">
+    return <header id="header" className="menubar-island">
         <div className="container">
             <div className="logo float-left">
                 <Link to="/home">
@@ -66,7 +67,7 @@ function Menubar() {
                             <li>
                                 <Link to="privacy-policy">{translations.navigationPrivacyPolicy}</Link>
                             </li>
-                            
+
                         </ul>
                     </li>
                     <li>
@@ -74,8 +75,8 @@ function Menubar() {
                     </li>
                     <li>
                         <Link to="/contactus">{translations.navigationHelpdesk}</Link>
-                    </li>                    
-                    <li className="login" style={{ marginLeft: "20px" }}>
+                    </li>
+                    <li className="login" style={{ marginLeft: "55px" }}>
                         <div className="dropdown">
                             <div className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {translations.navigationLogIn}
@@ -94,8 +95,11 @@ function Menubar() {
                             </div>
                         </div>
                     </li>
-                    <li className="language-switcher">
+                    <li className="language-switcher d-lg-none" style={{ marginLeft: "10px", marginTop: "15px" }}>
                         <LanguageSwitcher />
+                    </li>
+                    <li className="language-switcher d-lg-none" style={{ marginLeft: "10px", marginTop: "15px" }}>
+                        <PublicServices />
                     </li>
                 </ul>
             </nav>
