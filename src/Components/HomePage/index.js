@@ -202,28 +202,29 @@ const HomePage = ({ language }) => {
                     className="count-box2"
                     style={{
                       marginBottom: "12px",
-                      padding: "10px"
+                      padding: "10px",
+                      gap: "5px"
                     }}
                   >
                     <img
                       src="./assets/img/odishaemblem.png"
                       alt={translations.link1Title}
-                      style={{ width: "55px", height: "55px", marginLeft: "12px" }}
+                      style={{ width: "50px", height: "55px", marginLeft: "20px" }}
                     />
                     <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link1Title}</h4>
                   </div>
                 </a>
               </div>
 
-              {/* About Odisha Link */}
-              <div
+               {/* HUDD Link */}
+               <div
                 className="col-lg-3 col-md-6 text-center"
                 data-aos="fade-up"
-                data-aos-delay="200"
+                data-aos-delay="600"
                 style={{ paddingLeft: "6px", paddingRight: "6px" }}
               >
                 <a
-                  href={translations.link2Url}
+                  href={translations.link4Url}
                   rel="noreferrer"
                   target="_blank"
                   style={{ textDecoration: 'none' }}
@@ -231,22 +232,52 @@ const HomePage = ({ language }) => {
                   <div
                     className="count-box2"
                     style={{
-                      gap: "18px",
                       marginBottom: "12px",
-                      padding: "10px"
+                      padding: "15px"
                     }}
                   >
                     <img
-                      src="./assets/img/about.svg"
+                      src="./assets/img/odishaemblem.png"
                       alt={translations.link1Title}
-                      style={{ width: "55px", height: "55px" }}
+                      style={{ width: "55px", height: "55px", marginLeft: "8px" }}
                     />
-                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link2Title}</h4>
+                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link4Title}</h4>
                   </div>
                 </a>
               </div>
 
-              {/* Odisha Online Link */}
+              {/* Bhubaneswar Smart City */}
+              <div
+                className="col-lg-3 col-md-6 text-center"
+                data-aos="fade-up"
+                data-aos-delay="600"
+                style={{ paddingLeft: "6px", paddingRight: "6px" }}
+              >
+                <a
+                  href={translations.link5Url}
+                  rel="noreferrer"
+                  target="_blank"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <div
+                    className="count-box2"
+                    style={{
+                      marginBottom: "12px",
+                      padding: "15px",
+                      gap: "10px"
+                    }}
+                  >
+                    <img
+                      src="./assets/img/bhubaneswarsmartcity_logo.png"
+                      alt={translations.link1Title}
+                      style={{ width: "50px", height: "50px", marginLeft: "12px" }}
+                    />
+                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link5Title}</h4>
+                  </div>
+                </a>
+              </div>
+              
+              {/* Odisha One */}
               <div
                 className="col-lg-3 col-md-6 text-center"
                 data-aos="fade-up"
@@ -277,15 +308,15 @@ const HomePage = ({ language }) => {
                 </a>
               </div>
 
-              {/* HUDD Link */}
+              {/* Janasunani */}
               <div
                 className="col-lg-3 col-md-6 text-center"
                 data-aos="fade-up"
-                data-aos-delay="600"
+                data-aos-delay="200"
                 style={{ paddingLeft: "6px", paddingRight: "6px" }}
               >
                 <a
-                  href={translations.link4Url}
+                  href={translations.link2Url}
                   rel="noreferrer"
                   target="_blank"
                   style={{ textDecoration: 'none' }}
@@ -293,21 +324,22 @@ const HomePage = ({ language }) => {
                   <div
                     className="count-box2"
                     style={{
+                      gap: "18px",
                       marginBottom: "12px",
-                      padding: "15px"
+                      padding: "10px"
                     }}
                   >
                     <img
-                      src="./assets/img/odishaemblem.png"
+                      src="./assets/img/od-Jana-sunani.png"
                       alt={translations.link1Title}
-                      style={{ width: "55px", height: "55px", marginLeft: "8px" }}
+                      style={{ width: "55px", height: "55px" }}
                     />
-                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link4Title}</h4>
+                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link2Title}</h4>
                   </div>
                 </a>
               </div>
 
-              {/* Mo Sarkar Link */}
+              {/* Go-Swift Link */}
               <div
                 className="col-lg-3 col-md-6 text-center"
                 data-aos="fade-up"
@@ -315,7 +347,7 @@ const HomePage = ({ language }) => {
                 style={{ paddingLeft: "6px", paddingRight: "6px" }}
               >
                 <a
-                  href={translations.link5Url}
+                  href={translations.link7Url}
                   rel="noreferrer"
                   target="_blank"
                   style={{ textDecoration: 'none' }}
@@ -323,17 +355,48 @@ const HomePage = ({ language }) => {
                   <div
                     className="count-box2"
                     style={{
+                      gap: "18px",
                       marginBottom: "12px",
-                      padding: "15px",
-                      gap: "10px"
+                      padding: "10px"
                     }}
                   >
                     <img
-                      src="./assets/img/bhubaneswarsmartcity_logo.png"
+                      src="./assets/img/gologo.png"
                       alt={translations.link1Title}
-                      style={{ width: "50px", height: "50px", marginLeft: "12px" }}
+                      style={{ width: "100px" }}
                     />
-                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link5Title}</h4>
+                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link7Title}</h4>
+                  </div>
+                </a>
+              </div>
+
+              {/* ORERA Link */}
+              <div
+                className="col-lg-3 col-md-6 text-center"
+                data-aos="fade-up"
+                data-aos-delay="600"
+                style={{ paddingLeft: "6px", paddingRight: "6px" }}
+              >
+                <a
+                  href={translations.link8Url}
+                  rel="noreferrer"
+                  target="_blank"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <div
+                    className="count-box2"
+                    style={{
+                      gap: "20px",
+                      marginBottom: "12px",
+                      padding: "10px"
+                    }}
+                  >
+                    <img
+                      src="./assets/img/orera.png"
+                      alt={translations.link1Title}
+                      style={{ width: "55px" }}
+                    />
+                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link8Title}</h4>
                   </div>
                 </a>
               </div>
@@ -369,67 +432,6 @@ const HomePage = ({ language }) => {
                 </a>
               </div>
 
-              {/* PareshRam Link */}
-              <div
-                className="col-lg-3 col-md-6 text-center"
-                data-aos="fade-up"
-                data-aos-delay="600"
-                style={{ paddingLeft: "6px", paddingRight: "6px" }}
-              >
-                <a
-                  href={translations.link7Url}
-                  rel="noreferrer"
-                  target="_blank"
-                  style={{ textDecoration: 'none' }}
-                >
-                  <div
-                    className="count-box2"
-                    style={{
-                      gap: "18px",
-                      marginBottom: "12px",
-                      padding: "10px"
-                    }}
-                  >
-                    <img
-                      src="./assets/img/odishaemblem.png"
-                      alt={translations.link1Title}
-                      style={{ width: "50px" }}
-                    />
-                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link7Title}</h4>
-                  </div>
-                </a>
-              </div>
-
-              {/* Odisha Tender Link */}
-              <div
-                className="col-lg-3 col-md-6 text-center"
-                data-aos="fade-up"
-                data-aos-delay="600"
-                style={{ paddingLeft: "6px", paddingRight: "6px" }}
-              >
-                <a
-                  href={translations.link8Url}
-                  rel="noreferrer"
-                  target="_blank"
-                  style={{ textDecoration: 'none' }}
-                >
-                  <div
-                    className="count-box2"
-                    style={{
-                      gap: "20px",
-                      marginBottom: "12px",
-                      padding: "10px"
-                    }}
-                  >
-                    <img
-                      src="./assets/img/odishaemblem.png"
-                      alt={translations.link1Title}
-                      style={{ width: "50px" }}
-                    />
-                    <h4 style={{ color: "#012970", marginBottom: "0px" }}>{translations.link8Title}</h4>
-                  </div>
-                </a>
-              </div>
             </div>
           </div>
         </section>
