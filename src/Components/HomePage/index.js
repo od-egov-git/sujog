@@ -50,7 +50,7 @@ const HomePage = ({ language }) => {
   return (
     <>
       <section id="hero" style={{ width: window.innerWidth }}>
-      <div style={{ height: window.innerWidth > 768 ? "35px" : "0px", backgroundColor: "#F47216", width: "100%" }}></div>
+        <div style={{ height: window.innerWidth > 768 ? "35px" : "0px", backgroundColor: "#F47216", width: "100%" }}></div>
         <div className="hero-container">
           <div
             id="heroCarousel"
@@ -180,10 +180,23 @@ const HomePage = ({ language }) => {
         </div> */}
 
       </div>
-
+      <div className="rolling-banner">
+        <div className="rolling-content">
+          <span>
+            🔔 {translations.rollingMessage1} &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            🔔 {translations.rollingMessage2} &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            🔔 {translations.rollingMessage3} &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span>
+            🔔 {translations.rollingMessage1} &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            🔔 {translations.rollingMessage2} &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            🔔 {translations.rollingMessage3} &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+        </div>
+      </div>
       <main id="main">
 
-        <section className="counts section-bg">
+        <section className="counts section-bg" style={{ position: "relative", zIndex: 100 }}>
           <div className="container">
             {/* <div className="section-title">
               <h3>{translations.importantLinksTitle}</h3>
@@ -216,8 +229,8 @@ const HomePage = ({ language }) => {
                 </a>
               </div>
 
-               {/* HUDD Link */}
-               <div
+              {/* HUDD Link */}
+              <div
                 className="col-lg-3 col-md-6 text-center"
                 data-aos="fade-up"
                 data-aos-delay="600"
@@ -276,7 +289,7 @@ const HomePage = ({ language }) => {
                   </div>
                 </a>
               </div>
-              
+
               {/* Odisha One */}
               <div
                 className="col-lg-3 col-md-6 text-center"
@@ -436,7 +449,7 @@ const HomePage = ({ language }) => {
           </div>
         </section>
 
-        <section id="about" class="about section">
+        <section id="about" class="about section" style={{ position: "relative", zIndex: 10 }}>
 
           <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row gy-4 justify-content-between">
@@ -549,7 +562,7 @@ const HomePage = ({ language }) => {
 
         <section class="wn-9 wn section light-background" id="wn">
           <div class="container">
-            <div class="row gy-4" style={{marginBottom: "50px"}}>
+            <div class="row gy-4" style={{ marginBottom: "50px" }}>
               <div class="col-lg-5 aos-init aos-animate" data-aos="fade-up">
                 <h2 class="wn-title">{translations.wnTitle} </h2>
                 <div style={{
@@ -560,9 +573,9 @@ const HomePage = ({ language }) => {
                   marginBottom: "25px"
                 }}></div>
                 <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-                    <img src="assets/img/map-2.jpg" alt="Business Meeting" class="img-fluid main-image rounded-4" />
+                  <img src="assets/img/map-2.jpg" alt="Business Meeting" class="img-fluid main-image rounded-4" />
 
-                  </div>
+                </div>
               </div>{/*<!-- End Feature Borx-->*/}
               <div class="col-xl-7 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="wn-9 wn section pad1" id="wn">
@@ -570,7 +583,7 @@ const HomePage = ({ language }) => {
                     <h2 style={{ color: "#fe7a51" }}> {translations.whatsNewTitle} <i class="icofont-arrow-right" style={{ fontSize: "30px" }}></i> </h2>
 
                     <div class="wn-item">
-                      <h3> 
+                      <h3>
                         <a
                           href={translations.award1Link}
                           rel="noreferrer"
