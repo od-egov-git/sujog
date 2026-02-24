@@ -2696,4 +2696,36 @@ h6,
 .wn .wn-container .wn-item h3 a:hover {
   color: #fe7a51;
 }
- 
+
+.rolling-banner {
+  width: 100%;
+  background: #012970;
+  color: #ffffff;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.rolling-content {
+  display: inline-block;
+  padding-left: 0%;
+  animation: scroll-left 35s linear infinite;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.rolling-banner:hover .rolling-content {
+  animation-play-state: paused;
+}
