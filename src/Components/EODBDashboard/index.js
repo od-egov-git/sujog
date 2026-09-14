@@ -292,11 +292,34 @@ const extractOptions = (rows) => {
   };
 };
 
+const weightedMedian = (entries) => {
+  const sorted = [...entries].sort((a, b) => a.value - b.value);
+  const total = sorted.reduce((s, e) => s + e.count, 0);
+  if (total === 0) return 0;
+  const mid1 = Math.floor((total - 1) / 2);
+  const mid2 = Math.floor(total / 2);
+  let cumulative = 0;
+  let val1 = null, val2 = null;
+  for (const entry of sorted) {
+    cumulative += entry.count;
+    if (val1 === null && cumulative > mid1) val1 = entry.value;
+    if (val2 === null && cumulative > mid2) val2 = entry.value;
+    if (val1 !== null && val2 !== null) break;
+  }
+  return +((val1 + val2) / 2).toFixed(1);
+};
+
 const aggregateTable2 = (rows) => {
   const map = new Map();
   rows.forEach(row => {
     if (!map.has(row.service)) {
-      map.set(row.service, { ...row, _count: 1 });
+      map.set(row.service, {
+        ...row,
+        medianEntries: [{ value: row.median, count: row.received }],
+        avgWeightedNum: row.avg * row.received,
+        feeWeightedNum: row.fee * row.received,
+        _count: 1
+      });
     } else {
       const e = map.get(row.service);
       e.received += row.received;
@@ -304,11 +327,11 @@ const aggregateTable2 = (rows) => {
       e.approved += row.approved;
       e.pending += row.pending;
       e.withinCount += row.withinCount;
-      e.median += row.median;
-      e.avg += row.avg;
+      e.medianEntries.push({ value: row.median, count: row.received });
+      e.avgWeightedNum += row.avg * row.received;
+      e.feeWeightedNum += row.fee * row.received;
       e.min = Math.min(e.min, row.min);
       e.max = Math.max(e.max, row.max);
-      e.fee += row.fee;
       e._count += 1;
     }
   });
@@ -320,11 +343,11 @@ const aggregateTable2 = (rows) => {
     pending: row.pending,
     withinCount: row.withinCount,
     withinPct: row.approved > 0 ? +((row.withinCount / row.approved) * 100).toFixed(1) : 0,
-    median: +(row.median / row._count).toFixed(1),
-    avg: +(row.avg / row._count).toFixed(1),
+    median: weightedMedian(row.medianEntries),
+    avg: row.received > 0 ? +(row.avgWeightedNum / row.received).toFixed(1) : 0,
     min: row.min,
     max: row.max,
-    fee: Math.round(row.fee / row._count)
+    fee: row.received > 0 ? Math.round(row.feeWeightedNum / row.received) : 0
   }));
 };
 
