@@ -21,6 +21,9 @@
     "navigationLogInCitizen": "Citizen",
     "navigationLogInDepartment": "Department",
     "navigationLogInOthers": "Others",
-    "navigationLogInTPA": "TPA"
+    "navigationLogInTPA": "TPA",
+    "navigationPublicServices": "Public Services",
+    "navigationSiteMap": "Site Map",
+    "navigationHolidayList": "Holiday List"
   }
   
