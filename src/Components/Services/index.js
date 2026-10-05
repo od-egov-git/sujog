@@ -92,7 +92,7 @@ class ServicesCarousel extends Component {
                 title: translations.buildingPermissionTitle,
                 desc: translations.buildingPermissionDescription,
                 link: "/obpas-dashboard",
-                label: "OBPAS",
+                label: translations.obpasLabel,
             },
             {
                 img: "assets/img/slide/features-illustration-2.webp",
@@ -100,7 +100,7 @@ class ServicesCarousel extends Component {
                 title: translations.pgrTitle,
                 desc: translations.pgrDescription,
                 link: "pgr",
-                label: "Grievance Redressal"
+                label: translations.grievanceLabel
             },
             {
                 img: "assets/img/slide/features-illustration-3.webp",
@@ -108,7 +108,7 @@ class ServicesCarousel extends Component {
                 title: translations.tradeLicenseTitle,
                 desc: translations.tradeLicenseDescription,
                 link: "tl",
-                label: "Trade License"
+                label: translations.tradeLicenseLabel
             },
             {
                 img: "assets/img/slide/features-illustration-1.webp",
@@ -122,7 +122,7 @@ class ServicesCarousel extends Component {
                     </>
                 ),
                 link: "pt",
-                label: "Property Tax"
+                label: translations.propertyTaxLabel
             },
             {
                 img: "assets/img/slide/features-illustration-2.webp",
@@ -130,7 +130,7 @@ class ServicesCarousel extends Component {
                 title: translations.waterSewerageTitle,
                 desc: translations.waterSewerageDescription,
                 link: "wns",
-                label: "Water & Sewerage"
+                label: translations.waterSewerageLabel
             },
             {
                 img: "assets/img/slide/features-illustration-3.webp",
@@ -138,7 +138,7 @@ class ServicesCarousel extends Component {
                 title: translations.marriageRegistrationTitle,
                 desc: translations.marriageRegistrationDescription,
                 link: "mr",
-                label: "Marriage Registration"
+                label: translations.marriageRegistrationLabel
             },
             {
                 img: "assets/img/slide/features-illustration-1.webp",
@@ -146,7 +146,7 @@ class ServicesCarousel extends Component {
                 title: translations.layoutApprovalTitle,
                 desc: translations.layoutApprovalDescription,
                 link: "home",
-                label: "Layout Approval"
+                label: translations.layoutApprovalLabel
             },
             {
                 img: "assets/img/slide/features-illustration-2.webp",
@@ -154,7 +154,7 @@ class ServicesCarousel extends Component {
                 title: translations.fssmTitle,
                 desc: translations.fssmDescription,
                 link: "home",
-                label: "FSSM"
+                label: translations.fssmLabel
             },
         ];
         const activeItem = items[index];

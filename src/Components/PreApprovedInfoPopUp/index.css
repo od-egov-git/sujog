@@ -135,3 +135,164 @@
 .close-btn:focus {
   outline: none;
 }
+
+
+/* Keep the announcement frame independent of the current image. */
+.announcement-modal,
+.announcement-options {
+  padding-top: 0;
+  background: transparent;
+}
+
+.announcement-modal .modal-dialog {
+  width: min(72vw, 960px);
+  max-width: none;
+  margin: 24px auto;
+  min-height: calc(100% - 48px);
+}
+
+.announcement-modal .modal-content,
+.announcement-options .modal-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  animation: none;
+}
+
+.announcement-modal .modal-content {
+  height: auto;
+  max-height: calc(100vh - 48px);
+  max-height: calc(100dvh - 48px);
+  min-height: 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 24px 80px rgba(15, 23, 42, .3);
+}
+
+.announcement-modal .modal-header {
+  align-items: center;
+  flex-shrink: 0;
+  padding: 12px 20px;
+  border-bottom: 1px solid #edf0f4;
+}
+
+.announcement-modal .modal-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #172b4d;
+}
+
+.announcement-modal .modal-body {
+  position: relative;
+  flex: 0 1 auto;
+  /* Match the wide banner so it has no vertical letterboxing. */
+  aspect-ratio: 5777 / 1737;
+  min-height: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.announcement-modal .announcement-carousel {
+  position: absolute;
+  inset: 0;
+}
+
+.announcement-modal .carousel-inner,
+.announcement-modal .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.announcement-modal .carousel-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.announcement-close,
+.announcement-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid #dce2ea;
+  border-radius: 50%;
+  background: #f8fafc;
+  color: #334155;
+  cursor: pointer;
+}
+
+.announcement-close { font-size: 20px; }
+
+.announcement-close:hover,
+.announcement-arrow:hover {
+  background: #fff2e8;
+  border-color: #f47216;
+  color: #a94a09;
+}
+
+.announcement-modal button:focus-visible,
+.announcement-options button:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
+}
+
+.announcement-modal .modal-footer {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 16px;
+  border-top: 1px solid #edf0f4;
+}
+
+.announcement-modal .modal-footer > * { margin: 0; }
+.announcement-resources { display: flex; flex-wrap: wrap; gap: 10px; }
+.announcement-resources .btn { margin: 0; padding: 8px 26px; border-radius: 8px; font-size: 13px; }
+.announcement-resources .btn-primary { background: #a94a09; border-color: #a94a09; }
+.announcement-navigation { display: flex; align-items: center; gap: 16px; }
+.announcement-count { color: #64748b; font-size: 13px; font-variant-numeric: tabular-nums; }
+.announcement-backdrop.show { opacity: .65; background: #0f172a; }
+.announcement-options .modal-header { align-items: center; gap: 16px; }
+.announcement-options .modal-title { font-size: 20px; }
+
+@media (max-width: 767px) {
+  .announcement-modal .modal-dialog {
+    width: calc(100% - 24px);
+    margin: 12px auto;
+    min-height: calc(100% - 24px);
+  }
+
+  .announcement-modal .modal-content {
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
+    border-radius: 12px;
+  }
+
+  .announcement-modal .modal-header { padding: 10px 14px; }
+  .announcement-modal .modal-title { font-size: 17px; }
+  .announcement-modal .modal-body { padding: 0; }
+  .announcement-modal .modal-footer { flex-direction: column; padding: 10px 14px; gap: 8px; }
+  .announcement-modal .announcement-resources { justify-content: center; gap: 6px; }
+  .announcement-modal .announcement-resources .btn { padding: 6px 16px; font-size: 11px; }
+}
+
+@media (max-height: 480px) and (min-width: 768px) {
+  .announcement-modal .modal-header,
+  .announcement-modal .modal-footer { padding: 4px 12px; }
+  .announcement-modal .modal-title { font-size: 16px; }
+  .announcement-modal .announcement-resources .btn { padding: 6px 16px; font-size: 11px; }
+  .announcement-modal .announcement-navigation { gap: 8px; }
+  .announcement-modal .announcement-close,
+  .announcement-modal .announcement-arrow { width: 32px; height: 32px; }
+}
