@@ -1,8 +1,11 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import usePageLocalization from "../../utils/usePageLocalization";
 
 function PublicServices() {
   const dispatch = useDispatch();
+  const language = useSelector((state) => state.localization.language);
+  const t = usePageLocalization(language, "menuBar");
   const handlePdfs = (e) => {
     const value = e.target.value;
 
@@ -23,10 +26,10 @@ function PublicServices() {
   return (
     <select onChange={handlePdfs} defaultValue="" className="language-switcher-dropdown" style={{ borderRadius: "20px" }}>
       <option value="" disabled hidden>
-        Public Services
+        {t.navigationPublicServices}
       </option>
-      <option value="sitemap">Site Map</option>
-      <option value="holiday">Holiday List</option>
+      <option value="sitemap">{t.navigationSiteMap}</option>
+      <option value="holiday">{t.navigationHolidayList}</option>
     </select>
   );
 }

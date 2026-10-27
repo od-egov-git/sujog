@@ -8,6 +8,7 @@
     "navigationWaterAndSewerage": "Water & Sewerage",
     "navigationTradeLicense": "Trade License",
     "navigationMarriageRegistration": "Marriage Registration",
+    "navigationEODBDashboard": "EODB Dashboard",
     "navigationInformation": "Information",
     "navigationRTI": "RTI",
     "navigationPublicNotice": "Public Notice",
@@ -20,6 +21,9 @@
     "navigationLogInCitizen": "Citizen",
     "navigationLogInDepartment": "Department",
     "navigationLogInOthers": "Others",
-    "navigationLogInTPA": "TPA"
+    "navigationLogInTPA": "TPA",
+    "navigationPublicServices": "Public Services",
+    "navigationSiteMap": "Site Map",
+    "navigationHolidayList": "Holiday List"
   }
   
