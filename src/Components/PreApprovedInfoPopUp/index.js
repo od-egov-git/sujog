@@ -137,6 +137,10 @@ const PreApprovedInfoPopUp = () => {
                       data-target="#carouselExampleIndicators"
                       data-slide-to="1"
                     ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="2"
+                    ></li>
                     {/* <li
                       data-target="#carouselExampleIndicators"
                       data-slide-to="2"
@@ -144,6 +148,13 @@ const PreApprovedInfoPopUp = () => {
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
+                      <img
+                        class="d-block w-100"
+                        src="assets/img/Pop-Up_Change of Use.png"
+                        alt="Change of Use"
+                      ></img>
+                    </div>
+                    <div class="carousel-item">
                       <img
                         class="d-block w-100"
                         src="assets/img/Pre approved plan popup 9.jpg"
